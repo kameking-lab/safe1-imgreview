@@ -18,4 +18,4 @@
 # まとめ・発行
 - [x] BUILD photos_v15_catalog.pdf（元絵ごとに 元絵→A/B/C/D の4枚を並べ、番号・モデル名・実写/イベント版を明記）
 - [x] DEPLOY review_photo/<ランダム32文字>/ にPDF＋index.html(静的/noindex/スマホ縦)・Vercel hakuten-review再デプロイ(既存URL保持・ルート/=404・HTTP200)・GitHub(main)へPDF push
-- [ ] REPORT_PHOTO.md 作成・push（公開URL/PDF直URL＋raw・生成枚数(成功/失敗)・各元絵の使用モデル名(OpenAI/Google)・失敗や未生成があればその一覧）
+- [x] REPORT_PHOTO.md 作成・push（公開URL/PDF直URL＋raw・生成枚数(成功/失敗)・各元絵の使用モデル名(OpenAI/Google)・失敗や未生成があればその一覧）
