@@ -21,5 +21,5 @@
 - [x] RA9 積載超過/無理姿勢で転倒
 - [x] RA10 その他高所作業車起因の死傷（見つかったもの）
 # まとめ
-- [ ] BUILD refs2_catalog.pdf + review_refs2 デプロイ
+- [x] BUILD refs2_catalog.pdf + review_refs2 デプロイ
 - [ ] REPORT_REF.md 作成・push
