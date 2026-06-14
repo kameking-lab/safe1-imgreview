@@ -14,7 +14,7 @@
 - [x] P-0054 高所 #0054 4枚生成
 - [x] P-0057 高所 #0057 4枚生成
 - [x] P-0060 高所 #0060 4枚生成
-- [ ] P-0071 高所 #0071 4枚生成
+- [x] P-0071 高所 #0071 4枚生成
 # まとめ・発行
 - [ ] BUILD photos_v15_catalog.pdf（元絵ごとに 元絵→A/B/C/D の4枚を並べ、番号・モデル名・実写/イベント版を明記）
 - [ ] DEPLOY review_photo/<ランダム32文字>/ にPDF＋index.html(静的/noindex/スマホ縦)・Vercel hakuten-review再デプロイ(既存URL保持・ルート/=404・HTTP200)・GitHub(main)へPDF push
