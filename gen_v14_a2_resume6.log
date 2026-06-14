@@ -1,0 +1,29 @@
+
+========================================
+今すぐGoogleログインしてください。2分後に続行します
+========================================
+
+[gemini] ログイン待機中... 残り110秒
+[gemini] ログイン待機中... 残り100秒
+[gemini] ログイン待機中... 残り90秒
+[gemini] ログイン待機中... 残り80秒
+[gemini] ログイン待機中... 残り70秒
+[gemini] ログイン待機中... 残り60秒
+[gemini] ログイン待機中... 残り50秒
+[gemini] ログイン待機中... 残り40秒
+[gemini] ログイン待機中... 残り30秒
+[gemini] ログイン待機中... 残り20秒
+[gemini] ログイン待機中... 残り10秒
+[gemini] ログイン待機中... 残り0秒
+
+[v14 A2] DONE ok=0
+file:///C:/Users/kanet/20260522/instagram-automation/scripts/lib/browser-helpers.mjs:243
+    throw new Error("Gemini ログインがタイムアウト。手動でログインしてから再実行してください。");
+          ^
+
+Error: Gemini ログインがタイムアウト。手動でログインしてから再実行してください。
+    at ensureGeminiLoggedIn (file:///C:/Users/kanet/20260522/instagram-automation/scripts/lib/browser-helpers.mjs:243:11)
+    at async file:///C:/Users/kanet/20260522/safe1/gen_v14_a2b.mjs:71:3
+    at async file:///C:/Users/kanet/20260522/safe1/gen_v14_a2b.mjs:68:1
+
+Node.js v24.13.1

@@ -32,6 +32,16 @@
 - 当方は Google への対話ログインを実行不可（対話認証不可・認証情報非出力・Chrome killなし）ため、3枚目（真横）の生成は不可。RULES「利用/レート制限（＝ここでは要再ログイン）に達したら作業途中を保存・push して停止」に従い、**BACKLOG の P-A2 は [ ] のまま**で WIP を保存・push して停止。
 - 次回ヒト操作: gemini系プロファイル（推奨 geminiv14b＝`instagram-automation/.cache/browser-profile-geminiv14b`）で**手動 Google ログイン**後、下記「確定手順」を実行 → 真横1枚を追撃し c03/c06 と合わせ 01–03.png・A2_sheet.png を確定して P-A2 を [x] 化。
 
+## 再開ログ（2026-06-14・8回目の試行）
+- 着手前に既存出力を再確認: `v14/A2/cand/` は c01–c08 のまま（新規なし）、最終 01–03.png / A2_sheet.png は未作成。
+- 当方で採用候補 c06・c03 を `_zoom/full_c06.png`/`full_c03.png` で**独立に再目視**（前回判定を鵜呑みにせず）。結論は不変で確認:
+  - **c06（ローアングル）= 最良**: MEWPバスケット上の作業者（黄あごひもヘルメット/ハイビズ/フルハーネス）の頭部・上半身が上方の水平梁/吊看板下面へ押し上げ挟圧。接触点・上向き力・機種・PPE 明確、単一フレーム・スパークル無し・可読ロゴ無し → **03.png 候補**。
+  - **c03（斜後・俯瞰）**: 頭部・上半身が大型上方ダクト/梁下面に挟圧。接触点成立 → **02.png 候補**。
+  - ＝**真横(side elevation)で頭部が手すり×梁下面に挟まれる 01.png 用の写真は8候補に存在せず、新規生成が必須**。
+- 真横追撃を2プロファイルで再実行: `gen_v14_a2b.mjs --id=A2 --n=3 --account=geminiv14b`（ログ=`gen_v14_a2_resume6.log`）と `--account=gemini`（ログ=`gen_v14_a2_resume6b.log`）。**いずれも「今すぐGoogleログインしてください」→2分待機タイムアウトで `ensureGeminiLoggedIn` が throw（DONE ok=0、新規候補なし、cand は c01–c08 のまま）**。geminiv14b / gemini / （前回 geminiv14 も）の全 gemini 系プロファイルで Google セッション失効（要再ログイン）が WIP/2〜7回目から継続中であることを再確認。
+- 当方は Google への対話ログインを実行不可（対話認証不可・認証情報非出力・Chrome killなし）。RULES「利用/レート制限（＝ここでは要再ログイン）に達したら作業途中を保存・push して停止」に従い、**BACKLOG の P-A2 は [ ] のまま**で WIP を保存・push して停止。
+- 次回ヒト操作: gemini系プロファイル（推奨 geminiv14b＝`instagram-automation/.cache/browser-profile-geminiv14b`）で**手動 Google ログイン**後、下記「確定手順」を実行 → 真横1枚を追撃し c03/c06 と合わせ 01–03.png・A2_sheet.png を確定して P-A2 を [x] 化。
+
 ## 確定手順（制限解除後）
 1. `node gen_v14_a2b.mjs --id=A2 --n=4 --account=<logged-in profile>` で c09〜 を生成（真横の挟圧を確認）。
 2. 良い真横1枚＋c03＋c06 を周縁トリム（Geminiの角丸白フレーム＆右下スパークル除去、A1 同様 四辺トリム）→ `01.png`(真横)/`02.png`(斜後)/`03.png`(ローアングル)。
