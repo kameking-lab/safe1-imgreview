@@ -1,0 +1,10 @@
+# queries_done.txt — 実行済みクエリ記録（RULES_C_ADDENDUM準拠・再実行禁止）
+# 形式: <ISO日時>\t<スロット>\t<クエリ/参照先>
+2026-06-14	A5-aerial-b2	WebSearch: 高所作業車 災害事例 発生状況図 イラスト 墜落 はさまれ
+2026-06-14	A5-aerial-b2	WebSearch: 高所作業車 労働災害 KYT イラスト site:jisha/kensaibou/rikusai
+2026-06-14	A5-aerial-b2	WebFetch: sacl.or.jp/case/disaster/high/ (高所カテゴリ一覧=高0001-0024、A4で全件取得済=出尽くし)
+2026-06-14	A5-aerial-b2	WebFetch: rodo.co.jp 高所作業車タグ（イラストはmembers-only PDF内=画像直取得不可）
+2026-06-14	A5-aerial-b2	WebSearch: 高所作業車 墜落 転落 site:anzeninfo sai_det
+2026-06-14	A5-aerial-b2	WebSearch: 高所作業車 はさまれ 転倒 感電 site:anzeninfo sai_det
+2026-06-14	A5-aerial-b2	WebSearch: 高所作業車 激突 逸走 横転 ブーム バケット site:anzeninfo SAI_DET
+2026-06-14	A5-aerial-b2	anzeninfo SAI_DET joho_no候補: 401,447,507,549,648,724,728,100010,100076,100094,100432,101037,101240,101377,101412,101529

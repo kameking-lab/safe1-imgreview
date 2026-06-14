@@ -1,0 +1,379 @@
+
+<!DOCTYPE html>
+
+<html lang="ja" class="app-in-menu-case">
+
+	<head>
+        <meta charset="Shift_JIS">
+		<meta http-equiv="X-UA-Compatible" content="IE=11">
+        <title>職場のあんぜんサイト：労働災害統計</title>
+                <base href="/">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="renewal/statics/css/bootstrap-reboot.min.css">
+        <link rel="stylesheet" href="renewal/statics/fontawesome/css/solid.min.css">
+        <link rel="stylesheet" href="renewal/statics/fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="renewal/statics/css/style.css">
+        <link rel="stylesheet" href="renewal/statics/css/common.css">
+
+		<link rel="stylesheet" href="renewal/statics/css/sai.css">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/statics/css/bootstrap-rebootl.css">
+        <link rel="stylesheet" href="/statics/fontawesome/css/solid.min.css">
+        <link rel="stylesheet" href="/statics/fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="/statics/css/stylel.css">
+        <link rel="stylesheet" href="/statics/css/common.css">
+		<script src="/statics/js/spadjust.js"></script>
+		<style>
+		#possible_c_p {
+			display:none;
+		}
+		@media only screen and (max-width:991.98px){
+			#wrapper {
+				width:auto;
+			}
+			#hor_main {
+				width:98%;
+				margin:auto;
+			}
+			#contents02 {
+				float:none;
+			}
+			#introduction, #main_boxesLR {
+				width:auto;
+			}
+			#left_serchbox {
+				width:calc(36.9em * 1.32);
+			}
+			#right_pastnews {
+				width:calc(21.7em * 1.32);
+			}
+			#how_to_btn {
+				left:0;
+				display:block;
+				text-align:right;
+				padding-right:3em;
+			}
+			#botton_botton {
+				left:0;
+				text-align:right;
+				padding-right:4em;
+			}
+			#right {
+				clear:both;
+				float:none;
+				width:100%;
+			}
+		}
+		</style>
+		<script>
+		spAdjust('#contents');
+		</script>
+
+    </head>
+	<body>
+	        <header>
+            <div class="app-brand">
+                <h2 class="app-logo"><a href="https://www.mhlw.go.jp/index.html" target="_blank" rel="noopener"><img src="/statics/image/mhlw-logo.png"/>厚生労働省</a></h2>
+            </div>
+            <div class="app-title-map">
+                <a href="#"><h1 class="app-title">職場のあんぜんサイト</h1></a>
+                <div class="app-map">
+                    <ul class="app-to-home">
+                        <li><a href="/index.html">HOME</a></li>
+                    </ul>
+                    <ul class="app-to-inquiry">
+                        <li><a href="/information/question.html">お問合せ</a></li>
+                        <li><a href="html/sitemap.html">サイトマップ</a></li>
+                    </ul>
+                    <form class="app-search" method="get" action="search/index.html">
+                        <input type="hidden" name="cx" value="016740910622602358796:5dmieigpi8w">
+                        <input type="hidden" name="cof" value="FORID:10">
+                        <input type="hidden" name="ie" value="Shift_JIS">
+                        <input name="q" type="serach"/><button name="sa">検索</button>
+                    </form>
+                </div>
+            </div>
+            <nav>
+                <ul class="app-menu">
+                    <li class="app-statistics">
+                        <img src="/statics/image/anzeninfo_SP_navi1.png"/>
+                        <h2>労働災害統計</h2>
+                        <section>
+                            <h2><a href="/user/anzen/tok/toukei_index.html">労働災害統計のトップへ</a></h2>
+                            <ul>
+                                <li><a href="/information/sokuhou.html">労働災害発生速報</a></li>
+                                <li><a href="/user/anzen/tok/anst00.html">労働災害統計集</a></li>
+                                <li><a href="/user/anzen/tok/bnsk00.html">労働災害原因要素の分析</a></li>
+                                <li><a href="/user/anzen/tok/dk00.html">労働災害動向調査（度数率・強度率）</a></li>
+                            </ul>
+                        </section>
+                    </li>
+                    <li class="app-case">
+                        <img src="/statics/image/anzeninfo_SP_navi2.png"/>
+                        <h2>労働災害事例</h2>
+                        <section>
+                            <h2><a href="/anzen/sai/saigai_index.html">労働災害事例のトップへ</a></h2>
+                            <ul>
+                                <li><a href="/anzen_pg/SAI_FND.aspx">労働災害事例集</a></li>
+                                <li><a href="/anzen_pg/SIB_FND.html">死亡災害データベース</a></li>
+                                <li><a href="/anzen_pgm/SHISYO_FND.html">労働災害（死傷）データベース</a></li>
+                                <li><a href="/hiyari/anrdh00.html">ヒヤリ・ハット事例集</a></li>
+                                <li><a href="/anzen/sai/kikaisaigai.html">機械災害データベース</a></li>
+                            </ul>
+                        </section>
+                    </li>
+                    <li class="app-teaching">
+                        <a href="/information/kyozaishiryo.html">
+                        <img src="/statics/image/anzeninfo_SP_navi3.png"/>
+                        <h2>各種教材・ツール</h2>
+                        </a>
+<!--
+                        <section>
+                            <h2><a href="/kyozaishiryo.html">各種教材・ツールのトップへ</a></h2>
+                            <h3>動画教材</h3>
+                            <h4>全業種共通</h4>
+                            <ul>
+                                <li><a href="https://anzenvideo.mhlw.go.jp/foreign-worker/kyozai.html#common">安全衛生視聴覚教材（11か国語）</a></li>
+                                <li><a href="https://www.youtube.com/playlist?list=PL1x5ZyAfDI_U-uNevLM8hsEdD1OFPOQuK">VR教材</a></li>
+                                <li><a href="/information/videokyozai.html">転倒・腰痛防止（日本語）</a></li>
+                            </ul>
+                            <h4>建設業</h4>
+                            <ul>
+                                <li><a href="https://anzenvideo.mhlw.go.jp/foreign-worker/kyozai.html#construction">作業の種類別（11か国語）</a></li>
+                                <li><a href="/information/videokyozai2.html#2">災害の種類別（4か国語）</a></li>
+                                <li><a href="/anzen/sai/anzenvideo.html#1b">災害の種類別（日本語）</a></li>
+                                <li><a href="https://www.youtube.com/watch?v=ZrnsD0KYB60">低層住宅建築工事対象（非言語）安全教材</a></li>
+                            </ul>
+                            <h4 class="app-other-industry"><span>その他の<wbr/>業種</span></h4>
+                            <ul>
+                                <li><a href="https://anzenvideo.mhlw.go.jp/foreign-worker/kyozai.html#care">介護業</a></li>
+                                <li><a href="https://anzenvideo.mhlw.go.jp/foreign-worker/kyozai.html#building">ビルクリーニング業</a></li>
+                                <li><a href="https://anzenvideo.mhlw.go.jp/foreign-worker/kyozai.html#industries">素形材産業、産業機械製造業、電気・電子情報関連産業</a></li>
+                                <li><a href="https://anzenvideo.mhlw.go.jp/foreign-worker/kyozai.html#car">自動車整備業</a></li>
+                                <li><a href="https://anzenvideo.mhlw.go.jp/foreign-worker/kyozai.html#aviation">航空業</a></li>
+                                <li><a href="https://anzenvideo.mhlw.go.jp/foreign-worker/kyozai.html#lodging">宿泊業</a></li>
+                                <li><a href="https://anzenvideo.mhlw.go.jp/foreign-worker/kyozai.html#food">飲食料品製造業</a></li>
+                                <li><a href="https://anzenvideo.mhlw.go.jp/foreign-worker/kyozai.html#restaurant">外食業</a></li>
+                                <li><a href="https://anzenvideo.mhlw.go.jp/foreign-worker/kyozai.html#agriculture">農業</a></li>
+                                <li><a href="https://anzenvideo.mhlw.go.jp/foreign-worker/kyozai.html#fisherys">漁業</a></li>
+                                <li><a href="https://anzenvideo.mhlw.go.jp/foreign-worker/kyozai.html#shipbuilding">造船・舶用工業</a></li>
+                            </ul>
+                            <h3>その他の教材資料・ツール</h3>
+                            <ul>
+                                <li><a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/gyousei/anzen/index.html">安全衛生関係リーフレット等一覧</a></li>
+                                <li><a href="/yougo/yougo_index01.html">安全衛生キーワード</a></li>
+                                <li><a href="/risk/risk_index.html">リスクアセスメント実施支援システム</a></li>
+                                <li><a href="https://www.youtube.com/watch?v=ZjcXOTGV8VY">フルハーネス型墜落制止用器具（日本語）</a></li>
+                                <li><a href="https://www.youtube.com/watch?v=WtB2vfpgH6Y">フルハーネス型墜落制止用器具（英語）</a></li>
+                                <li><a href="https://www.youtube.com/watch?v=QphoMzuEEbE">フルハーネス型墜落制止用器具（日本語ショートバージョン）</a></li>
+                            </ul>
+                        </section>
+-->
+                    </li>
+                    <li class="app-chemical">
+                        <img src="/statics/image/anzeninfo_SP_navi4.png"/>
+                        <h2>化学物質</h2>
+                        <section>
+                            <h2><a href="/user/anzen/kag/kagaku_index.html">化学物質のトップへ</a></h2>
+                            <ul>
+                                <li><a href="/anzen_pg/KAG_FND.aspx">安衛法名称公表化学物質等</a></li>
+                                <li><a href="/anzen_pg/GHS_MSD_FND.aspx">GHS対応モデルラベル・モデルSDS情報</a></li>
+                                <li><a href="/anzen/gmsds_label/label_howmade.html">GHS対応モデルラベル作成法</a></li>
+                                <li><a href="/user/anzen/kag/saigaijirei.htm">化学物質による災害事例集</a></li>
+                                <li><a href="/user/anzen/kag/ankgc07.htm">化学物質のリスクアセスメント実施支援</a></li>
+                                <li><a href="/user/anzen/kag/kagaku_index.html">その他の情報はこちら<br>（化学物質のトップへ）</a></li>                               
+                            </ul>
+                        </section>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+	
+	<style>
+		.app-container {
+			background-color:#d8e9f9;
+		}
+		.app-notice {
+			background-color:#f8fcff;
+		}
+		.app-panel {
+			background-color:#c2def6;
+			color:black;
+		}
+		.app-panel::before {
+			content:"";
+			display:block;
+			position:absolute;
+			top:0;
+			background-image:url(/renewal/statics/image/case_panel_bg.png);
+			background-repeat: repeat-x;
+			background-size: contain;
+		}
+		.app-panel > li {
+			background-color:white;
+			border-style:solid;
+			border-color:#3990e0;
+			border-width:0.6rem 0 0 0;
+			border-radius:0 0 1.0rem 1.0rem;
+		}
+		.app-panel > li h3 {
+			border-style:solid;
+			text-align:center;
+			border-width:0 0 0.1rem 0;
+			padding-bottom:1.4rem;
+			border-color:#3990e0;
+		}
+		.app-to-detail {
+			color:#3990e0 !important;
+		}
+		.app-to-detail .app-circle-chevron-right {
+			background-color:#3990e0;
+		}
+		@media (min-width:992px) { /** pc */
+			.app-heading::after {
+				background-image:url(/renewal/statics/image/anzeninfo_title2.png);
+			}
+			.app-panel::before {
+				width:81.2rem;
+				height:3.0rem;
+				left:calc(50% - 81.2rem / 2);
+			}
+			.app-panel {
+				min-width:100.0rem;
+				padding-top:5.4rem;
+				padding-left:calc(50% - (41.0rem + 2.0rem + 2.0rem));
+			}
+			.app-panel > li {
+				position:relative;  /** before/afterのabsolute用 */
+				margin:1.4rem 2.0rem;
+				width:41.0rem;
+			}
+		}
+		@media (max-width:991.98px) { /** sp */
+			.app-heading::after {
+				background-image:url(/renewal/statics/image/anzeninfo_SP_title2.png);
+			}
+			.app-panel::before {
+				width:80%;
+				height:18px;
+				left:calc(50% - 40%);
+			}
+			.app-panel {
+				margin-top:14px;
+				padding-top:16px;
+			}
+			.app-panel::before {
+				height:18px;
+			}
+		}
+	</style>
+	 <main>
+		<ol class="app-breadcrumb"><li><a href="/index.html">ホーム</a></li><li><a href="/anzen/sai/saigai_index.html">労働災害事例</a></li><li>労働災害事例(検索結果詳細)</li></ol>
+            <h2 class="app-heading">労働災害事例</h2>
+            <article class="app-container">
+	
+            <div class="app-content">
+                <div class="copy">
+                    <a href="javascript:void(0)" onclick="window.print();return false;">このページを印刷する</a>
+                </div>
+				<div class='inner'>
+			<h3>
+				坂道にて設置していた高所作業車が逸走し、高所作業車のアウトリガーの底面と、道路脇の側溝との間に挟まれた
+			</h3>
+			<section class='sai_case_detail'>
+				<div class='image_box'>
+					<img src='/anzen/sai/image/sai23/sai23-31-55-1-s.jpg' alt='坂道にて設置していた高所作業車が逸走し、高所作業車のアウトリガーの底面と、道路脇の側溝との間に挟まれた'>
+				</div>
+				<table class='tbl_1_1'>
+					<tr>
+						<th align='left' valign='top' width='40%' colSpan='2'>業種</th>
+						<td align='left' valign='top'>その他の事業</td>
+					</tr>
+					<tr>
+						<th align='left' valign='top' width='40%' colSpan='2'>事業場規模</th>
+						<td align='left' valign='top'>1～4人</td>
+					</tr>
+					<tr>
+						<th align='left' valign='top' width='40%' colSpan='2'>機械設備・有害物質の種類(起因物)</th>
+						<td align='left' valign='top'>高所作業車</td>
+					</tr>
+					<tr>
+						<th align='left' valign='top' width='40%' colSpan='2'>災害の種類(事故の型)</th>
+						<td align='left' valign='top'>はさまれ、巻き込まれ</td>
+					</tr>
+					<tr>
+						<th align='left' valign='top' width='40%' colSpan='2'>被害者数</th>
+						<TD align='left' valign='top'>
+							<TABLE class='tbl_1_1_1'>
+								<TR>
+									<TD align='left' valign='top' width='50%'>
+										死亡者数：1人
+									</TD>
+									<TD align='left' valign='top'>
+										休業者数：0人
+									</TD>
+								</TR>
+								<TR>
+									<TD align='left' valign='top' width='50%'>
+										不休者数：0人
+									</TD>
+									<TD align='left' valign='top'>
+										行方不明者数：0人
+									</TD>
+								</TR>
+							</TABLE>
+						</TD>
+					</tr>
+					<tr>
+						<th align='left' valign='top' width='40%' colSpan='2'>発生要因(物)</th>
+						<td align='left' valign='top'>作業方法の欠陥</td>
+					</tr>
+					<tr>
+						<th align='left' valign='top' width='40%' colSpan='2'>発生要因(人)</th>
+						<td align='left' valign='top'>職場的原因</td>
+					</tr>
+					<tr>
+						<th align='left' valign='top' width='40%' colSpan='2'>発生要因(管理)</th>
+						<td align='left' valign='top'>危険な状態を作る</td>
+					</tr>
+				</table>
+				<p>No.101412</p>
+				<div class='detail_item'>
+					<h4>発生状況</h4>
+						<TABLE border="0"  cellpadding="3"><TBODY><TR><TD colspan="2" style="word-break:break-all;">　住宅街の道路（坂道）上にて、電柱の先端付近にある金具等の点検補修を行うため、作業員2名で高所作業車を設置する作業を行っていたところ、当該車両が逸走し始めたため、当該車両後部にいた被災者は、手で押して止めようとしたが逸走は止まらず、当該車両と共に坂道を下った。<br>　被災者は、その坂道を下りきった付近の道路脇の蓋がない側溝に足を取られ、仰向けに転倒し、高所作業車の後部右側にあるアウトリガー底面と側溝との間に腹部を挟まれた。<br>　なお、高所作業車は安全性を確保するため、設置可能な路面の斜度の範囲を超えるとエラー表示が出て、ブームの起伏操作が行えなくなる。<br>　本件でも、当該車両が設置されていた坂道の路面斜度が（11.5度）であり、エラー表示が出ていた。しかし、2名の作業員は、エラー表示の存在やその対応方法について知らなかった。</TD></TR></TBODY></TABLE>
+					<h4>原因</h4>
+						<TABLE border="0"  cellpadding="3"><TBODY><TR><TD height="21" colspan="2">　この災害の原因としては、次のようなことが考えられる。</TD></TR><TR><TD align="right" valign="top">1</TD><TD valign="top">　高所作業車を設置可能な路面斜度を超える坂道に、当該車両を設置したこと。</TD></TR><TR><TD align="right" valign="top">2</TD><TD valign="top">　高所作業車のエラー表示が出現した場合の対応方法について、作業員に周知徹底されていなかったこと。</TD></TR><TR><TD align="right" valign="top">3</TD><TD valign="top">　高所作業車の設置にあたり、アウトリガーの格納手順を誤ったこと。</TD></TR></TBODY></TABLE>
+					<h4>対策</h4>
+						<TABLE border="0"  cellpadding="3"><TBODY><TR><TD height="21" colspan="2">　類似災害の防止のためには、次のような対策の徹底が必要である。</TD></TR><TR><TD align="right" valign="top">1</TD><TD valign="top">　高所作業車の性能について、路面斜度の適正範囲を関係労働者に周知すること。また、高所作業車を設置し作業を行う場合は、路面の斜度を予め計測し、適正範囲を超える場合には当該車両を使用せず、直接電柱に登って作業を行うなど、高所作業車に依らない作業方法を指示徹底すること。</TD></TR><TR><TD align="right" valign="top">2</TD><TD valign="top">　高所作業車を坂道に設置する場合は、作業マニュアル通り、設置することを徹底すること。</TD></TR><TR><TD align="right" valign="top">3</TD><TD valign="top">　高所作業車の設置にあたっては、当該車両がノーブレーキ状態にならないようにすること。</TD></TR><TR><TD align="right" valign="top">4</TD><TD valign="top">　高所作業車を設置した際、エラー表示が出現した場合の対応方法について、安全教育を実施し、関係労働者に周知徹底すること。</TD></TR></TBODY></TABLE>
+				</div>
+			</section>
+		</div>
+		<FORM name='form1'>
+			<INPUT type='hidden' name='joho_id' value='sai'>
+			<INPUT type='hidden' name='joho_no' value='101412'>
+			<INPUT type='hidden' name='parm' value=''>
+		</FORM>
+
+                <div class="copy">
+                    <a href="javascript:void(0)" onclick="window.print();return false;">このページを印刷する</a>
+                </div>
+                <div class="btn_box">
+                    <a href="#QUE_LINK" onclick="javascript:document.form2.submit()" class="basic_btn">アンケートにご協力ください</a>
+                </div>
+		            <form name="form2" method="post" action="../anzen_ques/QUE_INP.aspx" target="_blank" >
+		                <input name="InfoKbn" type="hidden" value="4" >
+		                <input name="InfoNo" type="hidden" value="101412" >
+		            </form>    
+            </div>
+				</article>
+			</main>
+		        <footer>
+            <small>Copyright &copy; Ministry of Health, Labour and Welfare, All Right reserved.</small>
+        </footer>
+        <div class="app-to-top"></div>
+        <script src="/statics/js/jquery.slim.min.js"></script>
+        <script src="/statics/js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+
+<html lang="ja" class="app-in-menu-case">
+
+	<head>
+        <meta charset="Shift_JIS">
+		<meta http-equiv="X-UA-Compatible" content="IE=11">
+        <title>職場のあんぜんサイト：労働災害事例</title>
+                <base href="/">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="renewal/statics/css/bootstrap-reboot.min.css">
+        <link rel="stylesheet" href="renewal/statics/fontawesome/css/solid.min.css">
+        <link rel="stylesheet" href="renewal/statics/fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="renewal/statics/css/style.css">
+        <link rel="stylesheet" href="renewal/statics/css/common.css">
+
+		<link rel="stylesheet" href="renewal/statics/css/sai.css">
+		<!--************************************************************************-->
+		<!--ＪａｖａＳｃｒｉｐｔ-->
+		<!--************************************************************************-->
+		<script type="text/javascript" >//<!--hide
+
+//***********************************************
+//入力チェック（コード）
+//***********************************************
+function f_input_chk_cd( obj )
+{
+//半角数字チェック
+    if( isNaN( obj.value ) ) {
+        f_massage( 'W', 'J1100', '' ) ;
+        obj.focus() ;
+        return false ;
+    }
+    return true ;
+}
+
+//***********************************************
+//ND11-C-06 対応
+//安衛法化学物質情報:CAS番号、官報公示整理番号
+//化学物質の危険・有害性情報:CAS/RTECS番号、ACGIH英名
+//入力チェック（半角英数字）
+// (")34,(<)60,(>)62,(^)94,(')39
+//***********************************************
+function f_input_chk_kag( obj )
+{
+//半角英数字チェック
+        for( i = 0 ; i < obj.value.length ; i++ ) {
+                if( obj.value.charCodeAt( i ) <  32 || obj.value.charCodeAt( i ) >  125 ||
+                    obj.value.charCodeAt( i ) == 34 || obj.value.charCodeAt( i ) == 60 ||
+                    obj.value.charCodeAt( i ) == 62 || obj.value.charCodeAt( i ) == 94 ||
+                    obj.value.charCodeAt( i ) == 39 ) {
+
+                   f_massage( 'W', 'J1101', '' ) ;
+                   obj.focus() ;
+                   return false ;
+                 }
+        }
+        return true ;
+}
+
+//***********************************************
+//入力チェック（半角英数字）
+// (")34,(<)60,(>)62,(^)94,(')39
+//***********************************************
+function f_input_chk_iso( obj )
+{
+//半角英数字チェック
+        for( i = 0 ; i < obj.value.length ; i++ ) {
+//QT0010 対応
+//              if(obj.value.charCodeAt(i)<32  || obj.value.charCodeAt(i)>126 ||
+//                 obj.value.charCodeAt(i)==34 || obj.value.charCodeAt(i)==60 ||
+//                 obj.value.charCodeAt(i)==62 || obj.value.charCodeAt(i)==94){
+                if( obj.value.charCodeAt( i ) < 48  ||
+                    ( obj.value.charCodeAt( i ) > 57 && obj.value.charCodeAt( i ) < 65 ) ||
+                    ( obj.value.charCodeAt( i ) > 90 && obj.value.charCodeAt( i ) < 97 ) ||
+                    obj.value.charCodeAt( i ) > 122 ) {
+
+                        f_massage( 'W', 'J1101', '' ) ;
+                        obj.focus() ;
+                        return false ;
+                }
+        }
+        return true ;
+}
+
+//***********************************************
+//入力チェック（特殊文字）
+//***********************************************
+function f_input_chk_er( obj )
+{
+//特殊文字チェック
+    if( obj.value.indexOf( '"' ) != -1 ) {
+        f_massage( 'W', 'J1151', '' ) ;
+        obj.focus() ;
+        return false ;
+    }
+
+//  if( obj.value.indexOf( '^' ) != -1 ) {
+//      f_massage( 'W', 'J1152', '' ) ;
+//      obj.focus() ;
+//      return false ;
+//  }
+
+    if( obj.value.indexOf( '<' ) != -1 ) {
+        f_massage( 'W', 'J1153', '' ) ;
+        obj.focus() ;
+        return false ;
+    }
+    if( obj.value.indexOf( '>' ) != -1 ) {
+        f_massage( 'W', 'J1153', '' ) ;
+        obj.focus() ;
+        return false ;
+    }
+
+    if( obj.value.indexOf( '\'' ) != -1 ) {
+        f_massage( 'W', 'J1154', '' ) ;
+        obj.focus() ;
+        return false ;
+    }
+//    if( obj.value.indexOf( '％' ) != -1 ) {
+//        f_massage( 'W', 'J1155', '' ) ;
+//        obj.focus() ;
+//        return false ;
+//    }
+    if( obj.value.indexOf( '＿' ) != -1 ) {
+        f_massage( 'W', 'J1156', '' ) ;
+        obj.focus() ;
+        return false ;
+    }
+    
+    if( obj.value.indexOf( '/' ) != -1 ) {
+        f_massage( 'W', 'J1157', '' ) ;
+        obj.focus() ;
+        return false ;
+    }
+
+    return true ;
+}
+
+//***********************************************
+//入力チェック（キーワード選択件数：最大５件まで）
+//***********************************************
+function f_input_chk_keyword_cnt( objArray )
+{
+//キーワード選択件数
+    var cnt = 0 ;
+
+    for( j = 0 ; j < objArray.length ; j++ ) {
+        for( i = 0 ; i < objArray[j].length ; i++ ) {
+            if( objArray[j].options[i].selected ) {
+                if( objArray[j].options[i].value != "" ) cnt++ ;
+            }
+        }
+        if( cnt > 5 ) {
+            f_massage( 'W', 'J1252', '5' ) ;
+            objArray[0].focus() ;
+            return false ;
+        }
+    }
+    return true ;
+}
+
+//***********************************************
+//入力チェック（未入力チェック）
+//***********************************************
+function f_input_chk_no( objArray )
+{
+	if(f_input_chk_no_ex(objArray)){
+	    return true ;
+    }else{
+        f_massage( 'W', 'J1002', '' );
+        return false ;
+    }
+}
+//**************************************************
+//入力チェック（未入力チェック）エラーメッセージ無し
+//**************************************************
+function f_input_chk_no_ex( objArray )
+{
+    var cnt = 0 ;
+
+    for( j = 0 ; j < objArray.length ; j++ ) {
+
+//テキスト
+        if( objArray[j].type == "text" ) {
+            if( objArray[j].value != "" ) cnt++ ;
+        }
+
+//テキスト
+        if( objArray[j].type == "hidden" ) {
+            if( objArray[j].value != "" ) cnt++ ;
+        }
+
+//リストボックス（１行・複数行）
+        if( objArray[j].type == "select-one" || objArray[j].type == "select-multiple" ) {
+            if( objArray[j].options[objArray[j].selectedIndex].value != "" ) cnt++ ;
+        }
+
+//チェックボックス
+        if( objArray[j].type == "checkbox" ) {
+            if( objArray[j].checked == true ) cnt++ ;
+        }
+    }
+
+    if( cnt == 0 ) return false;
+
+    return true ;
+}
+//***********************************************
+//全角チェック
+//***********************************************
+function isZenkaku(pvarData){
+	var flag = ("あ".length) == 1;
+	var flagNN = navigator.appName.toUpperCase().indexOf("NETSCAPE") >= 0;
+	var s = pvarData;
+	var i = 0;
+	c = "";
+	cc = "";
+	if(flagNN){
+		for (i = 0; i < s.length; i++) {
+			c = s.charAt(i);
+			cc = escape(c);
+			
+			if((c>=" " && c<="~") || (c>="｡" && c<="ﾟ")) return false;
+			if((cc=="%7F") || (cc=="%80") || (cc=="%A0") || 
+			   (cc=="%FD") || (cc=="%FE") || (cc=="%FF")) return false;
+			if(!flag) i++;
+		}
+		return true;
+	}else{
+		for (i = 0; i < s.length; i++) {
+			c = s.charAt(i);
+			cc = escape(c);
+			if((c>=" " && c<="~") || (c>="｡" && c<="ﾟ")) return false;
+			if((cc=="%7F") || (cc=="%80") || (cc=="%uF8F0") || 
+			   (cc=="%uF8F1") || (cc=="%uF8F2") || (cc=="%uF8F3")) return false;
+			if(!flag) i++;
+		}
+		return true;
+	}
+}
+//***********************************************
+//キーワード検索リストボックス複数選択時（指定なし回避）
+//***********************************************
+function f_keyword_multi_select( obj )
+{
+    var cnt = 0 ;
+
+    for( i = 0 ; i < obj.length ; i++ ) {
+        if( obj.options[i].selected ) {
+            cnt++ ;
+        }
+    }
+
+    if( cnt > 1 ) {
+        obj.options[0].selected = false ;
+    }
+
+    var cnt = 0 ;
+
+    for( i = 0 ; i < obj.length ; i++ ) {
+        if( obj.options[i].selected ) {
+            cnt++ ;
+        }
+    }
+
+    if( cnt == 0 ) {
+        obj.options[0].selected = true ;
+    }
+}
+
+//***********************************************
+//メッセージ表示
+//***********************************************
+function f_massage( type, msg, val )
+{
+    var msg_name = "" ;
+    var cnt ;
+
+//***************************
+//確認メッセージ
+//***************************
+    if( type == "Q" ) {
+        if( msg == "J0001" ) msg_name = "[J0001]　登録します、よろしいですか。" ;
+        if( msg == "J0002" ) msg_name = "[J0002]　更新します、よろしいですか。" ;
+        if( msg == "J0003" ) msg_name = "[J0003]　削除します、よろしいですか。" ;
+        if( msg == "J0004" ) msg_name = "[J0004]　承認します、よろしいですか。" ;
+        return confirm( msg_name ) ;
+    }
+
+//***************************
+//警告メッセージ
+//***************************
+    if( type == "W" ) {
+//J1000～J1099：　基本メッセージ
+        if( msg == "J1000" ) msg_name = "J1000  該当する情報はありません。" ;
+        if( msg == "J1001" ) msg_name = "J1001  該当するコードはありません。" ;
+        if( msg == "J1002" ) msg_name = "J1002  1つ以上の検索条件を指定してください。" ;
+        if( msg == "J1004" ) msg_name = "J1004  対象年を選択してください。";
+        if( msg == "J1005" ) msg_name = "J1005  対象年を再度選択して再検索してください。";
+        if( msg == "J1006" ) msg_name = "J1006  業種、事故の型、起因物、フリーワードのいずれかを選択又は入力してください。";
+//J1100～J1149：　文字属性に関するメッセージ
+        if( msg == "J1100" ) msg_name = "J1100  半角数字で入力してください。" ;
+        if( msg == "J1101" ) msg_name = "J1101  半角英数字で入力してください。" ;
+        if( msg == "J1102" ) msg_name = "J1102  全角で入力してください。" ;
+//J1150～J1199：　特殊文字に関するメッセージ
+        if( msg == "J1150" ) msg_name = "J1150  半角カタカナは入力できません。" ;
+        if( msg == "J1151" ) msg_name = "J1151  半角の「”」（ダブルコーテーション）は入力できません。" ;
+        if( msg == "J1152" ) msg_name = "J1152  半角の「＾」（ハット）は入力できません。" ;
+        if( msg == "J1153" ) msg_name = "J1153  半角の「＜」、「＞」（不等号）は入力できません。" ;
+        if( msg == "J1154" ) msg_name = "J1154  半角の「’」（シングルクォーテーション）は入力できません。" ;
+        if( msg == "J1155" ) msg_name = "J1155  全角の「％」は入力できません。" ;
+        if( msg == "J1156" ) msg_name = "J1155  全角の「＿」は入力できません。" ;
+        if( msg == "J1157" ) msg_name = "J1155  半角の「/」は入力できません。" ;
+//J1200～J1249：　暦・時間に関するメッセージ
+        if( msg == "J1200" ) msg_name = "J1200  年月日を正しく入力してください。" ;
+        if( msg == "J1201" ) msg_name = "J1201  年月を正しく入力してください。" ;
+        if( msg == "J1202" ) msg_name = "J1202  年を正しく入力してください。" ;
+        if( msg == "J1203" ) msg_name = "J1203  年月の範囲を正しく入力してください。" ;
+//J1250～J1299：　桁数（サイズ）・件数に関するメッセージ(導出)
+        if( msg == "J1250" ) msg_name = "J1250  半角数字@桁で入力してください。" ;
+        if( msg == "J1251" ) msg_name = "J1251  @バイト以内で入力してください。" ;
+        if( msg == "J1252" ) msg_name = "J1252  キーワード検索で選択できるのは、@件までです。" ;
+        if( msg == "J1253" ) msg_name = "J1253  チェックボックスで選択できるのは、@件までです。" ;
+        if( msg == "J1254" ) msg_name = "J1254  チェックボックスを１つ以上選択してください。" ;
+//J1300～：　桁数（サイズ）・件数に関するメッセージ（固定）
+        if( msg == "J1300" ) msg_name = "J1300  半角数字1桁、または2桁で入力してください。" ;
+        if( msg == "J1301" ) msg_name = "J1301  半角数字1桁、2桁、または3桁で入力してください。" ;
+        if( msg == "J1302" ) msg_name = "J1302  半角数字1桁、または3桁で入力してください。" ;
+        if( msg == "J1303" ) msg_name = "J1303  半角数字2桁、または3桁で入力してください。" ;
+        if( msg == "J1304" ) msg_name = "J1304  半角数字2桁、または4桁で入力してください。" ;
+        if( msg == "J1305" ) msg_name = "J1305  半角数字2桁、4桁、または6桁で入力してください。" ;
+        if( msg == "J1306" ) msg_name = "J1306  半角数字2桁、4桁、6桁、または8桁で入力してください。" ;
+//J2000～：　法令情報に関するメッセージ（固定）
+        if( msg == "J2000" ) msg_name = "J2000  キーワード又は法令番号のどちらかを入力してください。" ;
+        if( msg == "J2001" ) msg_name = "J2001  種別を入力してください。" ;
+        if( msg == "J2002" ) msg_name = "J2002  番号を入力してください。" ;
+
+
+//置き換えメッセージ
+        if( val != null ) {
+            cnt = msg_name.indexOf( "@" ) ;
+            if( cnt > 0 ) {
+                msg_name = msg_name.substr( 0, cnt ) + val + msg_name.substr( cnt + 1, msg_name.length + 1 ) ;
+            }else{
+                msg_name = val + msg_name ;
+            }
+        }
+        alert( msg_name ) ;
+        return true ;
+    }
+
+}
+//*********************************************
+//コンボボックス関係
+//***********************************************
+function AddOption(sel,txt,data){
+	sel.options[sel.options.length]=new Option(txt,data)
+	if(document.layers){
+	top.resizeBy(-10,-10)
+	top.resizeBy(10,10)
+	}
+}
+
+function DelOption(sel,index){
+	if(index!=-1){
+		sel.options[index]=null
+	}
+}
+
+function DeleteAll(sel){
+	sel.options.length=0
+}
+
+function AlertValue(sel,index){
+if(sel.selectedIndex!=-1)
+	alert("選択されている番号は "+index+" です\nvalueは "+sel.options[sel.selectedIndex].value+" です")
+}
+
+//*********************************************
+//ページ遷移のリンクをsubmitとしてに使う
+//***********************************************
+
+function submit_page(obj,p_no){
+	//form1.action = form1.action + '?page=' + p_no;
+	switch (p_no){
+	//前ページ
+	case 'p':
+		obj.page.value = parseInt(obj.page.value) - 1;
+		break;
+	//次ページ
+	case 'n':
+		obj.page.value = parseInt(obj.page.value) + 1;
+		break;
+	default:
+		obj.page.value = p_no;
+	}
+
+	//obj内にMode項目が存在したらModeをセット
+	if(obj.Mode != undefined){
+		obj.Mode.value = "P";
+	}
+
+	obj.submit();
+	return true;
+}
+
+
+// end hide-->
+</script>
+		<script type="text/javascript" >//<!--hide
+		//*********************************************
+		//キーワードチェック
+		//***********************************************
+		function f_frwd_chk()
+		{
+				//キーワード桁数チェック
+				if(document.form1.keyword.value.length > 60)
+				{
+						f_massage('W','J1251','60');
+						document.form1.keyword.focus();
+						return false;
+				}
+				//全角チェック
+				if(!isZenkaku(document.form1.keyword.value)){
+					f_massage('W','J1102','');
+					document.form1.keyword.focus();
+					return false;
+				}
+
+				//キーワード特殊文字チェック
+				return f_input_chk_er(document.form1.keyword);
+		}
+		//***********************************************
+		//入力チェック
+		//***********************************************
+		function f_input_chk()
+		{
+			
+			//未入力チェック
+			tmpArray = new Array(2);
+			tmpArray[0]=document.form1.gyosyu;
+			tmpArray[1]=document.form1.jiko_n_k;
+			tmpArray[2]=document.form1.kiin;
+			tmpArray[3]=document.form1.keyword;
+			if(f_input_chk_no_ex(tmpArray) == false){
+				f_massage( 'W', 'J1006', '' );
+				return false ;
+			}
+
+			//キーワードチェック
+			if(f_frwd_chk() == false){
+				return false;
+			}
+
+			//正常終了
+			document.form1.submit();
+			return true;
+		}
+		//***********************************************
+		//項目リセット
+		//***********************************************
+		function f_input_reset()
+		{
+				//項目リセット
+				//入力項目クリア
+				
+				document.form1.gyosyu[0].selected = true;
+				document.form1.jiko_n_k[0].selected = true;
+				document.form1.kiin[0].selected = true;
+
+				document.form1.fuanj[0].selected = true;
+				document.form1.fuank[0].selected = true;
+				document.form1.hito[0].selected = true;
+
+				document.form1.keyword.value = '';
+				
+				return true ;
+		}				
+		//end hideing-->
+		</script>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/statics/css/bootstrap-rebootl.css">
+        <link rel="stylesheet" href="/statics/fontawesome/css/solid.min.css">
+        <link rel="stylesheet" href="/statics/fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="/statics/css/stylel.css">
+        <link rel="stylesheet" href="/statics/css/common.css">
+		<script src="/statics/js/spadjust.js"></script>
+		<style>
+		#possible_c_p {
+			display:none;
+		}
+		@media only screen and (max-width:991.98px){
+			#wrapper {
+				width:auto;
+			}
+			#hor_main {
+				width:98%;
+				margin:auto;
+			}
+			#contents02 {
+				float:none;
+			}
+			#introduction, #main_boxesLR {
+				width:auto;
+			}
+			#left_serchbox {
+				width:calc(36.9em * 1.32);
+			}
+			#right_pastnews {
+				width:calc(21.7em * 1.32);
+			}
+			#how_to_btn {
+				left:0;
+				display:block;
+				text-align:right;
+				padding-right:3em;
+			}
+			#botton_botton {
+				left:0;
+				text-align:right;
+				padding-right:4em;
+			}
+			#right {
+				clear:both;
+				float:none;
+				width:100%;
+			}
+		}
+		</style>
+		<script>
+		spAdjust('#contents');
+		</script>
+
+    </head>
+	<body>
+	        <header>
+            <div class="app-brand">
+                <h2 class="app-logo"><a href="https://www.mhlw.go.jp/index.html" target="_blank" rel="noopener"><img src="/statics/image/mhlw-logo.png"/>厚生労働省</a></h2>
+            </div>
+            <div class="app-title-map">
+                <a href="#"><h1 class="app-title">職場のあんぜんサイト</h1></a>
+                <div class="app-map">
+                    <ul class="app-to-home">
+                        <li><a href="/index.html">HOME</a></li>
+                    </ul>
+                    <ul class="app-to-inquiry">
+                        <li><a href="/information/question.html">お問合せ</a></li>
+                        <li><a href="html/sitemap.html">サイトマップ</a></li>
+                    </ul>
+                    <form class="app-search" method="get" action="search/index.html">
+                        <input type="hidden" name="cx" value="016740910622602358796:5dmieigpi8w">
+                        <input type="hidden" name="cof" value="FORID:10">
+                        <input type="hidden" name="ie" value="Shift_JIS">
+                        <input name="q" type="serach"/><button name="sa">検索</button>
+                    </form>
+                </div>
+            </div>
+            <nav>
+                <ul class="app-menu">
+                    <li class="app-statistics">
+                        <img src="/statics/image/anzeninfo_SP_navi1.png"/>
+                        <h2>労働災害統計</h2>
+                        <section>
+                            <h2><a href="/user/anzen/tok/toukei_index.html">労働災害統計のトップへ</a></h2>
+                            <ul>
+                                <li><a href="/information/sokuhou.html">労働災害発生速報</a></li>
+                                <li><a href="/user/anzen/tok/anst00.html">労働災害統計集</a></li>
+                                <li><a href="/user/anzen/tok/bnsk00.html">労働災害原因要素の分析</a></li>
+                                <li><a href="/user/anzen/tok/dk00.html">労働災害動向調査（度数率・強度率）</a></li>
+                            </ul>
+                        </section>
+                    </li>
+                    <li class="app-case">
+                        <img src="/statics/image/anzeninfo_SP_navi2.png"/>
+                        <h2>労働災害事例</h2>
+                        <section>
+                            <h2><a href="/anzen/sai/saigai_index.html">労働災害事例のトップへ</a></h2>
+                            <ul>
+                                <li><a href="/anzen_pg/SAI_FND.aspx">労働災害事例集</a></li>
+                                <li><a href="/anzen_pg/SIB_FND.html">死亡災害データベース</a></li>
+                                <li><a href="/anzen_pgm/SHISYO_FND.html">労働災害（死傷）データベース</a></li>
+                                <li><a href="/hiyari/anrdh00.html">ヒヤリ・ハット事例集</a></li>
+                                <li><a href="/anzen/sai/kikaisaigai.html">機械災害データベース</a></li>
+                            </ul>
+                        </section>
+                    </li>
+                    <li class="app-teaching">
+                        <a href="/information/kyozaishiryo.html">
+                        <img src="/statics/image/anzeninfo_SP_navi3.png"/>
+                        <h2>各種教材・ツール</h2>
+                        </a>
+<!--
+                        <section>
+                            <h2><a href="/kyozaishiryo.html">各種教材・ツールのトップへ</a></h2>
+                            <h3>動画教材</h3>
+                            <h4>全業種共通</h4>
+                            <ul>
+                                <li><a href="https://anzenvideo.mhlw.go.jp/foreign-worker/kyozai.html#common">安全衛生視聴覚教材（11か国語）</a></li>
+                                <li><a href="https://www.youtube.com/playlist?list=PL1x5ZyAfDI_U-uNevLM8hsEdD1OFPOQuK">VR教材</a></li>
+                                <li><a href="/information/videokyozai.html">転倒・腰痛防止（日本語）</a></li>
+                            </ul>
+                            <h4>建設業</h4>
+                            <ul>
+                                <li><a href="https://anzenvideo.mhlw.go.jp/foreign-worker/kyozai.html#construction">作業の種類別（11か国語）</a></li>
+                                <li><a href="/information/videokyozai2.html#2">災害の種類別（4か国語）</a></li>
+                                <li><a href="/anzen/sai/anzenvideo.html#1b">災害の種類別（日本語）</a></li>
+                                <li><a href="https://www.youtube.com/watch?v=ZrnsD0KYB60">低層住宅建築工事対象（非言語）安全教材</a></li>
+                            </ul>
+                            <h4 class="app-other-industry"><span>その他の<wbr/>業種</span></h4>
+                            <ul>
+                                <li><a href="https://anzenvideo.mhlw.go.jp/foreign-worker/kyozai.html#care">介護業</a></li>
+                                <li><a href="https://anzenvideo.mhlw.go.jp/foreign-worker/kyozai.html#building">ビルクリーニング業</a></li>
+                                <li><a href="https://anzenvideo.mhlw.go.jp/foreign-worker/kyozai.html#industries">素形材産業、産業機械製造業、電気・電子情報関連産業</a></li>
+                                <li><a href="https://anzenvideo.mhlw.go.jp/foreign-worker/kyozai.html#car">自動車整備業</a></li>
+                                <li><a href="https://anzenvideo.mhlw.go.jp/foreign-worker/kyozai.html#aviation">航空業</a></li>
+                                <li><a href="https://anzenvideo.mhlw.go.jp/foreign-worker/kyozai.html#lodging">宿泊業</a></li>
+                                <li><a href="https://anzenvideo.mhlw.go.jp/foreign-worker/kyozai.html#food">飲食料品製造業</a></li>
+                                <li><a href="https://anzenvideo.mhlw.go.jp/foreign-worker/kyozai.html#restaurant">外食業</a></li>
+                                <li><a href="https://anzenvideo.mhlw.go.jp/foreign-worker/kyozai.html#agriculture">農業</a></li>
+                                <li><a href="https://anzenvideo.mhlw.go.jp/foreign-worker/kyozai.html#fisherys">漁業</a></li>
+                                <li><a href="https://anzenvideo.mhlw.go.jp/foreign-worker/kyozai.html#shipbuilding">造船・舶用工業</a></li>
+                            </ul>
+                            <h3>その他の教材資料・ツール</h3>
+                            <ul>
+                                <li><a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/gyousei/anzen/index.html">安全衛生関係リーフレット等一覧</a></li>
+                                <li><a href="/yougo/yougo_index01.html">安全衛生キーワード</a></li>
+                                <li><a href="/risk/risk_index.html">リスクアセスメント実施支援システム</a></li>
+                                <li><a href="https://www.youtube.com/watch?v=ZjcXOTGV8VY">フルハーネス型墜落制止用器具（日本語）</a></li>
+                                <li><a href="https://www.youtube.com/watch?v=WtB2vfpgH6Y">フルハーネス型墜落制止用器具（英語）</a></li>
+                                <li><a href="https://www.youtube.com/watch?v=QphoMzuEEbE">フルハーネス型墜落制止用器具（日本語ショートバージョン）</a></li>
+                            </ul>
+                        </section>
+-->
+                    </li>
+                    <li class="app-chemical">
+                        <img src="/statics/image/anzeninfo_SP_navi4.png"/>
+                        <h2>化学物質</h2>
+                        <section>
+                            <h2><a href="/user/anzen/kag/kagaku_index.html">化学物質のトップへ</a></h2>
+                            <ul>
+                                <li><a href="/anzen_pg/KAG_FND.aspx">安衛法名称公表化学物質等</a></li>
+                                <li><a href="/anzen_pg/GHS_MSD_FND.aspx">GHS対応モデルラベル・モデルSDS情報</a></li>
+                                <li><a href="/anzen/gmsds_label/label_howmade.html">GHS対応モデルラベル作成法</a></li>
+                                <li><a href="/user/anzen/kag/saigaijirei.htm">化学物質による災害事例集</a></li>
+                                <li><a href="/user/anzen/kag/ankgc07.htm">化学物質のリスクアセスメント実施支援</a></li>
+                                <li><a href="/user/anzen/kag/kagaku_index.html">その他の情報はこちら<br>（化学物質のトップへ）</a></li>                               
+                            </ul>
+                        </section>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+	
+	<style>
+		.app-container {
+			background-color:#d8e9f9;
+		}
+		.app-notice {
+			background-color:#f8fcff;
+		}
+		.app-panel {
+			background-color:#c2def6;
+			color:black;
+		}
+		.app-panel::before {
+			content:'';
+			display:block;
+			position:absolute;
+			top:0;
+			background-image:url(/renewal/statics/image/case_panel_bg.png);
+			background-repeat: repeat-x;
+			background-size: contain;
+		}
+		.app-panel > li {
+			background-color:white;
+			border-style:solid;
+			border-color:#3990e0;
+			border-width:0.6rem 0 0 0;
+			border-radius:0 0 1.0rem 1.0rem;
+		}
+		.app-panel > li h3 {
+			border-style:solid;
+			text-align:center;
+			border-width:0 0 0.1rem 0;
+			padding-bottom:1.4rem;
+			border-color:#3990e0;
+		}
+		.app-to-detail {
+			color:#3990e0 !important;
+		}
+		.app-to-detail .app-circle-chevron-right {
+			background-color:#3990e0;
+		}
+		@media (min-width:992px) { /** pc */
+			.app-heading::after {
+				background-image:url(/renewal/statics/image/anzeninfo_title2.png);
+			}
+			.app-panel::before {
+				width:81.2rem;
+				height:3.0rem;
+				left:calc(50% - 81.2rem / 2);
+			}
+			.app-panel {
+				min-width:100.0rem;
+				padding-top:5.4rem;
+				padding-left:calc(50% - (41.0rem + 2.0rem + 2.0rem));
+			}
+			.app-panel > li {
+				position:relative;  /** before/afterのabsolute用 */
+				margin:1.4rem 2.0rem;
+				width:41.0rem;
+			}
+		}
+		@media (max-width:991.98px) { /** sp */
+			.app-heading::after {
+				background-image:url(/renewal/statics/image/anzeninfo_SP_title2.png);
+			}
+			.app-panel::before {
+				width:80%;
+				height:18px;
+				left:calc(50% - 40%);
+			}
+			.app-panel {
+				margin-top:14px;
+				padding-top:16px;
+			}
+			.app-panel::before {
+				height:18px;
+			}
+		}
+	</style>
+	 <main>
+		<ol class="app-breadcrumb"><li><a href="/index.html">ホーム</a></li><li><a href="/anzen/sai/saigai_index.html">労働災害事例</a></li><li>労働災害事例集</li></ol>
+            <h2 class="app-heading">労働災害事例</h2>
+            <article class="app-container">
+	
+            <div class="app-content">
+                <div class="first_text">
+                    死亡災害や重大災害などの事例について、発生状況や発生原因そして対策をイラスト付きで紹介します。
+                </div>
+                <div class="inner">
+                    <section>
+                        <h3>検索</h3>
+                        <form name="form1" onsubmit="return false;" action="anzen_pg/SAI_LST.aspx" method="post" target="_self">
+	                        <div class="sai_search">
+	                            <div class="howto">
+	                                <a href="../jirei/saigai_ope.html" target="_blank">基本的な使い方</a>
+	                            </div>
+	                            <div class="select">
+	                                <dl>
+	                                    <dt>業種</dt>
+	                                    <dd>
+	                                        <div class="select_box">
+	                                            <select name="gyosyu">
+	                                                <option value='' selected>指定なし</option>
+	                                                <option value='1'>製造業</option>
+	                                                <option value='2'>鉱業</option>
+	                                                <option value='3'>建設業</option>
+	                                                <option value='4'>運輸交通業</option>
+	                                                <option value='5'>貨物取扱業</option>
+	                                                <option value='6'>農林業</option>
+	                                                <option value='7'>畜産・水産業</option>
+	                                                <option value='8'>商業</option>
+	                                                <option value='9'>金融・広告業</option>
+	                                                <option value='10'>映画・演劇業</option>
+	                                                <option value='11'>通信業</option>
+	                                                <option value='12'>教育・研究業</option>
+	                                                <option value='13'>保健・衛生業</option>
+	                                                <option value='14'>接客娯楽業</option>
+	                                                <option value='15'>清掃・と畜業</option>
+	                                                <option value='16'>官公署</option>
+	                                                <option value='17'>その他の事業</option>
+	                                            </select>
+	                                        </div>
+	                                    </dd>
+	                                </dl>
+	                                <dl>
+	                                    <dt>事故の型</dt>
+	                                    <dd>
+	                                        <div class="select_box">
+	                                            <select name="jiko_n_k">
+	                                                <option value='' selected>指定なし</option>
+	                                                <option value='1'>墜落、転落</option>
+	                                                <option value='2'>転倒</option>
+	                                                <option value='3'>激突</option>
+	                                                <option value='4'>飛来、落下</option>
+	                                                <option value='5'>崩壊、倒壊</option>
+	                                                <option value='6'>激突され</option>
+	                                                <option value='7'>はさまれ、巻き込まれ</option>
+	                                                <option value='8'>切れ、こすれ</option>
+	                                                <option value='9'>踏み抜き</option>
+	                                                <option value='10'>おぼれ</option>
+	                                                <option value='11'>高温・低温の物との接触</option>
+	                                                <option value='12'>有害物等との接触</option>
+	                                                <option value='13'>感電</option>
+	                                                <option value='14'>爆発</option>
+	                                                <option value='15'>破裂</option>
+	                                                <option value='16'>火災</option>
+	                                                <option value='17'>交通事故（道路）</option>
+	                                                <option value='18'>交通事故（その他）</option>
+	                                                <option value='19'>動作の反動、無理な動作</option>
+	                                                <option value='90'>その他</option>
+	                                                <option value='99'>分類不能</option>
+	                                            </select>
+	                                        </div>
+	                                    </dd>
+	                                </dl>
+	                                <dl>
+	                                    <dt>起因物</dt>
+	                                    <dd>
+	                                        <div class="select_box">
+	                                            <select name="kiin">
+	                                                <option value='' selected>指定なし</option>
+	                                                <option value='11'>原動機</option>
+	                                                <option value='12'>動力伝導機構</option>
+	                                                <option value='13'>木材加工用機械</option>
+	                                                <option value='14'>建設機械等</option>
+	                                                <option value='15'>金属加工用機械</option>
+	                                                <option value='16'>一般動力機械</option>
+	                                                <option value='21'>動力クレーン等</option>
+	                                                <option value='22'>動力運搬機</option>
+	                                                <option value='23'>乗物</option>
+	                                                <option value='31'>圧力容器</option>
+	                                                <option value='32'>化学設備</option>
+	                                                <option value='33'>溶接装置</option>
+	                                                <option value='34'>炉窯等</option>
+	                                                <option value='35'>電気設備</option>
+	                                                <option value='36'>人力機械工具等</option>
+	                                                <option value='37'>用具</option>
+	                                                <option value='39'>その他の装置、設備</option>
+	                                                <option value='41'>仮設物、建築物、構築物等</option>
+	                                                <option value='51'>危険物、有害物等</option>
+	                                                <option value='52'>材料</option>
+	                                                <option value='61'>荷</option>
+	                                                <option value='71'>環境等</option>
+	                                                <option value='91'>その他の起因物</option>
+	                                                <option value='92'>起因物なし</option>
+	                                                <option value='99'>分類不能</option>
+	                                            </select>
+	                                        </div>
+	                                    </dd>
+	                                </dl>
+	                                <dl>
+	                                    <dt>キーワード</dt>
+	                                    <dd>
+	                                        <input type=text maxlength=15 size=33 value='' name=keyword >
+	                                    </dd>
+	                                </dl>
+	                            </div>
+	                            <div class="hassei_youin">
+	                                <div class="title">さらに搾り込む（発生要因）</div>
+	                                <div class="select">
+	                                    <dl>
+	                                        <dt>物</dt>
+	                                        <dd>
+	                                            <div class="select_box">
+	                                                <select name="fuanj">
+	                                                    <option value='' selected>指定なし</option>
+	                                                    <option value='0'>要因(物)すべて</option>
+	                                                    <option value='1'>物自体の欠陥</option>
+	                                                    <option value='2'>防護措置・安全装置の欠陥</option>
+	                                                    <option value='3'>物の置き方、作業場所の欠陥</option>
+	                                                    <option value='4'>保護具、服装等の欠陥</option>
+	                                                    <option value='5'>作業環境の欠陥</option>
+	                                                    <option value='6'>部外的、自然的不安全な状態</option>
+	                                                    <option value='7'>作業方法の欠陥</option>
+	                                                    <option value='8'>その他及び不安全な状態がないもの</option>
+	                                                    <option value='9'>分類不能</option>
+	                                                </select>
+	                                            </div>
+	                                        </dd>
+	                                    </dl>
+	                                    <dl>
+	                                        <dt>人</dt>
+	                                        <dd>
+	                                            <div class="select_box">
+	                                                <select name="hito">
+	                                                    <option value='' selected>指定なし</option>
+	                                                    <option value='0'>要因(人)すべて</option>
+	                                                    <option value='1'>心理的原因</option>
+	                                                    <option value='2'>生理的原因</option>
+	                                                    <option value='3'>職場的原因</option>
+	                                                    <option value='9'>分類不能</option>
+	                                                </select>
+	                                            </div>
+	                                        </dd>
+	                                    </dl>
+	                                    <dl>
+	                                        <dt>管理</dt>
+	                                        <dd>
+	                                            <div class="select_box">
+	                                                <select name="fuank">
+	                                                    <option value='' selected>指定なし</option>
+	                                                    <option value='0'>要因(管理)すべて</option>
+	                                                    <option value='11'>防護・安全装置を無効にする</option>
+	                                                    <option value='12'>安全措置の不履行</option>
+	                                                    <option value='13'>不安全な放置</option>
+	                                                    <option value='14'>危険な状態を作る</option>
+	                                                    <option value='21'>機械、装置等の指定外の使用</option>
+	                                                    <option value='22'>運転中の機械、装置等の掃除、注油、修理、点検等</option>
+	                                                    <option value='23'>保護具、服装の欠陥</option>
+	                                                    <option value='24'>その他の危険場所への接近</option>
+	                                                    <option value='25'>その他の不安全な行為</option>
+	                                                    <option value='31'>運転の失敗（乗物）</option>
+	                                                    <option value='41'>誤った動作</option>
+	                                                    <option value='91'>その他及び不安全な行動のないもの</option>
+	                                                    <option value='99'>分類不能</option>
+	                                                </select>
+	                                            </div>
+	                                        </dd>
+	                                    </dl>
+	                                </div>
+	                            </div>
+	                            <div class="input_btn">
+	                                <input onclick="return f_input_chk();" type="button" value="検索開始" class="basic_btn">
+	                            </div>
+	                            <div class="input_btn_wh">
+	                                <input onclick="return f_input_reset();" type="button" value="リセット" class="basic_btn">
+	                            </div>
+	                        </div>
+                        </form>
+                    </section>
+                    <h3>労働災害事例更新状況</h3>
+                    <p class="text_center">全2632件</p>
+                    <section class="app-notice">
+                        <ul class="app-notice_ul">
+                            <li><a href="/anzen/sai/sai_new250619.html">令和7年6月19日追加分（10件）</a><script type="text/javascript">new_until(2025,7,19);</script></li>
+                            <li><a href="/anzen/sai/sai_new241220.html">令和6年12月20日追加分（16件）</a><script type="text/javascript">new_until(2025,1,31);</script></li>
+                            <li><a href="/anzen/sai/sai_new240528.html">令和6年5月28日追加分（10件）</a><script type="text/javascript">new_until(2024,6,30);</script></li>
+                            <li><a href="/anzen/sai/sai_new240527.html">令和6年5月27日追加分（10件）</a><script type="text/javascript">new_until(2024,6,30);</script></li>
+                            <li class="green_sight"><a href="/anzen/sai/sai_new220808.html">令和4年8月8日追加分（10件）</a><script type="text/javascript">new_until(2022,9,8);</script></li>
+                            <li><a href="/anzen/sai/sai_new211110.html">令和3年11月8日追加分（16件）</a><script type="text/javascript">new_until(2021,12,8);</script></li>
+                            <li class="green_sight"><a href="/anzen/sai/sai_new210602.html">令和3年6月2日追加分（10件）</a><script type="text/javascript">new_until(2021,7,2);</script></li>
+                            <li><a href="/anzen/sai/sai_new210427.html">令和3年4月27日追加分（5件）</a><script type="text/javascript">new_until(2021,5,27);</script></li>
+                            <li class="green_sight"><a href="/anzen/sai/sai_new200625.html">令和2年6月25日追加分（19件）</a><script type="text/javascript">new_until(2020,7,25);</script></li>
+                            <li><a href="/anzen/sai/sai_new190724.html">令和元年7月24日追加分（15件）</a></li>
+                            <li class="green_sight"><a href="/anzen/sai/sai_new190424.html">平成31年4月24日追加分（10件）</a></li>
+                            <li><a href="/anzen/sai/sai_new181204.html">平成30年12月4日追加分（3件）</a></li>
+                            <li class="green_sight"><a href="/anzen/sai/sai_new180507.html">平成30年5月7日追加分（20件）</a></li>
+                            <li><a href="/anzen/sai/sai_new170914.html">平成29年9月14日追加分（25件）</a></li>
+                            <li class="green_sight"><a href="/anzen/sai/sai_new170801.html">平成29年8月1日追加分（20件）</a></li>
+                            <li><a href="/anzen/sai/sai_new170214.html">平成29年2月14日追加分（20件）</a></li>
+                            <li class="green_sight"><a href="/anzen/sai/sai_new160803.html">平成28年8月3日追加分（11件）</a></li>
+                            <li><a href="/anzen/sai/sai_new160331.html">平成28年4月1日追加分（24件）</a></li>
+                            <li class="green_sight"><a href="/anzen/sai/sai_new160201.html">平成28年2月1日追加分（20件）</a></li>
+                            <li><a href="/anzen/sai/sai_new150316.html">平成27年3月16日追加分（34件）</a></li>
+                            <li class="green_sight"><a href="/anzen/sai/sai_new140403.html">平成26年4月3日追加分（3件）</a></li>
+                            <li><a href="/anzen/sai/sai_new140401.html">平成26年4月1日追加分（2件）</a></li>
+                            <li class="green_sight"><a href="/anzen/sai/sai_new140328.html">平成26年3月28日追加分（11件）</a></li>
+                            <li><a href="/anzen/sai/sai_new140313.html">平成26年3月13日追加分（28件）</a></li>
+                            <li class="green_sight"><a href="/anzen/sai/sai_new140228.html">平成26年2月28日追加分（30件）</a></li>
+                            <li><a href="/anzen/sai/sai_new130325.html">平成25年3月25日追加分（15件）</a></li>
+                            <li class="green_sight"><a href="/anzen/sai/sai_new120229.html">平成24年3月1日追加分（5件）</a></li>
+                            <li><a href="/anzen/sai/sai_new111209.html">平成23年12月15日追加分（5件）</a></li>
+                            <li class="green_sight"><a href="/anzen/sai/sai_new111111.html">平成23年11月11日追加分（5件）</a></li>
+                            <li><a href="/anzen/sai/sai_new110921.html">平成23年9月26日追加分（3件）</a></li>
+                            <li class="green_sight"><a href="/anzen/sai/sai_new110216.html">平成23年2月16日追加分（16件）</a></li>
+                            <li><a href="/anzen/sai/sai_new100309.html">平成22年3月9日追加分（16件）</a></li>
+                            <li class="green_sight"><a href="/anzen/sai/sai_new090319.html">平成21年3月19日追加分（10件）</a></li>
+                            <li><a href="/anzen/sai/sai_new090311.html">平成21年3月11日追加分（10件）</a></li>
+                            <li class="green_sight"><a href="/anzen/sai/sai_new090305.html">平成21年3月5日追加分（11件）</a></li>
+                            <li><a href="/anzen/sai/sai_new090224.html">平成21年2月24日追加分（12件）</a></li>
+                            <li class="green_sight"><a href="/anzen/sai/sai_new090218.html">平成21年2月18日追加分（12件）</a></li>
+                            <li><a href="/anzen/sai/sai_new090105.html">平成21年1月5日追加分（5件）</a></li>
+                            <li class="green_sight"><a href="/anzen/sai/sai_new081211.html">平成20年12月11日追加分（7件）</a></li>
+                            <li><a href="/anzen/sai/sai_new081119.html">平成20年11月19日追加分（7件）</a></li>
+                            <li class="green_sight"><a href="/anzen/sai/sai_new080924.html">平成20年9月24日追加分（16件）</a></li>
+                            <li><a href="/anzen/sai/sai_new080724.html">平成20年7月24日追加分（8件）</a></li>
+                            <li class="green_sight"><a href="/anzen/sai/sai_new080707.html">平成20年7月7日追加分（11件）</a></li>
+                            <li><a href="/anzen/sai/sai_new080619.html">平成20年6月19日追加分（9件）</a></li>
+                            <li class="green_sight"><a href="/anzen/sai/sai_new080606.html">平成20年6月6日追加分（10件）</a></li>
+                            <li><a href="/anzen/sai/sai_new080331.html">平成20年3月31日追加分（99件）</a></li>
+                            <li class="green_sight"><a href="/anzen/sai/sai_new080319.html">平成20年3月19日追加分（3件）</a></li>
+                            <li><a href="/anzen/sai/sai_new080115.html">平成20年1月15日追加分（5件）</a></li>
+                            <li class="green_sight"><a href="/anzen/sai/sai_new071217.html">平成19年12月17日追加分（18件）</a></li>
+                            <li><a href="/anzen/sai/sai_new070919.html">平成19年9月19日追加分（10件）</a></li>
+                            <li class="green_sight"><a href="/anzen/sai/sai_new070427.html">平成19年4月27日追加分（10件）</a></li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+				</article>
+			</main>
+		        <footer>
+            <small>Copyright &copy; Ministry of Health, Labour and Welfare, All Right reserved.</small>
+        </footer>
+        <div class="app-to-top"></div>
+        <script src="/statics/js/jquery.slim.min.js"></script>
+        <script src="/statics/js/script.js"></script>
+
+</body>
+</html>
