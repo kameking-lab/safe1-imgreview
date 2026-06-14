@@ -22,4 +22,4 @@
 - [x] RA10 その他高所作業車起因の死傷（見つかったもの）
 # まとめ
 - [x] BUILD refs2_catalog.pdf + review_refs2 デプロイ
-- [ ] REPORT_REF.md 作成・push
+- [x] REPORT_REF.md 作成・push
