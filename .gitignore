@@ -1,2 +1,4 @@
 .env
 .vercel
+# B1: 254MBの派生正規化データ（GitHub 100MB制限超）。parse_jniosh_b1.py で再生成可。
+data/jniosh/parsed/jniosh_all.jsonl
