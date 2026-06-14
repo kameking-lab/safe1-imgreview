@@ -1,0 +1,25 @@
+{
+  "num": "0042",
+  "cat": "高所",
+  "refFile": "0042.jpg",
+  "openai_model": "gpt-image-2",
+  "google_model": "gemini-3-pro-image-preview",
+  "results": {
+    "A_openai.png": {
+      "ok": true,
+      "model": "gpt-image-2"
+    },
+    "B_google.png": {
+      "ok": true,
+      "model": "gemini-3-pro-image-preview"
+    },
+    "C_openai_event.png": {
+      "ok": true,
+      "model": "gpt-image-2"
+    },
+    "D_google_event.png": {
+      "ok": true,
+      "model": "gemini-3-pro-image-preview"
+    }
+  }
+}
