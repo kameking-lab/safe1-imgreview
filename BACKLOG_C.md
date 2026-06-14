@@ -10,7 +10,7 @@
 - [x] B2 TGL抽出・重複排除・カテゴリ付与（目標1000）
 - [x] B3 高所抽出・重複排除・カテゴリ付与（目標1000）
 - [x] B4 あんぜんサイトDB等で出典URL補完・件数積み増し
-- [ ] B5 Excel生成（TGL/AERIAL＋集計）
+- [x] B5 Excel生成（TGL/AERIAL＋集計）
 # まとめ・発行
 - [ ] C1 img_catalog.pdf 作成（全イラストを通し番号付き一覧＝後から選べる）
 - [ ] C2 review_collect/<ランダム32文字>/ に PDF＋index.html(静的/noindex/スマホ縦)＋Excel配置・Vercel hakuten-review再デプロイ(既存URL保持・ルート/=404・HTTP200)・GitHub(main)へ push
