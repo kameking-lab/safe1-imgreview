@@ -20,5 +20,5 @@
 - [x] QA2 再点検→修正
 - [x] QA3 再点検→修正(問題ゼロなら以降スキップ・最大4)
 - [x] QA4 最終点検
-- [ ] DEPLOY review_v2/<ランダム32文字>/ にpptx＋そのPDF＋video_prompts_v16.pdf＋index.html(静的/noindex/スマホ縦/各DL＋iframe)・Vercel hakuten-review再デプロイ(既存URL保持・ルート/=404・HTTP200)・GitHub(main)push
+- [x] DEPLOY review_v2/<ランダム32文字>/ にpptx＋そのPDF＋video_prompts_v16.pdf＋index.html(静的/noindex/スマホ縦/各DL＋iframe)・Vercel hakuten-review再デプロイ(既存URL保持・ルート/=404・HTTP200)・GitHub(main)push
 - [ ] REPORT REPORT_V2.md作成push(公開URL/各PDF直URL＋raw/生成枚数/各事例タイトル/動画プロンプト件数/残課題)
