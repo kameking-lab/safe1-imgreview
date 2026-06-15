@@ -22,6 +22,6 @@
 - [x] QA3 再点検→修正（問題ゼロなら以降スキップ）
 - [x] QA4 再点検→修正
 - [x] QA5 再点検→修正
-- [ ] QA6 最終点検（残課題は正直に記録）
+- [x] QA6 最終点検（残課題は正直に記録）
 - [ ] DEPLOY PDF化・review_ppt 配置・Vercel再デプロイ・push
 - [ ] REPORT REPORT_PPT.md 作成・push
