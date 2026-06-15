@@ -17,7 +17,7 @@
 - [x] BUILD-PPT hakuten_jirei_v2.pptx 生成(表紙＋15×2・3枚配置・題名刷新・監修・参考資料控えめ)
 - [x] BUILD-VID video_prompts_v16.(md/pdf) 生成(15事例×Sora2/Veo3.1×日英・3フェーズ・画像同梱)
 - [x] QA1 両成果物を変換→目視→修正(写真3枚配置/題名整合/箇条書き/文字溢れ/参考資料/監修/通し番号連番)
-- [ ] QA2 再点検→修正
+- [x] QA2 再点検→修正
 - [ ] QA3 再点検→修正(問題ゼロなら以降スキップ・最大4)
 - [ ] QA4 最終点検
 - [ ] DEPLOY review_v2/<ランダム32文字>/ にpptx＋そのPDF＋video_prompts_v16.pdf＋index.html(静的/noindex/スマホ縦/各DL＋iframe)・Vercel hakuten-review再デプロイ(既存URL保持・ルート/=404・HTTP200)・GitHub(main)push
