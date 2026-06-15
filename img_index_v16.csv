@@ -5,3 +5,4 @@ N03,0003,パワーゲートでの荷役中、昇降板から転落しかけ,D_go
 N04,0017,台車を昇降装置へ移す際、台車が落下し下敷きに,D_google_event,photos_v16/N04/base.png,photos_v16/N04/openai.png,photos_v16/N04/google.png
 N05,0019,荷下ろし中、カゴ台車が倒れ作業員が転倒,C_openai_event,photos_v16/N05/base.png,photos_v16/N05/openai.png,photos_v16/N05/google.png
 N06,0040,会場天井付近の作業中、作業床手すりと上方構造物の間に挟まれ,C_openai_event,photos_v16/N06/base.png,photos_v16/N06/openai.png,photos_v16/N06/google.png
+N07,0042,梁下を移動中、上方の梁と操作盤の間に挟まれ,D_google_event,photos_v16/N07/base.png,photos_v16/N07/openai.png,photos_v16/N07/google.png
