@@ -19,6 +19,6 @@
 - [x] QA1 両成果物を変換→目視→修正(写真3枚配置/題名整合/箇条書き/文字溢れ/参考資料/監修/通し番号連番)
 - [x] QA2 再点検→修正
 - [x] QA3 再点検→修正(問題ゼロなら以降スキップ・最大4)
-- [ ] QA4 最終点検
+- [x] QA4 最終点検
 - [ ] DEPLOY review_v2/<ランダム32文字>/ にpptx＋そのPDF＋video_prompts_v16.pdf＋index.html(静的/noindex/スマホ縦/各DL＋iframe)・Vercel hakuten-review再デプロイ(既存URL保持・ルート/=404・HTTP200)・GitHub(main)push
 - [ ] REPORT REPORT_V2.md作成push(公開URL/各PDF直URL＋raw/生成枚数/各事例タイトル/動画プロンプト件数/残課題)
