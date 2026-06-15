@@ -1,0 +1,15 @@
+{
+  "N": "N01",
+  "old": "0001",
+  "adopt": "A_openai",
+  "cat": "TGL",
+  "title": "展示パネル積み下ろし中、昇降板からの墜落",
+  "openai_model": "gpt-image-2",
+  "google_model": null,
+  "results": {
+    "openai.png": {
+      "ok": true,
+      "model": "gpt-image-2"
+    }
+  }
+}

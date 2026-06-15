@@ -1,4 +1,4 @@
-- [ ] G-N01 N01画像リアル化(OpenAI+Google各1)＋自己点検
+- [x] G-N01 N01画像リアル化(OpenAI+Google各1)＋自己点検
 - [ ] G-N02 N02 同上
 - [ ] G-N03 N03 同上
 - [ ] G-N04 N04 同上
