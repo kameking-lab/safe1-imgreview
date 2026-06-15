@@ -1,0 +1,24 @@
+- [ ] G-N01 N01画像リアル化(OpenAI+Google各1)＋自己点検
+- [ ] G-N02 N02 同上
+- [ ] G-N03 N03 同上
+- [ ] G-N04 N04 同上
+- [ ] G-N05 N05 同上
+- [ ] G-N06 N06 同上
+- [ ] G-N07 N07 同上
+- [ ] G-N08 N08 同上
+- [ ] G-N09 N09 同上
+- [ ] G-N10 N10 同上
+- [ ] G-N11 N11 同上
+- [ ] G-N12 N12 同上
+- [ ] G-N13 N13 同上
+- [ ] G-N14 N14 同上
+- [ ] G-N15 N15 同上
+- [ ] TITLES 15事例の創作タイトル＋本文(発生事象/原因箇条書き/対応箇条書き/対策箇条書き)＋参考資料URLを cases_v2/ に作成
+- [ ] BUILD-PPT hakuten_jirei_v2.pptx 生成(表紙＋15×2・3枚配置・題名刷新・監修・参考資料控えめ)
+- [ ] BUILD-VID video_prompts_v16.(md/pdf) 生成(15事例×Sora2/Veo3.1×日英・3フェーズ・画像同梱)
+- [ ] QA1 両成果物を変換→目視→修正(写真3枚配置/題名整合/箇条書き/文字溢れ/参考資料/監修/通し番号連番)
+- [ ] QA2 再点検→修正
+- [ ] QA3 再点検→修正(問題ゼロなら以降スキップ・最大4)
+- [ ] QA4 最終点検
+- [ ] DEPLOY review_v2/<ランダム32文字>/ にpptx＋そのPDF＋video_prompts_v16.pdf＋index.html(静的/noindex/スマホ縦/各DL＋iframe)・Vercel hakuten-review再デプロイ(既存URL保持・ルート/=404・HTTP200)・GitHub(main)push
+- [ ] REPORT REPORT_V2.md作成push(公開URL/各PDF直URL＋raw/生成枚数/各事例タイトル/動画プロンプト件数/残課題)
