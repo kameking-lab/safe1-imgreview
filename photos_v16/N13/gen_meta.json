@@ -1,0 +1,19 @@
+{
+  "N": "N13",
+  "old": "0054",
+  "adopt": "D_google_event",
+  "cat": "高所",
+  "title": "手すりに足をかけたダクト取付中に墜落",
+  "openai_model": "gpt-image-2",
+  "google_model": "gemini-3-pro-image-preview",
+  "results": {
+    "openai.png": {
+      "ok": true,
+      "model": "gpt-image-2"
+    },
+    "google.png": {
+      "ok": true,
+      "model": "gemini-3-pro-image-preview"
+    }
+  }
+}
