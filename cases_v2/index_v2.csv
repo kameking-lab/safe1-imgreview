@@ -1,0 +1,16 @@
+新No,旧番号,カテゴリ,事故の型,創作タイトル,参考資料URL,出典種別,case_file
+N01,0001,TGL,墜落・転落,展示パネル積み下ろし中、昇降板からの墜落,https://anzeninfo.mhlw.go.jp/hiyari/hiy_0448.html,厚労省 職場のあんぜんサイト,cases_v2/N01.md
+N02,0002,TGL,はさまれ・巻き込まれ,什器の積み下ろし中、昇降板と車体の間に足を挟まれ,https://anzeninfo.mhlw.go.jp/hiyari/hiy_0373.html,厚労省 職場のあんぜんサイト,cases_v2/N02.md
+N03,0003,TGL,墜落・転落,パワーゲートでの荷役中、昇降板から転落しかけ,https://anzeninfo.mhlw.go.jp/hiyari/hiy_0316.html,厚労省 職場のあんぜんサイト,cases_v2/N03.md
+N04,0017,TGL,下敷き,台車を昇降装置へ移す際、台車が落下し下敷きに,https://anzeninfo.mhlw.go.jp/hiyari/hiy_0428.html,厚労省 職場のあんぜんサイト,cases_v2/N04.md
+N05,0019,TGL,転倒,荷下ろし中、カゴ台車が倒れ作業員が転倒,https://anzeninfo.mhlw.go.jp/hiyari/hiy_0393.html,厚労省 職場のあんぜんサイト,cases_v2/N05.md
+N06,0040,高所,はさまれ・巻き込まれ,会場天井付近の作業中、作業床手すりと上方構造物の間に挟まれ,https://www.sacl.or.jp/case/disaster/1135,建荷協,cases_v2/N06.md
+N07,0042,高所,はさまれ・巻き込まれ,梁下を移動中、上方の梁と操作盤の間に挟まれ,https://anzeninfo.mhlw.go.jp/anzen_pg/sai_det.aspx?joho_no=100614,厚労省 職場のあんぜんサイト,cases_v2/N07.md
+N08,0043,高所,墜落・転落,養生ネットを外そうとしてバスケットから墜落,https://www.sacl.or.jp/case/disaster/1227,建荷協,cases_v2/N08.md
+N09,0044,高所,墜落・転落,看板取付で身を乗り出し、作業床から墜落,https://www.sacl.or.jp/case/disaster/1231,建荷協,cases_v2/N09.md
+N10,0046,高所,はさまれ・巻き込まれ,作業床上昇中、操作盤フレームと天井の間に胸部を挟まれ,https://www.sacl.or.jp/case/disaster/1239,建荷協,cases_v2/N10.md
+N11,0050,高所,墜落・転落,バスケットから移ろうとして墜落,https://www.sacl.or.jp/case/disaster/1257,建荷協,cases_v2/N11.md
+N12,0052,高所,転倒,傾斜地で旋回中、機体がバランスを崩し転倒,https://www.sacl.or.jp/case/disaster/1265,建荷協,cases_v2/N12.md
+N13,0054,高所,墜落・転落,手すりに足をかけたダクト取付中に墜落,https://www.sacl.or.jp/case/disaster/1274,建荷協,cases_v2/N13.md
+N14,0057,高所,墜落・転落,外周作業で作業床から身を出し、高所から墜落,https://www.sacl.or.jp/case/disaster/3256,建荷協,cases_v2/N14.md
+N15,0071,高所,はさまれ・巻き込まれ,低い梁下を移動中、下がり壁と手すりの間に挟まれ,https://anzeninfo.mhlw.go.jp/anzen_pg/sai_det.aspx?joho_no=100076,厚労省 職場のあんぜんサイト,cases_v2/N15.md
