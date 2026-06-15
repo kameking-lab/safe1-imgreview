@@ -1,0 +1,19 @@
+{
+  "N": "N04",
+  "old": "0017",
+  "adopt": "D_google_event",
+  "cat": "TGL",
+  "title": "台車を昇降装置へ移す際、台車が落下し下敷きに",
+  "openai_model": "gpt-image-2",
+  "google_model": "gemini-3-pro-image-preview",
+  "results": {
+    "openai.png": {
+      "ok": true,
+      "model": "gpt-image-2"
+    },
+    "google.png": {
+      "ok": true,
+      "model": "gemini-3-pro-image-preview"
+    }
+  }
+}
