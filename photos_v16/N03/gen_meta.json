@@ -1,0 +1,19 @@
+{
+  "N": "N03",
+  "old": "0003",
+  "adopt": "D_google_event",
+  "cat": "TGL",
+  "title": "パワーゲートでの荷役中、昇降板から転落しかけ",
+  "openai_model": "gpt-image-2",
+  "google_model": "gemini-3-pro-image-preview",
+  "results": {
+    "openai.png": {
+      "ok": true,
+      "model": "gpt-image-2"
+    },
+    "google.png": {
+      "ok": true,
+      "model": "gemini-3-pro-image-preview"
+    }
+  }
+}

@@ -1,3 +1,4 @@
 新No,旧番号,創作タイトル,元採用案,base,openai,google
 N01,0001,展示パネル積み下ろし中、昇降板からの墜落,A_openai,photos_v16/N01/base.png,photos_v16/N01/openai.png,photos_v16/N01/google.png
 N02,0002,什器の積み下ろし中、昇降板と車体の間に足を挟まれ,A_openai,photos_v16/N02/base.png,photos_v16/N02/openai.png,photos_v16/N02/google.png
+N03,0003,パワーゲートでの荷役中、昇降板から転落しかけ,D_google_event,photos_v16/N03/base.png,photos_v16/N03/openai.png,photos_v16/N03/google.png
