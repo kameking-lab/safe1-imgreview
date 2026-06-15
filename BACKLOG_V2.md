@@ -12,7 +12,7 @@
 - [x] G-N12 N12 同上
 - [x] G-N13 N13 同上
 - [x] G-N14 N14 同上
-- [ ] G-N15 N15 同上
+- [x] G-N15 N15 同上
 - [ ] TITLES 15事例の創作タイトル＋本文(発生事象/原因箇条書き/対応箇条書き/対策箇条書き)＋参考資料URLを cases_v2/ に作成
 - [ ] BUILD-PPT hakuten_jirei_v2.pptx 生成(表紙＋15×2・3枚配置・題名刷新・監修・参考資料控えめ)
 - [ ] BUILD-VID video_prompts_v16.(md/pdf) 生成(15事例×Sora2/Veo3.1×日英・3フェーズ・画像同梱)
