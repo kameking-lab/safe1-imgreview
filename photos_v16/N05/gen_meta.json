@@ -1,0 +1,19 @@
+{
+  "N": "N05",
+  "old": "0019",
+  "adopt": "C_openai_event",
+  "cat": "TGL",
+  "title": "荷下ろし中、カゴ台車が倒れ作業員が転倒",
+  "openai_model": "gpt-image-2",
+  "google_model": "gemini-3-pro-image-preview",
+  "results": {
+    "openai.png": {
+      "ok": true,
+      "model": "gpt-image-2"
+    },
+    "google.png": {
+      "ok": true,
+      "model": "gemini-3-pro-image-preview"
+    }
+  }
+}
