@@ -1,0 +1,17 @@
+{
+  "N": "N06",
+  "cat": "高所",
+  "title": "会場天井付近の作業中、作業床手すりと上方構造物の間に挟まれ",
+  "openai_model": "gpt-image-2",
+  "google_model": "gemini-3-pro-image-preview",
+  "results": {
+    "openai_illust.png": {
+      "ok": true,
+      "model": "gpt-image-2"
+    },
+    "google_illust.png": {
+      "ok": true,
+      "model": "gemini-3-pro-image-preview"
+    }
+  }
+}
