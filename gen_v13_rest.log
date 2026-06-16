@@ -1,0 +1,112 @@
+=== v13 rest START ===
+--- case 2 ---
+[gemini] ログイン済み
+
+[v13 c2] approach 1 try 1
+  attach: true
+  [ss] v13c2-a1-1.png
+  saved C:\Users\kanet\20260522\safe1\images\v13photo\case2\01.png
+
+[v13 c2] approach 2 try 1
+  attach: true
+  [ss] v13c2-a2-1.png
+  saved C:\Users\kanet\20260522\safe1\images\v13photo\case2\02.png
+
+[v13 c2] approach 3 try 1
+  attach: true
+  [ss] v13c2-a3-1.png
+  saved C:\Users\kanet\20260522\safe1\images\v13photo\case2\03.png
+
+[v13 c2] DONE ok=3
+done case 2
+--- case 3 ---
+[gemini] ログイン済み
+
+[v13 c3] approach 1 try 1
+  attach: true
+  [ss] v13c3-a1-1.png
+  saved C:\Users\kanet\20260522\safe1\images\v13photo\case3\01.png
+
+[v13 c3] approach 2 try 1
+  attach: true
+  [ss] v13c3-a2-1.png
+  saved C:\Users\kanet\20260522\safe1\images\v13photo\case3\02.png
+
+[v13 c3] approach 3 try 1
+  attach: true
+  [ss] v13c3-a3-1.png
+  no/dl-fail
+
+[v13 c3] approach 3 try 2
+  attach: true
+  [ss] v13c3-a3-2.png
+  saved C:\Users\kanet\20260522\safe1\images\v13photo\case3\03.png
+
+[v13 c3] DONE ok=3
+done case 3
+--- case 4 ---
+[gemini] ログイン済み
+
+[v13 c4] approach 1 try 1
+  attach: true
+  [ss] v13c4-a1-1.png
+  saved C:\Users\kanet\20260522\safe1\images\v13photo\case4\01.png
+
+[v13 c4] approach 2 try 1
+  attach: true
+  [ss] v13c4-a2-1.png
+  no/dl-fail
+
+[v13 c4] approach 2 try 2
+  attach: true
+  [ss] v13c4-a2-2.png
+  saved C:\Users\kanet\20260522\safe1\images\v13photo\case4\02.png
+
+[v13 c4] approach 3 try 1
+  attach: true
+  [ss] v13c4-a3-1.png
+  saved C:\Users\kanet\20260522\safe1\images\v13photo\case4\03.png
+
+[v13 c4] DONE ok=3
+done case 4
+--- case 5 ---
+[gemini] ログイン済み
+
+[v13 c5] approach 1 try 1
+  attach: true
+  [ss] v13c5-a1-1.png
+  saved C:\Users\kanet\20260522\safe1\images\v13photo\case5\01.png
+
+[v13 c5] approach 2 try 1
+  attach: true
+  [ss] v13c5-a2-1.png
+  saved C:\Users\kanet\20260522\safe1\images\v13photo\case5\02.png
+
+[v13 c5] approach 3 try 1
+  attach: true
+  [ss] v13c5-a3-1.png
+  saved C:\Users\kanet\20260522\safe1\images\v13photo\case5\03.png
+
+[v13 c5] DONE ok=3
+done case 5
+--- case 6 ---
+[gemini] ログイン済み
+
+[v13 c6] approach 1 try 1
+  attach: true
+  [ss] v13c6-a1-1.png
+  saved C:\Users\kanet\20260522\safe1\images\v13photo\case6\01.png
+
+[v13 c6] approach 2 try 1
+  attach: true
+  [ss] v13c6-a2-1.png
+  saved C:\Users\kanet\20260522\safe1\images\v13photo\case6\02.png
+
+[v13 c6] approach 3 try 1
+  attach: true
+  [ss] v13c6-a3-1.png
+  saved C:\Users\kanet\20260522\safe1\images\v13photo\case6\03.png
+
+[v13 c6] DONE ok=3
+done case 6
+=== v13 rest DONE ===

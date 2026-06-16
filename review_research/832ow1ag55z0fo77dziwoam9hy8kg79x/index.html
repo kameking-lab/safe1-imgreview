@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>事故の因果が正しく伝わる図：手法・サービス比較（調査）</title>
+<style>
+  :root{--bg:#f2f3f5;--ink:#1a1a1a;--sub:#5f5f5f;--line:#dcdfe3;--accent:#c0392b;--blue:#1558b0;--gd:#e8f5e9;--yl:#fff8e1;}
+  *{box-sizing:border-box;-webkit-text-size-adjust:100%;}
+  html,body{margin:0;padding:0;max-width:100%;overflow-x:hidden;}
+  body{background:var(--bg);color:var(--ink);font-family:-apple-system,"Hiragino Kaku Gothic ProN","Yu Gothic","Segoe UI",Meiryo,sans-serif;line-height:1.6;padding-bottom:40px;}
+  header{background:#fff;border-bottom:1px solid var(--line);padding:calc(14px + env(safe-area-inset-top)) 16px 14px;position:sticky;top:0;z-index:20;}
+  h1{font-size:15px;margin:0 0 3px;font-weight:700;}
+  .meta{font-size:11.5px;color:var(--sub);margin:0;}
+  section{padding:14px 12px 0;max-width:1100px;margin:0 auto;}
+  h2{font-size:16px;border-left:5px solid var(--accent);padding-left:8px;margin:18px 0 8px;}
+  p,li{font-size:13.5px;}
+  .scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);border-radius:8px;}
+  table{border-collapse:collapse;min-width:880px;font-size:12px;background:#fff;}
+  th,td{border:1px solid var(--line);padding:7px 8px;text-align:left;vertical-align:top;}
+  th{background:#222;color:#fff;position:sticky;top:0;white-space:nowrap;}
+  td:first-child,th:first-child{position:sticky;left:0;background:#f7f7f7;font-weight:700;z-index:1;}
+  th:first-child{background:#222;}
+  .hi{background:var(--gd);}
+  .mid{background:var(--yl);}
+  a{color:var(--blue);word-break:break-all;}
+  .rec{background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin:10px 0;}
+  .rec b{color:var(--accent);}
+  .note{font-size:12px;color:var(--sub);}
+  .tip{font-size:11.5px;color:var(--sub);margin:4px 0 8px;}
+  footer{text-align:center;color:var(--sub);font-size:11px;padding:18px 16px 0;}
+</style>
+</head>
+<body>
+<header>
+  <h1>事故の「因果が正しく伝わる図」：手法・サービス比較</h1>
+  <p class="meta">用途＝荷と人の向き・接触・危険点を正しく制御できる図／一次情報・URL200確認／2026-06-13</p>
+</header>
+<section>
+  <p class="note">評価軸：①因果/向きの制御性 ②物理再現性 ③破綻・商標リスク ④日本語 ⑤費用 ⑥量産性 ⑦構築コスト。緑＝因果制御「高」。最終判断は人間が行う前提です。</p>
+  <p class="tip">▼ 表は左右にスクロールできます（先頭列は固定）。</p>
+  <div class="scroll">
+  <table>
+    <tr><th>手法/サービス</th><th>区分</th><th>①因果制御</th><th>②物理再現</th><th>③破綻/商標</th><th>④日本語</th><th>⑤費用</th><th>⑥量産</th><th>⑦構築</th><th>出典(200)</th></tr>
+    <tr class="hi"><td>SVG(コード/生成)</td><td>C作図</td><td>高(座標100%)</td><td>高</td><td>無</td><td>可</td><td>無料・商用可</td><td>高</td><td>中</td><td><a href="https://www.w3.org/Graphics/SVG/">w3.org/SVG</a></td></tr>
+    <tr class="hi"><td>matplotlib</td><td>C作図</td><td>高(100%)</td><td>高</td><td>無</td><td>可(要フォント)</td><td>無料・商用可</td><td>高(連鎖図最速)</td><td>中</td><td><a href="https://github.com/matplotlib/matplotlib/blob/main/LICENSE/LICENSE">GitHub LICENSE</a></td></tr>
+    <tr class="hi"><td>Pillow(PIL)</td><td>C作図</td><td>高(やや手間)</td><td>高</td><td>無</td><td>可</td><td>無料(MIT-CMU)</td><td>高</td><td>中</td><td><a href="https://pillow.readthedocs.io/en/stable/about.html">pillow about</a></td></tr>
+    <tr class="hi"><td>Blender(3D)</td><td>F3D</td><td>高(最も物理正確)</td><td>高</td><td>無</td><td>可</td><td>無料・作品商用可</td><td>中</td><td>高</td><td><a href="https://www.blender.org/about/license/">blender license</a></td></tr>
+    <tr class="hi"><td>ControlNet(pose+depth)+ComfyUI</td><td>B構造制御</td><td>高(接触点は領域マスク併用)</td><td>中〜高</td><td>低〜中</td><td>UI英語</td><td>無料(OSS)+クラウド従量</td><td>中</td><td>中</td><td><a href="https://github.com/lllyasviel/ControlNet">ControlNet</a> / <a href="https://github.com/comfyanonymous/ComfyUI">ComfyUI</a></td></tr>
+    <tr class="mid"><td>領域制御(Set Mask)</td><td>B</td><td>中〜高</td><td>中</td><td>低〜中</td><td>未確認</td><td>無料</td><td>中</td><td>中</td><td><a href="https://docs.comfy.org/">docs.comfy.org</a></td></tr>
+    <tr class="mid"><td>GLIGEN(box)</td><td>B</td><td>中(向き不可)</td><td>中</td><td>低</td><td>なし</td><td>無料(MIT)</td><td>中</td><td>中〜高</td><td><a href="https://github.com/gligen/GLIGEN">GLIGEN</a></td></tr>
+    <tr class="mid"><td>draw.io</td><td>C作図</td><td>中(矢印は得意)</td><td>中</td><td>無</td><td>可</td><td>無料(Apache2.0)</td><td>中</td><td>低</td><td><a href="https://www.drawio.com/">drawio.com</a></td></tr>
+    <tr class="mid"><td>Figma</td><td>C作図</td><td>中〜高</td><td>中</td><td>無</td><td>可</td><td>無料枠/$16月〜</td><td>中</td><td>中</td><td><a href="https://www.figma.com/pricing/">figma pricing</a></td></tr>
+    <tr class="mid"><td>PowerPoint</td><td>C作図</td><td>中</td><td>中</td><td>無</td><td>可</td><td>Web無料/365 $99.99年</td><td>中</td><td>低</td><td><a href="https://www.microsoft.com/en-us/microsoft-365/powerpoint">M365 PPT</a></td></tr>
+    <tr><td>Illustrator</td><td>C作図</td><td>中〜高</td><td>中</td><td>無</td><td>可</td><td>有料(月額未確認)</td><td>中</td><td>中〜高</td><td><a href="https://www.adobe.com/products/illustrator/pricing-info.html">Ai pricing</a></td></tr>
+    <tr class="mid"><td>FLUX.2(BFL)</td><td>A生成</td><td>中(参照10枚で中上/出力商用可)</td><td>低〜中</td><td>中</td><td>未確認</td><td>API from $0.03〜0.07/枚</td><td>高</td><td>低〜中</td><td><a href="https://docs.bfl.ai/quick_start/pricing">bfl pricing</a></td></tr>
+    <tr><td>GPT Image(OpenAI)</td><td>A生成</td><td>中〜低(配置苦手と公式明記)</td><td>低</td><td>中(AI破綻)</td><td>未確認</td><td>API $0.006〜0.211/枚</td><td>高</td><td>低</td><td><a href="https://developers.openai.com/api/docs/guides/image-generation">OpenAI image</a></td></tr>
+    <tr><td>Imagen 4/Ultra(Google)</td><td>A生成</td><td>中〜低(配置variations明記)</td><td>低</td><td>中</td><td>未確認</td><td>API $0.02〜0.06/枚</td><td>高</td><td>低</td><td><a href="https://ai.google.dev/gemini-api/docs/imagen">Imagen docs</a></td></tr>
+    <tr><td>Seedream 4.5(ByteDance)</td><td>A生成</td><td>中(価格・規約未確認)</td><td>低</td><td>中</td><td>未確認</td><td>未確認</td><td>高</td><td>低</td><td><a href="https://seed.bytedance.com/en/seedream4_5">Seedream</a></td></tr>
+    <tr><td>Ideogram 4.0</td><td>A生成</td><td>低(画像内テキスト特化)</td><td>低</td><td>中</td><td>未確認</td><td>未確認</td><td>高</td><td>低</td><td><a href="https://docs.ideogram.ai/">Ideogram docs</a></td></tr>
+    <tr class="mid"><td>Adobe Stock(素材)</td><td>D素材</td><td>中(部品取り/事故系の当たり最良)</td><td>—</td><td>—</td><td>可</td><td>無制限 17,380円/月 等</td><td>—</td><td>—</td><td><a href="https://stock.adobe.com/jp/license-terms">license-terms</a></td></tr>
+    <tr class="mid"><td>イラストAC(素材)</td><td>D素材</td><td>中(改変自由/AI学習禁止/車両どまり)</td><td>—</td><td>—</td><td>可</td><td>無料〜プレミアム</td><td>—</td><td>—</td><td><a href="https://www.ac-illust.com/main/terms.php">terms</a></td></tr>
+    <tr><td>PIXTA(素材)</td><td>D素材</td><td>中〜低(TGL素材2件のみ)</td><td>—</td><td>—</td><td>可</td><td>定額 月1,980円相当〜</td><td>—</td><td>—</td><td><a href="https://pixta.jp/about-license">about-license</a></td></tr>
+    <tr><td>いらすとや</td><td>D素材</td><td>低(事故系なし)</td><td>—</td><td>—</td><td>可</td><td>無料(20点まで)</td><td>—</td><td>—</td><td><a href="https://www.irasutoya.com/p/terms.html">terms</a></td></tr>
+    <tr><td>photoAC(写真)</td><td>D素材</td><td>低(背景止まり)</td><td>—</td><td>—</td><td>可</td><td>無料〜</td><td>—</td><td>—</td><td><a href="https://www.photo-ac.com/">photo-ac</a></td></tr>
+    <tr class="hi"><td>ココナラ(外注)</td><td>E外注</td><td>高(指示次第/要実績者選別)</td><td>—</td><td>—</td><td>可</td><td>1点 数千円〜数万円</td><td>低(都度)</td><td>—</td><td><a href="https://coconala.com/services/1423956">出品例</a></td></tr>
+    <tr class="hi"><td>ランサーズ(外注)</td><td>E外注</td><td>高(コンペ可/譲渡明示要)</td><td>—</td><td>—</td><td>可</td><td>数千円〜20万円</td><td>低</td><td>—</td><td><a href="https://www.lancers.jp/faq/l1016/107">著作権FAQ</a></td></tr>
+    <tr class="mid"><td>クラウドワークス(外注)</td><td>E外注</td><td>中〜高(譲渡デフォルトOFF)</td><td>—</td><td>—</td><td>可</td><td>3万円〜(目安)</td><td>低</td><td>—</td><td><a href="https://crowdworks.jp/pages/guides/employer/pricing">発注ガイド</a></td></tr>
+  </table>
+  </div>
+
+  <h2>CLIの推奨（最終判断は人間）</h2>
+  <div class="rec"><b>1位：C コード作画（matplotlib / SVG生成）。</b> 因果・向き・危険点を座標で100%制御。無料・商用可・日本語可・破綻/商標リスク無し。多コマの因果連鎖図も最速で量産・改訂。本資料の核心要件に最も忠実で、前回プロトタイプ(M1模式図)が最良だった結論を一次情報が裏付け。</div>
+  <div class="rec"><b>2位：B ControlNet（openpose棒人間＋depth＋領域マスク）on ComfyUI。</b> 写実寄りの見栄えも欲しい場合に“配置を固定して描かせる”唯一現実的な道。因果制御は高いが、接触点ピクセル精度は領域マスク併用前提、GPU/クラウドと構築コスト(中)・重みライセンス確認が要る。</div>
+  <h2>結論：因果を最も確実に制御できるのは</h2>
+  <p>作者が向き・接触・危険点を完全定義できる <b>C コード作画（SVG/matplotlib）</b> と <b>F 3D（Blender）</b>。実用・コスト・量産まで含めると <b>C（コード作画）が最有力</b>。AI内で制御するなら B（ControlNet）。純生成モデル（A）に力学の正しさを委ねるのは構造上不可（公式自身が配置の限界を明記）。</p>
+  <p class="note">補助：D(Adobe Stock/イラストAC)=部品取り、F(Blender)=表紙級の物理正確カット、E(ココナラ/ランサーズ)=決定版の外注、で使い分け。<br>未確認：OpenAI商用条項/日本語(403)、各生成モデルの日本語UI、Ideogram/Seedream価格・規約、Illustrator月額、一部公式本文(403でGitHub/スニペット代替)。価格は時点で変動、採用前に公式再確認。全文は research_methods.md 参照。</p>
+</section>
+<footer>限定共有用（検索非掲載）。一次情報・URL200確認ベース。</footer>
+</body>
+</html>

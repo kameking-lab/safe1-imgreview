@@ -1,0 +1,12 @@
+z01.jpeg
+ murl=https://anzeninfo.mhlw.go.jp/anzen/sai/image/sai17/sai17-17-46-1-s.jpg
+ purl=https://anzeninfo.mhlw.go.jp/anzen/sai/sai_new090319.html
+ t=職場のあんぜんサイト：労働災害事例 平成21年3月19日追加分 (10件）
+ q=高所作業車 逸走 はさまれ 坂道 災害 イラスト
+
+z04.jpeg
+ murl=https://anzeninfo.mhlw.go.jp/anzen/sai/image/sai23/sai23-31-55-1-s.jpg
+ purl=https://anzeninfo.mhlw.go.jp/anzen/sai/sai_new150316.html
+ t=職場のあんぜんサイト：労働災害事例 平成27年3月16日追加分（34件）
+ q=高所作業車 逸走 はさまれ 坂道 災害 イラスト
+

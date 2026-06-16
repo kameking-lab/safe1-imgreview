@@ -1,0 +1,57 @@
+[gemini] ログイン済み
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+
+[illust] scene 1/6 attempt 1
+  [ss] v5illust-s1-a1.png
+[illust] saved C:\Users\kanet\20260522\safe1\images\illust_v5\gen01.png (1150134b)
+
+[illust] scene 2/6 attempt 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v5illust-s2-a1.png
+[illust] saved C:\Users\kanet\20260522\safe1\images\illust_v5\gen02.png (1109484b)
+
+[illust] scene 3/6 attempt 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v5illust-s3-a1.png
+[illust] saved C:\Users\kanet\20260522\safe1\images\illust_v5\gen03.png (1332898b)
+
+[illust] scene 4/6 attempt 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v5illust-s4-a1.png
+[illust] saved C:\Users\kanet\20260522\safe1\images\illust_v5\gen04.png (1327894b)
+
+[illust] scene 5/6 attempt 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v5illust-s5-a1.png
+[illust] saved C:\Users\kanet\20260522\safe1\images\illust_v5\gen05.png (1268226b)
+
+[illust] scene 6/6 attempt 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v5illust-s6-a1.png
+[illust] saved C:\Users\kanet\20260522\safe1\images\illust_v5\gen06.png (1328825b)
+
+[illust] DONE ok=6 fail=0

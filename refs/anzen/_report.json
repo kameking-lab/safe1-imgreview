@@ -1,0 +1,80 @@
+{
+  "1": {
+    "id": "38",
+    "url": "https://anzeninfo.mhlw.go.jp/anzen_pg/SAI_DET.aspx?joho_no=38",
+    "allImgs": 6,
+    "cand": [
+      {
+        "src": "https://anzeninfo.mhlw.go.jp/anzen/sai/thumnail/sai6-38-43-1-s.jpg",
+        "w": 595,
+        "h": 557,
+        "alt": "テールボードローダの昇降板と荷台の間にはさまれて死亡"
+      }
+    ]
+  },
+  "2": {
+    "id": "101281",
+    "url": "https://anzeninfo.mhlw.go.jp/anzen_pg/SAI_DET.aspx?joho_no=101281",
+    "allImgs": 6,
+    "cand": [
+      {
+        "src": "https://anzeninfo.mhlw.go.jp/anzen/sai/image/sai20/sai20-14-50-1-s.jpg",
+        "w": 400,
+        "h": 300,
+        "alt": "荷降ろし中、トラックのテールゲートから荷が落下し、下敷きになる"
+      }
+    ]
+  },
+  "3": {
+    "id": "101534",
+    "url": "https://anzeninfo.mhlw.go.jp/anzen_pg/SAI_DET.aspx?joho_no=101534",
+    "allImgs": 6,
+    "cand": [
+      {
+        "src": "https://anzeninfo.mhlw.go.jp/anzen/sai/image/sai26/sai26-44-58-1-s.jpg",
+        "w": 400,
+        "h": 300,
+        "alt": "トラックから空台車の荷下ろし作業中、何らかの原因により台車が倒れ被災者を跳ね飛ばした。被災者は後頭部を打って死亡した。"
+      }
+    ]
+  },
+  "4": {
+    "id": "101377",
+    "url": "https://anzeninfo.mhlw.go.jp/anzen_pg/SAI_DET.aspx?joho_no=101377",
+    "allImgs": 6,
+    "cand": [
+      {
+        "src": "https://anzeninfo.mhlw.go.jp/anzen/sai/image/sai22/sai22-90-54-1-s.jpg",
+        "w": 400,
+        "h": 300,
+        "alt": "高所作業車を使用して、大木の枝切り作業を行っていたところ、高所作業車が後方に転倒し、被災者が地面に激突したもの"
+      }
+    ]
+  },
+  "5": {
+    "id": "101270",
+    "url": "https://anzeninfo.mhlw.go.jp/anzen_pg/SAI_DET.aspx?joho_no=101270",
+    "allImgs": 6,
+    "cand": [
+      {
+        "src": "https://anzeninfo.mhlw.go.jp/anzen/sai/image/sai19/sai19-12-48-1-s.jpg",
+        "w": 400,
+        "h": 300,
+        "alt": "高所作業車のデッキ上で型わくの解体作業中、デッキ手すりと橋桁下面との間にはさまれる"
+      }
+    ]
+  },
+  "6": {
+    "id": "101412",
+    "url": "https://anzeninfo.mhlw.go.jp/anzen_pg/SAI_DET.aspx?joho_no=101412",
+    "allImgs": 6,
+    "cand": [
+      {
+        "src": "https://anzeninfo.mhlw.go.jp/anzen/sai/image/sai23/sai23-31-55-1-s.jpg",
+        "w": 400,
+        "h": 300,
+        "alt": "坂道にて設置していた高所作業車が逸走し、高所作業車のアウトリガーの底面と、道路脇の側溝との間に挟まれた"
+      }
+    ]
+  }
+}

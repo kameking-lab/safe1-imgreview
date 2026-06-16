@@ -1,0 +1,35 @@
+﻿[2026-06-13 12:32:19] === RUN START === 博展 TGL/高所作業車 事故事例集 作成開始
+[2026-06-13 12:32:19] 環境: Python OK, python-pptx 1.0.2, pillow 10.4.0
+[2026-06-13 12:32:19] safe1 既存: IMG_9864.png のみ。pptx本体なし → スクショ＋テンプレ実測値で再現。versioned で生成。
+[2026-06-13 12:34:25] --- テンプレ解析(IMG_9864.png 1290x2796) ---
+  概要スライド: 左に実写写真(赤い下向き矢印=転倒方向), 右に線画イラスト(黒い作業者シルエット+荷/カゴ車転倒シーン)。白背景。
+  表スライド: タイトル太字黒 約28pt '重大事故概要 人身事故'。左ラベル列セル=グレーD9D9D9, 内容セル=白/黒字。
+  フッター: 左下 (C)Hakuten Corporation All Rights Reserved.(灰 ~10pt)。右下 10色ドット列 + HAKUTENロゴ(レターアキ, A上にリング状アクセント=HAKUTEN) + 右端ページ番号。
+  抽出: images/ref/footer_strip_raw.png (520x52, ドット列+ロゴ, ページ番号除外)。3x拡大で視認良好。
+  → ロゴ/ドットは画像として再利用。トラックイラストはブラウザ生成で新規作成(低解像のため流用せず)。
+[2026-06-13 12:34:25] 調査エージェント3件 並行起動: (A)instagram-automation画像生成方式 (B)統計 (C)6実在事例
+[2026-06-13 12:42:24] --- 調査完了サマリー ---
+  [画像生成方式] Playwright + Gemniブラウザ版(gemini.google.com/app, 画像を作成ツール)。プロファイル .cache/browser-profile-gemini(ログイン済,NEEDS_LOGINなし)。helpers: lib/browser-helpers.mjs(launchBrowser,ensureGeminiLoggedIn,dismissOverlays,withRetry,saveScreenshot), lib/gemini-helpers.mjs(startNewChat,selectImageCreationTool,isImageToolActive,submitPrompt)。DL=page内fetch(blob/googleusercontent)→base64→保存。chromeはkillしない(自前chromium別プロファイル/別PID, watchdogは自processのみ)。node v24。→ 同方式を流用する gen_illust.mjs を自作。
+  [統計] TGL: JNIOSH推計 年間558-632件(2011-12,休業4日+)。昇降板上の転倒転落=42.3%(SRR-No.50)。倒れた落ちた系で約65%。特別教育義務化=2024(令和6)2/1施行(安衛則36条5号の4,安衛法59条3項,基発0328第5号)。学科4h+実技2h。
+  [統計] 高所作業車: 死亡 令和2年6名(建設5/運輸1, 建荷協)。型=墜落転落最多>はさまれ>転倒>激突され(定性)。死傷総数の単独確定値=未確認。R7確定値は2026/5/27公表済(死亡700人/死傷135,333人)。
+  [事例] 6パターンに公表事例割当: (1)JNIOSH ドラム缶後退踏み外し墜落死 (2)JNIOSH+hiy_0448 昇降板はさまれ (3)あんぜんNo.55 ロールボックス転倒 (4)あんぜんNo.549 バケット身乗り出し(+No.507安全帯) (5)あんぜんNo.101377 後方転倒死亡 (6)あんぜんNo.401 旋回時はさまれ。
+  [注意] TGL個別事例ページは乏しくJNIOSH分析で補完。発生年/休業日数は原典非公開多く '—'。捏造しない方針。
+[2026-06-13 13:05:41] --- イラスト生成 ---
+  gen_illust.mjs(Geminiブラウザ/画像作成ツール,一部Proモード)で6シーン生成→6/6成功(images/gen/gen01-06.png, 1024x559)。chrome kill無し。
+  事例②は内容不一致(荷の傾き)のため gen_illust2.mjs で再生成→DL失敗だが生成画像がスクショに残存→切り出し採用(明確な足はさまれ)。
+  PIL製フォールバック線画も images/fallback/ に常備(保険)。最終採用は全枚Gemini版。
+[2026-06-13 13:05:41] --- pptxビルド&自己批評 ---
+  build_pptx.py(python-pptx,游ゴシック,16:9,博展フッター)で17枚生成。render_pptx.ps1(PowerPoint COM)でPNG化し4周検査。
+  v1→v4: 統計フォント過大/ラベル折返し/事例②画像不一致/チェックリスト吊りインデント/右カラム間延び を順次修正。
+  最終 hakuten_jirei_v4.pptx (17枚)。最終採点 全7軸9-10(全軸8以上=QA通過)。critique.md参照。
+[2026-06-13 13:05:41] === 完成・QA通過 ===
+[2026-06-13 15:52:07] === v5: イラスト版/写真版 画像作り直し ===
+  画像生成: gen_v5.mjs(--kind=illust/photo)でGeminiブラウザ(Nano Banana系/Proモード)→各6枚, 計12枚成功。1024x687。準写実カラー/写実写真・人物機材一体・動作・PPE・フレーム充填。
+  事例⑥写真は動き弱→gen_one.mjsで再生成試行(生成成功/DL不可)。原画+オーバーレイで合格圏と判断し維持。photo gen01はヘルメット着用を拡大確認(差替え不要)。
+  desparkle.py: 右下のGemini AIスパークル✦を全12枚除去→images/illust_v5_clean, images/photo_v5_clean。
+  build_pptx.py: 版引数対応(出力タグ+画像セット)、画像比1.49 cover配置、版別オーバーレイOVR_ILLUST/OVR_PHOTO、禁則用lang=ja-JP追加。
+  体裁3点修正: 約8割→運輸業中心 / 学科4h+実技2h(計6h) / 禁則解消。
+  成果物: hakuten_jirei_illust_v5.pptx+pdf, hakuten_jirei_photo_v5.pptx+pdf (各17枚)。render/illust_v5, render/photo_v5 にPNG。
+  自己批評: 全12枚 A,C,D,E合格(写真②⑥のみB△→オーバーレイ補足)。7軸9-10で全軸8以上=QA通過。critique.md参照。
+[2026-06-13 15:52:07] === v5 完成・QA通過 ===
+[2026-06-13 23:07:59] proto: 事例②を選定(過積載1.2t→入口へ下る傾斜→後方沈下→機械滑落→下敷き)。4段の因果連鎖が『因果を伝えられるか』の検証に最適。M1模式図/M2パーツ合成/M3ハイブリッドを試作。

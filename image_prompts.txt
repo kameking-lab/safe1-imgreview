@@ -1,0 +1,27 @@
+イラスト生成プロンプト記録（instagram-automation の Geminiブラウザ方式を流用 / APIキー不使用）
+生成結果: 6/6 すべて生成成功（手動生成は不要）。事例②のみダウンロード失敗→生成画像をスクショから抽出して採用。
+共通スタイル: Black and white technical line drawing, clean thin vector outlines on a pure white background,
+industrial occupational-safety manual illustration style, simple schematic, side view. Worker = solid black silhouette.
+Absolutely NO text/letters/numbers/labels/watermark. (日本語の焼き込み回避。ラベル/赤矢印/黄三角はpptx側で重畳)
+
+[gen01 / 事例①] The rear of a flatbed delivery truck. A tail-lift platform (tailgate lifter) is lowered horizontally at the back. A worker silhouette is stepping backward and losing his balance off the rear outer edge of the platform, beginning to fall to the ground. A heavy cylindrical steel drum stands on the platform near him.
+
+[gen02 / 事例②] The rear of a delivery truck with a tail-lift platform descending toward the ground, now just above ground level. A worker silhouette stands next to it and his foot is caught and pinched in the narrow gap between the lowering edge of the platform and the ground. Draw the trapped foot and the pinch gap clearly.
+
+[gen03 / 事例③] A tail-lift platform at the rear of a truck, slightly inclined. A tall wheeled roll-cage cart (roll box pallet, metal mesh cage on casters) is tipping over and toppling off the platform. A worker silhouette beside the platform is being knocked down by the falling cage.
+
+[gen04 / 事例④] A self-propelled boom-type aerial work platform (boom lift) with its basket raised high on a long articulated arm. A worker silhouette inside the basket is leaning far out over the guardrail and falling head-first, with a safety-harness lanyard dangling loose and unhooked.
+
+[gen05 / 事例⑤] A boom-type aerial work platform on sloped uneven ground, tipping over toward one side, its outrigger support legs NOT deployed. A worker silhouette is inside the elevated basket as the whole machine topples.
+
+[gen06 / 事例⑥] A boom-type aerial work platform with its basket raised up close beneath a long horizontal overhead steel beam / ceiling truss. A worker silhouette inside the basket is pinched between the top guardrail of the basket and the overhead beam.
+
+備考: フォールバックとして PIL 製スキマ線画も images/fallback/ に常備（Gemini失敗時の保険）。最終採用は全枚 Gemini版（images/gen/）。
+
+==================== v5（イラスト版/写真版・2026-06-13）====================
+生成結果: イラスト6/6・写真6/6 すべて成功（手動生成不要）。プロンプト全文は gen_v5.mjs を参照。
+共通: 人物と機材を同一タッチで一体化・危険の瞬間の動き・PPE着用(ヘルメット/ハーネス/反射ベスト)・被写体でフレーム充填・日本語焼込なし・流血/損傷なし。
+イラスト版STYLE: 準写実フルカラー、ソフトなセル塗り、奥行/遠近、シネマティックな3/4アングル、黒シルエット禁止。
+写真版STYLE: 写実ドキュメンタリー写真、日本の現場/展示会場、自然光、35mm、作業者は側面/背面・ヘルメット・中距離(顔/手の破綻回避)。
+6シーン(共通): ①昇降板後端で後退転落+ドラム ②昇降板の隙間に足はさまれ ③カゴ車が傾き作業者へ転倒 ④バケットで手すり越し+フック未掛け ⑤不整地でアウトリガー未設置の機体転倒 ⑥バケットと天井トラスの頭上はさまれ
+後処理: desparkle.py で右下のGemini AIスパークル除去 → *_clean を最終採用。

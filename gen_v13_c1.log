@@ -1,0 +1,33 @@
+[gemini] ログイン済み
+
+[v13 c1] approach 1 try 1
+  attach: true
+  [ss] v13c1-a1-1.png
+  no/dl-fail
+
+[v13 c1] approach 1 try 2
+  attach: true
+  [ss] v13c1-a1-2.png
+  no/dl-fail
+
+[v13 c1] approach 2 try 1
+  attach: true
+  [ss] v13c1-a2-1.png
+  no/dl-fail
+
+[v13 c1] approach 2 try 2
+  attach: true
+  [ss] v13c1-a2-2.png
+  no/dl-fail
+
+[v13 c1] approach 3 try 1
+  attach: true
+  [ss] v13c1-a3-1.png
+  no/dl-fail
+
+[v13 c1] approach 3 try 2
+  attach: true
+  [ss] v13c1-a3-2.png
+  no/dl-fail
+
+[v13 c1] DONE ok=0

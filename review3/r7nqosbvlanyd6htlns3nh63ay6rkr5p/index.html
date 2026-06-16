@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>テールゲートリフター・高所作業車 重大事故事例集（レビュー）</title>
+<style>
+  :root { --bg:#f2f3f5; --card:#ffffff; --ink:#1a1a1a; --sub:#6b6b6b; --line:#e2e2e2; --accent:#c00000; }
+  * { box-sizing: border-box; -webkit-text-size-adjust: 100%; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, "Hiragino Kaku Gothic ProN", "Yu Gothic", "Segoe UI", Meiryo, sans-serif;
+    line-height: 1.5;
+    padding-bottom: 40px;
+  }
+  header {
+    background: #fff;
+    border-bottom: 1px solid var(--line);
+    padding: 16px 16px calc(14px + env(safe-area-inset-top));
+    padding-top: calc(16px + env(safe-area-inset-top));
+    position: sticky; top: 0; z-index: 10;
+  }
+  h1 { font-size: 16px; margin: 0 0 4px; font-weight: 700; }
+  .meta { font-size: 12px; color: var(--sub); margin: 0; }
+  .pdf {
+    display: inline-block;
+    margin-top: 12px;
+    background: var(--accent);
+    color: #fff !important;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 11px 18px;
+    border-radius: 8px;
+  }
+  .pdf:active { opacity: .8; }
+  .wrap { max-width: 820px; margin: 0 auto; padding: 14px 12px 0; }
+  figure { margin: 0 0 16px; background: var(--card); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+  figcaption { font-size: 12.5px; color: var(--sub); padding: 9px 12px; border-bottom: 1px solid var(--line); }
+  figcaption b { color: var(--ink); font-weight: 700; margin-right: 6px; }
+  img { display: block; width: 100%; height: auto; }
+  footer { text-align: center; color: var(--sub); font-size: 11px; padding: 18px 16px 0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>テールゲートリフター・高所作業車 重大事故事例集</h1>
+  <p class="meta">(株)博展 御中／レビュー用・全17枚（PowerPoint v4）／2026-06-13</p>
+  <a class="pdf" href="./hakuten_jirei_v4.pdf">📄 PDFを開く / ダウンロード</a>
+</header>
+<div class="wrap" id="list"></div>
+<footer>このページは限定共有用です（検索非掲載）。</footer>
+<script>
+  var slides = [
+    ["01","表紙"],
+    ["02","統計｜テールゲートリフター（TGL）災害"],
+    ["03","統計｜高所作業車 災害"],
+    ["04","事例① TGL 昇降板からの墜落（概要）"],
+    ["05","事例① TGL 昇降板からの墜落（表）"],
+    ["06","事例② TGL 昇降中のはさまれ（概要）"],
+    ["07","事例② TGL 昇降中のはさまれ（表）"],
+    ["08","事例③ TGL カゴ車の転倒・下敷き（概要）"],
+    ["09","事例③ TGL カゴ車の転倒・下敷き（表）"],
+    ["10","事例④ 高所作業車 バケットからの墜落（概要）"],
+    ["11","事例④ 高所作業車 バケットからの墜落（表）"],
+    ["12","事例⑤ 高所作業車 走行・旋回中の転倒（概要）"],
+    ["13","事例⑤ 高所作業車 走行・旋回中の転倒（表）"],
+    ["14","事例⑥ 高所作業車 上方構造物とのはさまれ（概要）"],
+    ["15","事例⑥ 高所作業車 上方構造物とのはさまれ（表）"],
+    ["16","現場チェックリスト"],
+    ["17","出典・参考資料"]
+  ];
+  var html = "";
+  for (var i = 0; i < slides.length; i++) {
+    var no = slides[i][0], label = slides[i][1];
+    html += '<figure><figcaption><b>' + no + '</b>' + label + '</figcaption>' +
+            '<img src="../img/' + no + '.png" alt="' + no + ' ' + label + '" loading="lazy"></figure>';
+  }
+  document.getElementById("list").innerHTML = html;
+</script>
+</body>
+</html>

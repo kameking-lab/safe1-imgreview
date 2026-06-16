@@ -1,0 +1,30 @@
+{
+  "kind": "photo",
+  "ok": [
+    {
+      "scene": 1,
+      "file": "gen01.png"
+    },
+    {
+      "scene": 2,
+      "file": "gen02.png"
+    },
+    {
+      "scene": 3,
+      "file": "gen03.png"
+    },
+    {
+      "scene": 4,
+      "file": "gen04.png"
+    },
+    {
+      "scene": 5,
+      "file": "gen05.png"
+    },
+    {
+      "scene": 6,
+      "file": "gen06.png"
+    }
+  ],
+  "fail": []
+}

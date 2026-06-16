@@ -1,0 +1,23 @@
+[gemini] ログイン済み
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+[parts] A try 1
+  [ss] parts-A-1.png
+[parts] A try 2
+  [ss] parts-A-2.png
+[parts] B try 1
+  [ss] parts-B-1.png
+[parts] B try 2
+  [ss] parts-B-2.png
+[parts] C1 try 1
+  [ss] parts-C1-1.png
+[parts] C1 try 2
+  [ss] parts-C1-2.png
+[parts] C2 try 1
+  [ss] parts-C2-1.png
+[parts] C2 try 2
+  [ss] parts-C2-2.png
+PARTS DONE

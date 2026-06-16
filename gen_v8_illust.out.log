@@ -1,0 +1,17 @@
+[carry] copied prev v7 -> v8
+[gemini] ログイン済み
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+
+[illust v8] scene 2 attempt 1
+  [ss] v8illust-s2-a1.png
+no image
+
+[illust v8] scene 2 attempt 2
+  [ss] v8illust-s2-a2.png
+saved C:\Users\kanet\20260522\safe1\images\illust_v8\gen02.png 1064354b
+
+[illust v8] DONE ok=1 fail=0

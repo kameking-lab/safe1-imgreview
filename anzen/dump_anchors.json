@@ -1,0 +1,221 @@
+{
+  "url": "https://anzeninfo.mhlw.go.jp/anzen_pg/SAI_LST.aspx",
+  "anchors": [
+    {
+      "href": "#",
+      "full": "https://anzeninfo.mhlw.go.jp/#",
+      "text": "職場のあんぜんサイト",
+      "onclick": null
+    },
+    {
+      "href": "/user/anzen/tok/toukei_index.html",
+      "full": "https://anzeninfo.mhlw.go.jp/user/anzen/tok/toukei_index.html",
+      "text": "労働災害統計のトップへ",
+      "onclick": null
+    },
+    {
+      "href": "/user/anzen/tok/bnsk00.html",
+      "full": "https://anzeninfo.mhlw.go.jp/user/anzen/tok/bnsk00.html",
+      "text": "労働災害原因要素の分析",
+      "onclick": null
+    },
+    {
+      "href": "/user/anzen/tok/dk00.html",
+      "full": "https://anzeninfo.mhlw.go.jp/user/anzen/tok/dk00.html",
+      "text": "労働災害動向調査（度数率・強度率）",
+      "onclick": null
+    },
+    {
+      "href": "/anzen/sai/saigai_index.html",
+      "full": "https://anzeninfo.mhlw.go.jp/anzen/sai/saigai_index.html",
+      "text": "労働災害事例のトップへ",
+      "onclick": null
+    },
+    {
+      "href": "/anzen_pg/SIB_FND.html",
+      "full": "https://anzeninfo.mhlw.go.jp/anzen_pg/SIB_FND.html",
+      "text": "死亡災害データベース",
+      "onclick": null
+    },
+    {
+      "href": "/anzen_pgm/SHISYO_FND.html",
+      "full": "https://anzeninfo.mhlw.go.jp/anzen_pgm/SHISYO_FND.html",
+      "text": "労働災害（死傷）データベース",
+      "onclick": null
+    },
+    {
+      "href": "/hiyari/anrdh00.html",
+      "full": "https://anzeninfo.mhlw.go.jp/hiyari/anrdh00.html",
+      "text": "ヒヤリ・ハット事例集",
+      "onclick": null
+    },
+    {
+      "href": "/anzen/sai/kikaisaigai.html",
+      "full": "https://anzeninfo.mhlw.go.jp/anzen/sai/kikaisaigai.html",
+      "text": "機械災害データベース",
+      "onclick": null
+    },
+    {
+      "href": "/user/anzen/kag/kagaku_index.html",
+      "full": "https://anzeninfo.mhlw.go.jp/user/anzen/kag/kagaku_index.html",
+      "text": "化学物質のトップへ",
+      "onclick": null
+    },
+    {
+      "href": "/anzen_pg/KAG_FND.aspx",
+      "full": "https://anzeninfo.mhlw.go.jp/anzen_pg/KAG_FND.aspx",
+      "text": "安衛法名称公表化学物質等",
+      "onclick": null
+    },
+    {
+      "href": "/anzen_pg/GHS_MSD_FND.aspx",
+      "full": "https://anzeninfo.mhlw.go.jp/anzen_pg/GHS_MSD_FND.aspx",
+      "text": "GHS対応モデルラベル・モデルSDS情報",
+      "onclick": null
+    },
+    {
+      "href": "/anzen/gmsds_label/label_howmade.html",
+      "full": "https://anzeninfo.mhlw.go.jp/anzen/gmsds_label/label_howmade.html",
+      "text": "GHS対応モデルラベル作成法",
+      "onclick": null
+    },
+    {
+      "href": "/user/anzen/kag/saigaijirei.htm",
+      "full": "https://anzeninfo.mhlw.go.jp/user/anzen/kag/saigaijirei.htm",
+      "text": "化学物質による災害事例集",
+      "onclick": null
+    },
+    {
+      "href": "/user/anzen/kag/ankgc07.htm",
+      "full": "https://anzeninfo.mhlw.go.jp/user/anzen/kag/ankgc07.htm",
+      "text": "化学物質のリスクアセスメント実施支援",
+      "onclick": null
+    },
+    {
+      "href": "/user/anzen/kag/kagaku_index.html",
+      "full": "https://anzeninfo.mhlw.go.jp/user/anzen/kag/kagaku_index.html",
+      "text": "その他の情報はこちら（化学物質のトップへ）",
+      "onclick": null
+    },
+    {
+      "href": "javascript:f_page_send(101412)",
+      "full": "javascript:f_page_send(101412)",
+      "text": "坂道にて設置していた高所作業車が逸走し、高所作業車のアウトリガーの底面と、道路脇の側溝との間に挟まれ",
+      "onclick": null
+    },
+    {
+      "href": "javascript:f_page_send(101377)",
+      "full": "javascript:f_page_send(101377)",
+      "text": "高所作業車を使用して、大木の枝切り作業を行っていたところ、高所作業車が後方に転倒し、被災者が地面に激",
+      "onclick": null
+    },
+    {
+      "href": "javascript:f_page_send(101270)",
+      "full": "javascript:f_page_send(101270)",
+      "text": "高所作業車のデッキ上で型わくの解体作業中、デッキ手すりと橋桁下面との間にはさまれる",
+      "onclick": null
+    },
+    {
+      "href": "javascript:f_page_send(101240)",
+      "full": "javascript:f_page_send(101240)",
+      "text": "坂道に止めていた高所作業車が動き出して電柱にぶつかり、止めようとした作業者がドアと車体にはさまれ死亡",
+      "onclick": null
+    },
+    {
+      "href": "javascript:f_page_send(101212)",
+      "full": "javascript:f_page_send(101212)",
+      "text": "化学プラントの配管をガス溶断中、配管内のトルエンに引火し火傷",
+      "onclick": null
+    },
+    {
+      "href": "javascript:f_page_send(101194)",
+      "full": "javascript:f_page_send(101194)",
+      "text": "金属部品のはい崩し中、はいが崩壊し、はいの下敷きになった",
+      "onclick": null
+    },
+    {
+      "href": "javascript:f_page_send(101186)",
+      "full": "javascript:f_page_send(101186)",
+      "text": "植木の枝切り作業中に脚立から転落し死亡",
+      "onclick": null
+    },
+    {
+      "href": "javascript:f_page_send(101181)",
+      "full": "javascript:f_page_send(101181)",
+      "text": "フォークリフトで持ち上げた作業台が転落し、乗っていた2名が被災し1名が死亡",
+      "onclick": null
+    },
+    {
+      "href": "javascript:f_page_send(101130)",
+      "full": "javascript:f_page_send(101130)",
+      "text": "建造中のバラ積み運搬船の船倉内で吹き付け塗装中に爆発し、作業者2人が死亡",
+      "onclick": null
+    },
+    {
+      "href": "javascript:f_page_send(101083)",
+      "full": "javascript:f_page_send(101083)",
+      "text": "屋根上で作業中、明り採り用波板を踏み抜いて墜落し死亡",
+      "onclick": null
+    },
+    {
+      "href": "javascript:f_page_send(101073)",
+      "full": "javascript:f_page_send(101073)",
+      "text": "光ファイバーケーブルの架線工事中に感電し死亡",
+      "onclick": null
+    },
+    {
+      "href": "javascript:f_page_send(101037)",
+      "full": "javascript:f_page_send(101037)",
+      "text": "高所作業車で電気ケーブル撤去作業中、感電し死亡",
+      "onclick": null
+    },
+    {
+      "href": "javascript:f_page_send(100933)",
+      "full": "javascript:f_page_send(100933)",
+      "text": "製鉄所の空気分離装置の解体作業で保冷材の抜き取り準備中に流出した保冷材に埋没し死亡",
+      "onclick": null
+    },
+    {
+      "href": "javascript:f_page_send(100877)",
+      "full": "javascript:f_page_send(100877)",
+      "text": "30万トン級タンカーの建造中にブロックが倒壊し5名が死傷",
+      "onclick": null
+    },
+    {
+      "href": "javascript:f_page_send(100818)",
+      "full": "javascript:f_page_send(100818)",
+      "text": "高圧配電線の張替え工事中に感電",
+      "onclick": null
+    },
+    {
+      "href": "javascript:f_page_send(100813)",
+      "full": "javascript:f_page_send(100813)",
+      "text": "街路樹の枝切り中に、高圧配電線に触れ感電",
+      "onclick": null
+    },
+    {
+      "href": "javascript:f_page_send(100614)",
+      "full": "javascript:f_page_send(100614)",
+      "text": "鉄道高架橋下で高所作業車により作業中、高架橋の下面と操作盤との間にはさまれる",
+      "onclick": null
+    },
+    {
+      "href": "javascript:f_page_send(100432)",
+      "full": "javascript:f_page_send(100432)",
+      "text": "作業中の高所作業車に走行式ジブクレーンが激突し、作業車から墜落",
+      "onclick": null
+    },
+    {
+      "href": "javascript:f_page_send(100318)",
+      "full": "javascript:f_page_send(100318)",
+      "text": "土止め支保工の組立て作業中に切梁(きりばり)が落下",
+      "onclick": null
+    },
+    {
+      "href": "javascript:f_page_send(100217)",
+      "full": "javascript:f_page_send(100217)",
+      "text": "トンネル工事での測量作業中に高所作業車にひかれる",
+      "onclick": null
+    }
+  ]
+}

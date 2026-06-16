@@ -1,0 +1,57 @@
+[gemini] ログイン済み
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+
+[photo v6] scene 1 attempt 1
+  [ss] v6photo-s1-a1.png
+saved C:\Users\kanet\20260522\safe1\images\photo_v6\gen01.png 1340928b
+
+[photo v6] scene 2 attempt 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v6photo-s2-a1.png
+saved C:\Users\kanet\20260522\safe1\images\photo_v6\gen02.png 1324374b
+
+[photo v6] scene 3 attempt 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v6photo-s3-a1.png
+saved C:\Users\kanet\20260522\safe1\images\photo_v6\gen03.png 1401860b
+
+[photo v6] scene 4 attempt 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v6photo-s4-a1.png
+saved C:\Users\kanet\20260522\safe1\images\photo_v6\gen04.png 1258946b
+
+[photo v6] scene 5 attempt 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v6photo-s5-a1.png
+saved C:\Users\kanet\20260522\safe1\images\photo_v6\gen05.png 1590805b
+
+[photo v6] scene 6 attempt 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v6photo-s6-a1.png
+saved C:\Users\kanet\20260522\safe1\images\photo_v6\gen06.png 1458058b
+
+[photo v6] DONE ok=6 fail=0

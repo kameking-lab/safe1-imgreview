@@ -1,0 +1,597 @@
+=== run_all_v12 START ===
+--- case 1 illust ---
+[gemini] ログイン済み
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+
+[c1 illust] approach 1 try 1
+  [ss] v12c1illust-a1-1.png
+no image
+
+[c1 illust] approach 1 try 2
+  [ss] v12c1illust-a1-2.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case1\illust\01.png
+
+[c1 illust] approach 2 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c1illust-a2-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case1\illust\02.png
+
+[c1 illust] approach 3 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c1illust-a3-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case1\illust\03.png
+
+[c1 illust] approach 4 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c1illust-a4-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case1\illust\04.png
+
+[c1 illust] approach 5 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c1illust-a5-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case1\illust\05.png
+
+[c1 illust] DONE ok=5 fail=0
+done case 1 illust
+--- case 1 photo ---
+[gemini] ログイン済み
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+
+[c1 photo] approach 1 try 1
+  [ss] v12c1photo-a1-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case1\photo\01.png
+
+[c1 photo] approach 2 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c1photo-a2-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case1\photo\02.png
+
+[c1 photo] approach 3 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c1photo-a3-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case1\photo\03.png
+
+[c1 photo] approach 4 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c1photo-a4-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case1\photo\04.png
+
+[c1 photo] approach 5 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c1photo-a5-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case1\photo\05.png
+
+[c1 photo] DONE ok=5 fail=0
+done case 1 photo
+--- case 2 illust ---
+[gemini] ログイン済み
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+
+[c2 illust] approach 1 try 1
+  [ss] v12c2illust-a1-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case2\illust\01.png
+
+[c2 illust] approach 2 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c2illust-a2-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case2\illust\02.png
+
+[c2 illust] approach 3 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c2illust-a3-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case2\illust\03.png
+
+[c2 illust] approach 4 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c2illust-a4-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case2\illust\04.png
+
+[c2 illust] approach 5 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c2illust-a5-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case2\illust\05.png
+
+[c2 illust] DONE ok=5 fail=0
+done case 2 illust
+--- case 2 photo ---
+[gemini] ログイン済み
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+
+[c2 photo] approach 1 try 1
+  [ss] v12c2photo-a1-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case2\photo\01.png
+
+[c2 photo] approach 2 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c2photo-a2-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case2\photo\02.png
+
+[c2 photo] approach 3 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c2photo-a3-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case2\photo\03.png
+
+[c2 photo] approach 4 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c2photo-a4-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case2\photo\04.png
+
+[c2 photo] approach 5 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c2photo-a5-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case2\photo\05.png
+
+[c2 photo] DONE ok=5 fail=0
+done case 2 photo
+--- case 3 illust ---
+[gemini] ログイン済み
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+
+[c3 illust] approach 1 try 1
+  [ss] v12c3illust-a1-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case3\illust\01.png
+
+[c3 illust] approach 2 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c3illust-a2-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case3\illust\02.png
+
+[c3 illust] approach 3 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c3illust-a3-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case3\illust\03.png
+
+[c3 illust] approach 4 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c3illust-a4-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case3\illust\04.png
+
+[c3 illust] approach 5 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c3illust-a5-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case3\illust\05.png
+
+[c3 illust] DONE ok=5 fail=0
+done case 3 illust
+--- case 3 photo ---
+[gemini] ログイン済み
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+
+[c3 photo] approach 1 try 1
+  [ss] v12c3photo-a1-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case3\photo\01.png
+
+[c3 photo] approach 2 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c3photo-a2-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case3\photo\02.png
+
+[c3 photo] approach 3 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c3photo-a3-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case3\photo\03.png
+
+[c3 photo] approach 4 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+done case 3 photo
+--- case 4 illust ---
+[gemini] ログイン済み
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+
+[c4 illust] approach 1 try 1
+  [ss] v12c4illust-a1-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case4\illust\01.png
+
+[c4 illust] approach 2 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c4illust-a2-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case4\illust\02.png
+
+[c4 illust] approach 3 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c4illust-a3-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case4\illust\03.png
+
+[c4 illust] approach 4 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c4illust-a4-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case4\illust\04.png
+
+[c4 illust] approach 5 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c4illust-a5-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case4\illust\05.png
+
+[c4 illust] DONE ok=5 fail=0
+done case 4 illust
+--- case 4 photo ---
+[gemini] ログイン済み
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+
+[c4 photo] approach 1 try 1
+  [ss] v12c4photo-a1-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case4\photo\01.png
+
+[c4 photo] approach 2 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c4photo-a2-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case4\photo\02.png
+
+[c4 photo] approach 3 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c4photo-a3-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case4\photo\03.png
+
+[c4 photo] approach 4 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c4photo-a4-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case4\photo\04.png
+
+[c4 photo] approach 5 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c4photo-a5-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case4\photo\05.png
+
+[c4 photo] DONE ok=5 fail=0
+done case 4 photo
+--- case 5 illust ---
+[gemini] ログイン済み
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+
+[c5 illust] approach 1 try 1
+  [ss] v12c5illust-a1-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case5\illust\01.png
+
+[c5 illust] approach 2 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c5illust-a2-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case5\illust\02.png
+
+[c5 illust] approach 3 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c5illust-a3-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case5\illust\03.png
+
+[c5 illust] approach 4 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c5illust-a4-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case5\illust\04.png
+
+[c5 illust] approach 5 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c5illust-a5-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case5\illust\05.png
+
+[c5 illust] DONE ok=5 fail=0
+done case 5 illust
+--- case 5 photo ---
+[gemini] ログイン済み
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+
+[c5 photo] approach 1 try 1
+  [ss] v12c5photo-a1-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case5\photo\01.png
+
+[c5 photo] approach 2 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c5photo-a2-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case5\photo\02.png
+
+[c5 photo] approach 3 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c5photo-a3-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case5\photo\03.png
+
+[c5 photo] approach 4 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c5photo-a4-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case5\photo\04.png
+
+[c5 photo] approach 5 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c5photo-a5-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case5\photo\05.png
+
+[c5 photo] DONE ok=5 fail=0
+done case 5 photo
+--- case 6 illust ---
+[gemini] ログイン済み
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+
+[c6 illust] approach 1 try 1
+  [ss] v12c6illust-a1-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case6\illust\01.png
+
+[c6 illust] approach 2 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c6illust-a2-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case6\illust\02.png
+
+[c6 illust] approach 3 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c6illust-a3-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case6\illust\03.png
+
+[c6 illust] approach 4 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c6illust-a4-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case6\illust\04.png
+
+[c6 illust] approach 5 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c6illust-a5-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case6\illust\05.png
+
+[c6 illust] DONE ok=5 fail=0
+done case 6 illust
+--- case 6 photo ---
+[gemini] ログイン済み
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+
+[c6 photo] approach 1 try 1
+  [ss] v12c6photo-a1-1.png
+no image
+
+[c6 photo] approach 1 try 2
+  [ss] v12c6photo-a1-2.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case6\photo\01.png
+
+[c6 photo] approach 2 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c6photo-a2-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case6\photo\02.png
+
+[c6 photo] approach 3 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c6photo-a3-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case6\photo\03.png
+
+[c6 photo] approach 4 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c6photo-a4-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case6\photo\04.png
+
+[c6 photo] approach 5 try 1
+  [gemini-helpers] 「ツール」ボタンで画像メニューが出ず
+  [ss] gemini-tools-drawer-fail.png
+  [gemini-helpers] Proモード切替を試行...
+  [gemini-helpers] モード選択ドロップダウン展開: button[aria-label*="モード選択"]
+  [gemini-helpers] Proモード選択: [role="menuitem"]:has-text("Pro")
+  [ss] v12c6photo-a5-1.png
+saved C:\Users\kanet\20260522\safe1\images\cand_v12\case6\photo\05.png
+
+[c6 photo] DONE ok=5 fail=0
+done case 6 photo
+=== run_all_v12 DONE ===
