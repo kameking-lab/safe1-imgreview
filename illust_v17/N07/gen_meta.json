@@ -1,0 +1,17 @@
+{
+  "N": "N07",
+  "cat": "高所",
+  "title": "梁下を移動中、上方の梁と操作盤の間に挟まれ",
+  "openai_model": "gpt-image-2",
+  "google_model": "gemini-3-pro-image-preview",
+  "results": {
+    "openai_illust.png": {
+      "ok": true,
+      "model": "gpt-image-2"
+    },
+    "google_illust.png": {
+      "ok": true,
+      "model": "gemini-3-pro-image-preview"
+    }
+  }
+}
