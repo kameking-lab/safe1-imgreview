@@ -1,4 +1,4 @@
-- [ ] I-N01 N01イラスト化(OpenAI+Google各1)＋自己点検
+- [x] I-N01 N01イラスト化(OpenAI+Google各1)＋自己点検
 - [ ] I-N02 N02 同上
 - [ ] I-N03 N03 同上
 - [ ] I-N04 N04 同上
