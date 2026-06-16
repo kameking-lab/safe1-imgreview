@@ -1,0 +1,17 @@
+{
+  "N": "N09",
+  "cat": "高所",
+  "title": "看板取付で身を乗り出し、作業床から墜落",
+  "openai_model": "gpt-image-2",
+  "google_model": "gemini-3-pro-image-preview",
+  "results": {
+    "openai_illust.png": {
+      "ok": true,
+      "model": "gpt-image-2"
+    },
+    "google_illust.png": {
+      "ok": true,
+      "model": "gemini-3-pro-image-preview"
+    }
+  }
+}
