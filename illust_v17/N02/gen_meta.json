@@ -1,0 +1,17 @@
+{
+  "N": "N02",
+  "cat": "TGL",
+  "title": "什器の積み下ろし中、昇降板と車体の間に足を挟まれ",
+  "openai_model": "gpt-image-2",
+  "google_model": "gemini-3-pro-image-preview",
+  "results": {
+    "openai_illust.png": {
+      "ok": true,
+      "model": "gpt-image-2"
+    },
+    "google_illust.png": {
+      "ok": true,
+      "model": "gemini-3-pro-image-preview"
+    }
+  }
+}
