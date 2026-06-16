@@ -1,0 +1,18 @@
+- [ ] I-N01 N01イラスト化(OpenAI+Google各1)＋自己点検
+- [ ] I-N02 N02 同上
+- [ ] I-N03 N03 同上
+- [ ] I-N04 N04 同上
+- [ ] I-N05 N05 同上
+- [ ] I-N06 N06 同上
+- [ ] I-N07 N07 同上
+- [ ] I-N08 N08 同上
+- [ ] I-N09 N09 同上
+- [ ] I-N10 N10 同上
+- [ ] I-N11 N11 同上
+- [ ] I-N12 N12 同上
+- [ ] I-N13 N13 同上
+- [ ] I-N14 N14 同上
+- [ ] I-N15 N15 同上
+- [ ] BUILD compare_illust_v17.pdf 生成（1事例1ページ・元写真vsイラスト2枚の対比）
+- [ ] DEPLOY review_illust/<ランダム32文字>/ にPDF＋index.html(静的/noindex/スマホ縦/開く・保存＋iframe)・Vercel hakuten-review再デプロイ(既存URL保持・ルート/=404・HTTP200)・GitHub(main)へPDF push
+- [ ] REPORT REPORT_ILLUST.md作成push（公開URL/PDF直URL＋raw・生成枚数・各事例の使用モデル・破綻補正できた事例の所感・残課題）
