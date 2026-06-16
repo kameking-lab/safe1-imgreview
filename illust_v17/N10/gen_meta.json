@@ -1,0 +1,17 @@
+{
+  "N": "N10",
+  "cat": "高所",
+  "title": "作業床上昇中、操作盤フレームと天井の間に胸部を挟まれ",
+  "openai_model": "gpt-image-2",
+  "google_model": "gemini-3-pro-image-preview",
+  "results": {
+    "openai_illust.png": {
+      "ok": true,
+      "model": "gpt-image-2"
+    },
+    "google_illust.png": {
+      "ok": true,
+      "model": "gemini-3-pro-image-preview"
+    }
+  }
+}
