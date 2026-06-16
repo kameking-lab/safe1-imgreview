@@ -3,7 +3,7 @@
 - [x] D3 TGL編 法令/規則(特別教育義務化等)を出典200確認のうえ執筆 study/tgl_law.md
 - [x] D4 高所編 危険ポイント・機序・事例(検証URL)執筆 study/aerial.md
 - [x] D5 高所編 法令/規則(技能講習/フルハーネス/離隔距離等)を出典200確認のうえ執筆 study/aerial_law.md
-- [ ] D6 横断管理＋イベント設営現場の留意 study/cross.md
+- [x] D6 横断管理＋イベント設営現場の留意 study/cross.md
 - [ ] D7 想定問答10問＋模範回答(根拠付き) study/qa.md
 - [ ] D8 エグゼクティブ要点＋用語集＋出典一覧 study/summary.md
 - [ ] BUILD study_tgl_aerial.pdf 生成(全章統合・数表/箇条書き・章末出典・スマホ可版面)
