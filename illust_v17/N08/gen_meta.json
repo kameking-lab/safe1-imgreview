@@ -1,0 +1,17 @@
+{
+  "N": "N08",
+  "cat": "高所",
+  "title": "養生ネットを外そうとしてバスケットから墜落",
+  "openai_model": "gpt-image-2",
+  "google_model": "gemini-3-pro-image-preview",
+  "results": {
+    "openai_illust.png": {
+      "ok": true,
+      "model": "gpt-image-2"
+    },
+    "google_illust.png": {
+      "ok": true,
+      "model": "gemini-3-pro-image-preview"
+    }
+  }
+}
