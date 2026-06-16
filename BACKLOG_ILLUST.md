@@ -11,7 +11,7 @@
 - [x] I-N11 N11 同上
 - [x] I-N12 N12 同上
 - [x] I-N13 N13 同上
-- [ ] I-N14 N14 同上
+- [x] I-N14 N14 同上
 - [ ] I-N15 N15 同上
 - [ ] BUILD compare_illust_v17.pdf 生成（1事例1ページ・元写真vsイラスト2枚の対比）
 - [ ] DEPLOY review_illust/<ランダム32文字>/ にPDF＋index.html(静的/noindex/スマホ縦/開く・保存＋iframe)・Vercel hakuten-review再デプロイ(既存URL保持・ルート/=404・HTTP200)・GitHub(main)へPDF push

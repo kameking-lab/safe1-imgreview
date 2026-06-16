@@ -1,0 +1,17 @@
+{
+  "N": "N14",
+  "cat": "高所",
+  "title": "外周作業で作業床から身を出し、高所から墜落",
+  "openai_model": "gpt-image-2",
+  "google_model": "gemini-3-pro-image-preview",
+  "results": {
+    "openai_illust.png": {
+      "ok": true,
+      "model": "gpt-image-2"
+    },
+    "google_illust.png": {
+      "ok": true,
+      "model": "gemini-3-pro-image-preview"
+    }
+  }
+}
