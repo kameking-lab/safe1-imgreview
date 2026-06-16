@@ -1,4 +1,4 @@
-- [ ] D1 既存xlsx/事例の棚卸し＋TGL/高所の事故の型別件数を集計(study/stats.md)
+- [x] D1 既存xlsx/事例の棚卸し＋TGL/高所の事故の型別件数を集計(study/stats.md)
 - [ ] D2 TGL編 危険ポイント・機序・事例(検証URL)執筆 study/tgl.md
 - [ ] D3 TGL編 法令/規則(特別教育義務化等)を出典200確認のうえ執筆 study/tgl_law.md
 - [ ] D4 高所編 危険ポイント・機序・事例(検証URL)執筆 study/aerial.md
