@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>AI画像 失敗の診断 と 手法試作の比較（proto）</title>
+<style>
+  :root{--bg:#f2f3f5;--ink:#1a1a1a;--sub:#5f5f5f;--line:#e2e2e2;--accent:#c0392b;--green:#1f7a3d;--blue:#1558b0;}
+  *{box-sizing:border-box;-webkit-text-size-adjust:100%;}
+  html,body{margin:0;padding:0;max-width:100%;overflow-x:hidden;}
+  body{background:var(--bg);color:var(--ink);font-family:-apple-system,"Hiragino Kaku Gothic ProN","Yu Gothic","Segoe UI",Meiryo,sans-serif;line-height:1.6;padding-bottom:40px;}
+  header{background:#fff;border-bottom:1px solid var(--line);padding:calc(14px + env(safe-area-inset-top)) 16px 14px;position:sticky;top:0;z-index:20;}
+  h1{font-size:15px;margin:0 0 3px;font-weight:700;}
+  .meta{font-size:11.5px;color:var(--sub);margin:0;}
+  section{padding:14px 12px 0;max-width:980px;margin:0 auto;}
+  .dl{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 10px;}
+  .dl a{flex:1 1 46%;text-align:center;text-decoration:none;font-size:13px;font-weight:600;padding:12px 8px;border-radius:8px;color:#fff !important;}
+  .tab{background:var(--blue);} .save{background:var(--green);}
+  .note{font-size:12px;color:var(--sub);margin:6px 0 8px;}
+  .frame{width:100%;height:88vh;border:1px solid var(--line);border-radius:8px;background:#fff;}
+  ul{font-size:13px;padding-left:18px;margin:8px 0 0;}
+  footer{text-align:center;color:var(--sub);font-size:11px;padding:18px 16px 0;}
+</style>
+</head>
+<body>
+<header>
+  <h1>AI画像 失敗の診断 と 手法試作の比較（proto）</h1>
+  <p class="meta">事例②で M1模式図／M2パーツ合成／M3ハイブリッド を試作・比較／2026-06-13</p>
+</header>
+<section>
+  <div class="dl">
+    <a class="tab" href="./proto_compare.pdf" target="_blank" rel="noopener">🔎 PDFを新規タブで開く</a>
+    <a class="save" href="./proto_compare.pdf" download>⬇ PDFを保存</a>
+  </div>
+  <p class="note">診断要約→手法ごとの試作（大判）＋ねらい/弱点→比較とCLIの推奨。下の枠を縦スクロールで全ページ閲覧（表示されない場合は上の「新規タブで開く」）。最終手法の決定は人間が行う前提です。</p>
+  <iframe class="frame" src="./proto_compare.pdf" title="proto_compare PDF"></iframe>
+  <ul>
+    <li>M1：純・模式図（コード作画）— 単一図＋4コマ連鎖図</li>
+    <li>M2：パーツ合成（AI素材を座標制御で配置）</li>
+    <li>M3：ハイブリッド（AI背景＋コードで人・荷・矢印）</li>
+  </ul>
+</section>
+<footer>限定共有用（検索非掲載）。</footer>
+</body>
+</html>

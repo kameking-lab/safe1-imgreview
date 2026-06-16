@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>イベント設営現場 想定事故事例集（全15事例）＋動画プロンプト集</title>
+<style>
+  :root{--bg:#f2f3f5;--ink:#1a1a1a;--sub:#5f5f5f;--line:#e2e2e2;--accent:#c0392b;--green:#1f7a3d;--blue:#1558b0;--purple:#5b3fa0;--mute:#9a9a9a;}
+  *{box-sizing:border-box;-webkit-text-size-adjust:100%;}
+  html,body{margin:0;padding:0;max-width:100%;overflow-x:hidden;}
+  body{background:var(--bg);color:var(--ink);font-family:-apple-system,"Hiragino Kaku Gothic ProN","Yu Gothic","Segoe UI",Meiryo,sans-serif;line-height:1.6;padding-bottom:40px;}
+  header{background:#fff;border-bottom:1px solid var(--line);padding:calc(14px + env(safe-area-inset-top)) 16px 14px;position:sticky;top:0;z-index:20;}
+  h1{font-size:15px;margin:0 0 3px;font-weight:700;}
+  .meta{font-size:11.5px;color:var(--sub);margin:0;}
+  .badge{display:inline-block;background:#fbe9e7;color:var(--accent);font-size:11px;font-weight:700;padding:2px 8px;border-radius:10px;margin-top:5px;}
+  section{padding:14px 12px 0;max-width:980px;margin:0 auto;}
+  .dl{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 10px;}
+  .dl a{flex:1 1 30%;text-align:center;text-decoration:none;font-size:13px;font-weight:600;padding:12px 8px;border-radius:8px;color:#fff !important;}
+  .tab{background:var(--blue);} .save{background:var(--green);} .ppt{background:var(--accent);} .vid{background:var(--purple);}
+  .note{font-size:12px;color:var(--sub);margin:6px 0 8px;}
+  .frame{width:100%;height:86vh;border:1px solid var(--line);border-radius:8px;background:#fff;}
+  .cat{font-size:12.5px;font-weight:700;margin:18px 0 4px;color:var(--ink);}
+  table{width:100%;border-collapse:collapse;font-size:12px;margin:2px 0 8px;background:#fff;border:1px solid var(--line);border-radius:8px;overflow:hidden;}
+  th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top;}
+  th{background:#fafafa;font-weight:700;color:var(--sub);}
+  td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;}
+  tr:last-child td{border-bottom:none;}
+  .tot td{font-weight:700;background:#fafafa;}
+  footer{text-align:center;color:var(--sub);font-size:11px;padding:18px 16px 0;}
+</style>
+</head>
+<body>
+<header>
+  <h1>イベント設営現場 想定事故事例集（全15事例）</h1>
+  <p class="meta">表紙＋15事例×2スライド（写真スライド＝base/OpenAI/Google の3案を横並び／項目スライド＝発生事象・原因・対応・対策）＝計31スライド。別冊で動画プロンプト集（15事例×Sora 2／Veo 3.1×日英×3フェーズ）。2026-06-15 時点。</p>
+  <span class="badge">15事例・31スライド／監修：金田 義太（登録第4840号）</span>
+</header>
+<section>
+  <p class="cat">■ 事故事例集（PowerPoint / PDF）</p>
+  <div class="dl">
+    <a class="tab" href="./hakuten_jirei_v2.pdf" target="_blank" rel="noopener">🔎 事例集PDFを開く</a>
+    <a class="save" href="./hakuten_jirei_v2.pdf" download>⬇ PDFを保存</a>
+    <a class="ppt" href="./hakuten_jirei_v2.pptx" download>⬇ PowerPoint(.pptx)</a>
+  </div>
+  <p class="note">イベント設営現場で起こり得る事故を想定した創作事例集（16:9）。各事例は「写真スライド（生成画像 base／OpenAI／Google の3案を横並び・AIモデル名ラベルは非表示）」＋「項目スライド（発生事象／原因概要／対応／対策概要・箇条書き）」の2スライド構成。AI生成・創作である旨は表紙に1行のみ。参考にした災害事例の出典は「参考資料」として控えめに記載。下の枠を縦スクロールで全ページ閲覧（表示されない場合は上の「開く」）。</p>
+  <iframe class="frame" src="./hakuten_jirei_v2.pdf" title="hakuten jirei v2 PDF"></iframe>
+
+  <p class="cat">■ 動画プロンプト集（別冊PDF）</p>
+  <div class="dl">
+    <a class="tab" href="./video_prompts_v16.pdf" target="_blank" rel="noopener">🔎 動画プロンプト集を開く</a>
+    <a class="vid" href="./video_prompts_v16.pdf" download>⬇ 動画プロンプト集PDF</a>
+  </div>
+  <p class="note">15事例それぞれに、開始フレーム候補画像（base／OpenAI／Google）と〔前→事故の瞬間→後〕の3フェーズ動画プロンプトを、OpenAI Sora 2 用と Google Veo 3.1 用の2種・日本語/英語併記で収録（image-to-video 前提・約8秒・日本の会場・PPE・実在ロゴ無し・流血なし・「安全教育用の再現」文脈）。計180プロンプト（15事例×3フェーズ×2モデル×日英）。</p>
+  <iframe class="frame" src="./video_prompts_v16.pdf" title="video prompts v16 PDF"></iframe>
+
+  <p class="cat">■ 収録15事例（創作タイトル）</p>
+  <table>
+    <tr><th>No</th><th>区分</th><th>創作タイトル</th></tr>
+    <tr><td class="n">N01</td><td>TGL</td><td>展示パネル積み下ろし中、昇降板からの墜落</td></tr>
+    <tr><td class="n">N02</td><td>TGL</td><td>什器の積み下ろし中、昇降板と車体の間に足を挟まれ</td></tr>
+    <tr><td class="n">N03</td><td>TGL</td><td>パワーゲートでの荷役中、昇降板から転落しかけ</td></tr>
+    <tr><td class="n">N04</td><td>TGL</td><td>台車を昇降装置へ移す際、台車が落下し下敷きに</td></tr>
+    <tr><td class="n">N05</td><td>TGL</td><td>荷下ろし中、カゴ台車が倒れ作業員が転倒</td></tr>
+    <tr><td class="n">N06</td><td>高所</td><td>会場天井付近の作業中、作業床手すりと上方構造物の間に挟まれ</td></tr>
+    <tr><td class="n">N07</td><td>高所</td><td>梁下を移動中、上方の梁と操作盤の間に挟まれ</td></tr>
+    <tr><td class="n">N08</td><td>高所</td><td>養生ネットを外そうとしてバスケットから墜落</td></tr>
+    <tr><td class="n">N09</td><td>高所</td><td>看板取付で身を乗り出し、作業床から墜落</td></tr>
+    <tr><td class="n">N10</td><td>高所</td><td>作業床上昇中、操作盤フレームと天井の間に胸部を挟まれ</td></tr>
+    <tr><td class="n">N11</td><td>高所</td><td>バスケットから移ろうとして墜落</td></tr>
+    <tr><td class="n">N12</td><td>高所</td><td>傾斜地で旋回中、機体がバランスを崩し転倒</td></tr>
+    <tr><td class="n">N13</td><td>高所</td><td>手すりに足をかけたダクト取付中に墜落</td></tr>
+    <tr><td class="n">N14</td><td>高所</td><td>外周作業で作業床から身を出し、高所から墜落</td></tr>
+    <tr><td class="n">N15</td><td>高所</td><td>低い梁下を移動中、下がり壁と手すりの間に挟まれ</td></tr>
+  </table>
+
+  <p class="cat">■ 構成・件数</p>
+  <table>
+    <tr><th>区分</th><th class="n">事例</th><th class="n">スライド/件</th></tr>
+    <tr><td>TGL（テールゲートリフター／昇降板）</td><td class="n">5</td><td class="n">10</td></tr>
+    <tr><td>高所（高所作業車・MEWP 等）</td><td class="n">10</td><td class="n">20</td></tr>
+    <tr class="tot"><td>事例集 合計（＋表紙1）</td><td class="n">15</td><td class="n">31</td></tr>
+    <tr><td>動画プロンプト（15×3フェーズ×2モデル×日英）</td><td class="n">15</td><td class="n">180</td></tr>
+  </table>
+
+  <p class="note">本資料はAI生成画像を用いた創作（フィクション）の安全教育用事例集です。AIモデル名は客先体裁のため非表示。参考にした災害事例の出典（職場のあんぜんサイト／建設荷役車両安全技術協会）は「参考資料」として控えめに記載しています。全4ラウンドの目視QA（PowerPoint COMでPDF/PNG化）でブロッキング問題ゼロを確認済み。</p>
+</section>
+<footer>限定共有用（検索非掲載・noindex・外部読込なし）。イベント設営 想定事故事例集＋動画プロンプト集・2026-06-15。</footer>
+</body>
+</html>

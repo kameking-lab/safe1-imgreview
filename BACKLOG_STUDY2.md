@@ -4,5 +4,5 @@
 - [x] V4 30秒サマリー＋TGL編＋高所編＋イベント設営留意＋想定問答＋出典一覧の各ページ構成(テキスト最小)
 - [x] V5 e-Gov「労働安全衛生規則」を確認しTGL特別教育の条文号数を可能なら確定(できなければ第36条までに留める)
 - [x] BUILD study_tgl_aerial_v2.pdf 生成(図表埋め込み・流し読み版面・スマホ可)
-- [ ] DEPLOY review_study2/<ランダム32文字>/ にPDF＋index.html(静的/noindex/スマホ縦/開く・保存＋iframe)・Vercel hakuten-review再デプロイ(過去全トークンをunionで束ね既存URL全200保持・ルート/=404・HTTP200)・GitHub(main)へPDF push
+- [x] DEPLOY review_study2/<ランダム32文字>/ にPDF＋index.html(静的/noindex/スマホ縦/開く・保存＋iframe)・Vercel hakuten-review再デプロイ(過去全トークンをunionで束ね既存URL全200保持・ルート/=404・HTTP200)・GitHub(main)へPDF push
 - [ ] REPORT REPORT_STUDY2.md作成push(公開URL/PDF直URL＋raw・死亡者数と死傷者数(TGL/高所)・事故型トップ3・確定した条文号数 or 未確定の旨・図の一覧)
