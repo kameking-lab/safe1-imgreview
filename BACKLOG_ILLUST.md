@@ -15,4 +15,4 @@
 - [x] I-N15 N15 同上
 - [x] BUILD compare_illust_v17.pdf 生成（1事例1ページ・元写真vsイラスト2枚の対比）
 - [x] DEPLOY review_illust/<ランダム32文字>/ にPDF＋index.html(静的/noindex/スマホ縦/開く・保存＋iframe)・Vercel hakuten-review再デプロイ(既存URL保持・ルート/=404・HTTP200)・GitHub(main)へPDF push
-- [ ] REPORT REPORT_ILLUST.md作成push（公開URL/PDF直URL＋raw・生成枚数・各事例の使用モデル・破綻補正できた事例の所感・残課題）
+- [x] REPORT REPORT_ILLUST.md作成push（公開URL/PDF直URL＋raw・生成枚数・各事例の使用モデル・破綻補正できた事例の所感・残課題）
