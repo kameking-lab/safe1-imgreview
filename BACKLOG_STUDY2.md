@@ -1,7 +1,7 @@
 - [x] V1 手元xlsxから 死亡(SHIBO)/死傷(SHISYO) 分離集計＋事故型別ランキング算出(stats2.md・数値確定)
 - [x] V2 グラフ生成(matplotlib・日本語フォント)：型別ランキング/死亡vs死傷/(必要図) を figs/ にPNG出力
 - [x] V3 TGL法制化タイムライン図＋資格早見表＋危険ポイントアイコン表を作成(確定素材ベース)
-- [ ] V4 30秒サマリー＋TGL編＋高所編＋イベント設営留意＋想定問答＋出典一覧の各ページ構成(テキスト最小)
+- [x] V4 30秒サマリー＋TGL編＋高所編＋イベント設営留意＋想定問答＋出典一覧の各ページ構成(テキスト最小)
 - [ ] V5 e-Gov「労働安全衛生規則」を確認しTGL特別教育の条文号数を可能なら確定(できなければ第36条までに留める)
 - [ ] BUILD study_tgl_aerial_v2.pdf 生成(図表埋め込み・流し読み版面・スマホ可)
 - [ ] DEPLOY review_study2/<ランダム32文字>/ にPDF＋index.html(静的/noindex/スマホ縦/開く・保存＋iframe)・Vercel hakuten-review再デプロイ(過去全トークンをunionで束ね既存URL全200保持・ルート/=404・HTTP200)・GitHub(main)へPDF push
