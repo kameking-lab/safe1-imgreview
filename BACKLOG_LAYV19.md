@@ -4,4 +4,4 @@
 - [x] V4 合成見本スライド作成(TGL1セット・同視点パーツを最小回転で重ねる・個別配置)
 - [x] BUILD sample_layers_v19.pptx＋PDF
 - [x] DEPLOY review_layer_v19/<ランダム32文字>/ にpptx＋PDF＋index.html(静的/noindex/スマホ縦/各DL＋iframe)・Vercel hakuten-review再デプロイ(過去全トークンunionで既存URL全200保持・ルート/=404・HTTP200)・GitHub(main)push
-- [ ] REPORT REPORT_LAYV19.md作成push(公開URL/pptx・PDF直URL＋raw/素材数/視点が揃ったかの所感/残課題)
+- [x] REPORT REPORT_LAYV19.md作成push(公開URL/pptx・PDF直URL＋raw/素材数/視点が揃ったかの所感/残課題)
