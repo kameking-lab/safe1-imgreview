@@ -12,6 +12,7 @@
 
 ## ■生成ツール（流用）
 - 画像生成：`node gen_img.mjs <openai|google> <out.png> "<prompt>" [transparent]`（OpenAI=gpt-image-2 / Google=gemini-3-pro-image-preview。OpenAIは `transparent` 指定で背景透過PNGをネイティブ生成。既存スキップ・429backoff・キー値非出力）。両モデルで素材を作り見比べる。
+- **【既知の制約】OpenAIは現在「Billing hard limit reached」で生成不可の場合がある。** OpenAI生成が billing/hard-limit エラーで失敗したら、**そのパーツはスキップしてGoogle素材のみで継続**（同じパーツを延々と再試行しない＝thrash禁止）。合成見本も Google素材版を主とし、OpenAI素材版は「OpenAI素材は課金上限のため未生成（要復旧）」と注記して空欄/省略してよい。失敗は REPORT_LAYER.md に正直に一覧化。これは方式検証（たたき台）なのでGoogle素材だけでも方式は検証できる。
 - 透過化：`py cutout_white.py <in.png> <out.png>`（純白背景→外周連結白のみ透過・輪郭フェザー。rembg不在のためPillowフォールバック）。Google素材や白背景生成物に適用。OpenAIは `transparent` でネイティブ透過が得られるためそのまま使用可（必要なら cutout も可）。
 
 ## ■生成する素材（2シチュ分）
