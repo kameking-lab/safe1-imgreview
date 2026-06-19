@@ -1,0 +1,8 @@
+- [ ] L1 背景生成(bg_*：倉庫TGL×2〜3＋会場搬入口×1)＋自己点検
+- [ ] L2 荷物パーツ生成(崩れかけ/転倒/正常)→透過PNG化→点検
+- [ ] L3 作業員パーツ生成(痛がる手/足・倒れる・驚き・立つ)→透過PNG化→点検
+- [ ] L4 素材一覧スライド作成(部品サムネ＋ラベル)
+- [ ] L5 合成見本スライド作成(TGL墜落＋TGL荷崩れの2シチュ・OpenAI素材版/Google素材版・パーツを配置/回転)
+- [ ] BUILD sample_layers_v18.pptx 統合＋PDF化(soffice/COM)
+- [ ] DEPLOY review_layer/<ランダム32文字>/ にpptx＋PDF＋index.html(静的/noindex/スマホ縦/各DL＋iframe)・Vercel hakuten-review再デプロイ(過去全トークンunionで既存URL全200保持・ルート/=404・HTTP200)・GitHub(main)へpptx/PDF push
+- [ ] REPORT REPORT_LAYER.md作成push(公開URL/pptx・PDF直URL＋raw/生成素材数(背景/荷物/作業員)/透過品質の所感/OpenAI vs Google素材の所感/残課題)
