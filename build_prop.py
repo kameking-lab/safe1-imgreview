@@ -536,11 +536,70 @@ def slide_case(prs, page, num):
     return page + 1
 
 
+# 確定連絡先（オーナー実アドレス・捏造なし。電話番号は未確認のため載せない）
+CONTACT_MAIL = "kenshi.ycc@gmail.com"
+
+
+def slide_summary(prs, page):
+    """まとめ＋提案：「科学的安全 × 自動化」を1枚で。価値1行・監修者名・連絡先。押し売りしない。"""
+    s = blank_slide(prs)
+    # 表紙と対の装丁（左ネイビー帯＋上トライカラー）
+    rect(s, 0, 0, Inches(0.22), SH, NAVY)
+    tricolor_rule(s, Inches(0.22), 0, Emu(int(SW) - int(Inches(0.22))), Inches(0.10))
+    kicker(s, "まとめ", GREEN)
+    # 中核メッセージ（大・中央）
+    add_text(s, Inches(0.9), Inches(1.30), Inches(11.6), Inches(1.0),
+             [{"runs": [("科学的安全", dict(name=JP, size=44, bold=True, color=NAVY)),
+                        ("　×　", dict(name=JP, size=44, bold=True, color=RED)),
+                        ("自動化", dict(name=JP, size=44, bold=True, color=NAVY))]}],
+             align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
+    # 価値1行（押し売りでなく）
+    add_text(s, Inches(0.9), Inches(2.42), Inches(11.6), Inches(0.5),
+             [{"runs": [("経験と勘に頼らない安全教育を、速く・安く・誰でも同じ品質で。",
+                         dict(name=JP, size=18, color=GRAY))]}],
+             align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
+    # 2本柱カード（データ／AI）
+    pillars = [(NAVY, "データに基づく", "約42万件の災害分析で、守る急所を科学的に特定。"),
+               (RED, "AIで量産", "事故事例教材を属人化させず、速く更新し続ける。")]
+    pw, ph, gap = Inches(5.70), Inches(1.78), Inches(0.40)
+    x0, y0 = Inches(0.78), Inches(3.30)
+    for i, (acc, head, sub) in enumerate(pillars):
+        lx = Emu(int(x0) + i * (int(pw) + int(gap)))
+        rect(s, lx, y0, pw, ph, PALE, line=acc, line_w=2.0)
+        rect(s, lx, y0, Inches(0.16), ph, acc)
+        inx = Emu(int(lx) + int(Inches(0.46)))
+        inw = Emu(int(pw) - int(Inches(0.66)))
+        add_text(s, inx, Emu(int(y0) + int(Inches(0.22))), inw, Inches(0.6),
+                 [{"runs": [(head, dict(name=JP, size=24, bold=True, color=acc))]}])
+        add_text(s, inx, Emu(int(y0) + int(Inches(0.92))), inw, Inches(0.74),
+                 [{"runs": [(sub, dict(name=JP, size=14, color=INK))]}])
+    # 連絡先・監修者カード（下段・控えめ）
+    cy = Inches(5.62)
+    rect(s, Inches(0.78), cy, Inches(11.78), Inches(0.96), NAVY)
+    add_text(s, Inches(1.08), cy, Inches(7.2), Inches(0.96),
+             [{"runs": [("お問い合わせ", dict(name=JP, size=12, bold=True, color=YELLOW))],
+               "space_after": 2},
+              {"runs": [(CONTACT_MAIL, dict(name=JP, size=17, bold=True, color=WHITE))]}],
+             anchor=MSO_ANCHOR.MIDDLE)
+    add_text(s, Inches(8.0), cy, Inches(4.3), Inches(0.96),
+             [{"runs": [("監修", dict(name=JP, size=11, bold=True, color=YELLOW))],
+               "align": PP_ALIGN.RIGHT, "space_after": 2},
+              {"runs": [("金田 義太", dict(name=JP, size=15, bold=True, color=WHITE))],
+               "align": PP_ALIGN.RIGHT},
+              {"runs": [("労働安全コンサルタント 登録第4840号",
+                         dict(name=JP, size=10, color=RGBColor(0xC8, 0xD2, 0xE0)))],
+               "align": PP_ALIGN.RIGHT}],
+             anchor=MSO_ANCHOR.MIDDLE)
+    footer(s, page)
+    return page + 1
+
+
 # 登録順＝スライド順（P3〜P6 でここに追記）
 SLIDES = [slide_cover, slide_problem, slide_approach, slide_data1, slide_data2,
           slide_measures, slide_value, slide_samples,
           lambda prs, page: slide_case(prs, page, "N01"),
-          lambda prs, page: slide_case(prs, page, "N06")]
+          lambda prs, page: slide_case(prs, page, "N06"),
+          slide_summary]
 
 
 def main():

@@ -5,7 +5,7 @@
 - [x] P3 データ分析①②スライド作成(大きな数字＋グラフ)
 - [x] P4 科学的対策＋自動化の価値＋成果物サンプル スライド作成(アイコン/対比図)
 - [x] P5 指定フォーマット事故事例1〜2枚(博展テンプレ template_spec.md・photos_v16＋cases_v2本文流用・監修・AI注記・出典小さく)
-- [ ] P6 まとめ＋提案スライド作成(連絡先/監修者名・価値1行)
+- [x] P6 まとめ＋提案スライド作成(連絡先/監修者名・価値1行)
 - [ ] BUILD proposal_hakuten.pptx を python-pptx で組み上げ→PowerPoint COM で proposal_hakuten.pdf へ変換
 - [ ] QA1 PNGレンダ目視(qa_prop/)→文字削減/見やすさ/歪み修正→新コミットpush
 - [ ] QA2 再点検→修正→push
