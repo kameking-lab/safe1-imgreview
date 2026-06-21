@@ -11,5 +11,5 @@
 - [x] QA2 再点検→修正→push
 - [x] QA3 再点検→修正(問題ゼロならスキップ)→push
 - [x] QA4 最終点検→push
-- [ ] DEPLOY review_prop/<ランダム32文字>/ にpptx＋PDF＋index.html(静的/noindex/スマホ縦/各DL＋iframe)・Vercel hakuten-review再デプロイ(過去全トークンunionで既存URL全200保持・ルート/=404・HTTP200実測)・GitHub(main)push
+- [x] DEPLOY review_prop/<ランダム32文字>/ にpptx＋PDF＋index.html(静的/noindex/スマホ縦/各DL＋iframe)・Vercel hakuten-review再デプロイ(過去全トークンunionで既存URL全200保持・ルート/=404・HTTP200実測)・GitHub(main)push
 - [ ] REPORT REPORT_PROP.md作成push(公開URL/pptx・PDF直URL＋raw/スライド数/QAラウンド数/残課題・新規画像生成なし・捏造なし明記)
