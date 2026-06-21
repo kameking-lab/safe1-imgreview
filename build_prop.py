@@ -269,14 +269,14 @@ def stat_card(slide, l, t, w, h, accent, big, big_unit, label, sub):
     rect(slide, l, t, Inches(0.16), h, accent)
     inx = Emu(int(l) + int(Inches(0.42)))
     inw = Emu(int(w) - int(Inches(0.62)))
-    add_text(slide, inx, Emu(int(t) + int(Inches(0.10))), inw, Inches(0.86),
+    add_text(slide, inx, Emu(int(t) + int(Inches(0.05))), inw, Inches(0.72),
              [{"runs": [(big, dict(name=JP, size=46, bold=True, color=accent)),
                         (big_unit, dict(name=JP, size=18, bold=True, color=accent))]}],
              anchor=MSO_ANCHOR.MIDDLE)
-    add_text(slide, inx, Emu(int(t) + int(Inches(0.96))), inw, Inches(0.40),
+    add_text(slide, inx, Emu(int(t) + int(Inches(0.77))), inw, Inches(0.32),
              [{"runs": [(label, dict(name=JP, size=14, bold=True, color=INK))]}])
     if sub:
-        add_text(slide, inx, Emu(int(t) + int(Inches(1.33))), inw, Inches(0.32),
+        add_text(slide, inx, Emu(int(t) + int(Inches(1.09))), inw, Inches(0.30),
                  [{"runs": [(sub, dict(name=JP, size=11, color=GRAY))]}])
 
 
