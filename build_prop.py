@@ -343,8 +343,92 @@ def slide_data2(prs, page):
     return page + 1
 
 
+def slide_measures(prs, page):
+    """科学的対策：型別の対策をアイコン＋短句で（法令根拠は小さく・確定素材）。"""
+    s = blank_slide(prs)
+    kicker(s, "科学的対策", GREEN)
+    add_text(s, Inches(2.05), Inches(0.42), Inches(10.6), Inches(0.42),
+             [{"runs": [("急所が違えば、", dict(name=JP, size=22, bold=True, color=INK)),
+                        ("打つ手", dict(name=JP, size=22, bold=True, color=GREEN)),
+                        ("も変わる", dict(name=JP, size=22, bold=True, color=INK))]}],
+             anchor=MSO_ANCHOR.MIDDLE)
+    # 型別の対策アイコン図（P1生成・図に見出し内蔵）
+    place_fig(s, os.path.join(FIGS, "prop_measures_icons.png"),
+              Inches(0.6), Inches(1.28), Inches(12.13), Inches(4.40))
+    # 法令根拠（小さく・オーナー確定素材のみ）
+    rect(s, Inches(0.62), Inches(5.92), Inches(12.08), Inches(0.78), PALE, line=GREEN, line_w=1.2)
+    add_text(s, Inches(0.82), Inches(5.92), Inches(11.7), Inches(0.78),
+             [{"runs": [("根拠（安衛則）：", dict(name=JP, size=11, bold=True, color=GREEN))],
+               "space_after": 2},
+              {"runs": [("フルハーネス 6.75m超 着用義務／高所作業車 作業床10m以上 技能講習・未満 特別教育／TGL特別教育 学科4h＋実技2h",
+                         dict(name=JP, size=11, color=GRAY))]}],
+             anchor=MSO_ANCHOR.MIDDLE)
+    footer(s, page)
+    return page + 1
+
+
+def slide_value(prs, page):
+    """自動化の価値（売り）：教材づくりの対比＋3アイコン（属人化しない/速い/低コスト）。"""
+    s = blank_slide(prs)
+    kx = kicker(s, "自動化の価値", RED)
+    add_text(s, Emu(int(kx) + int(Inches(0.25))), Inches(0.42), Inches(9.6), Inches(0.42),
+             [{"runs": [("AIで事故事例教材を", dict(name=JP, size=22, bold=True, color=INK)),
+                        ("量産", dict(name=JP, size=22, bold=True, color=RED))]}],
+             anchor=MSO_ANCHOR.MIDDLE)
+    # 上：人手×日 → AI×時間 の対比図（P1生成・図に見出し内蔵）
+    place_fig(s, os.path.join(FIGS, "prop_automation_compare.png"),
+              Inches(0.62), Inches(1.18), Inches(12.08), Inches(2.86))
+    # 下：3つの価値アイコン（P1生成）
+    place_fig(s, os.path.join(FIGS, "prop_value_icons.png"),
+              Inches(0.62), Inches(4.18), Inches(12.08), Inches(2.62))
+    footer(s, page)
+    return page + 1
+
+
+def thumb_card(slide, l, t, w, h, img, caption, accent=NAVY):
+    """成果物サムネイル：枠付き薄地カード＋画像（縦横比維持）＋色キャプションバー。"""
+    rect(slide, l, t, w, h, PALE, line=accent, line_w=1.5)
+    cap_h = Inches(0.52)
+    pad = Inches(0.13)
+    place_fig(slide, img,
+              Emu(int(l) + int(pad)), Emu(int(t) + int(pad)),
+              Emu(int(w) - 2 * int(pad)), Emu(int(h) - int(cap_h) - 2 * int(pad)),
+              line=LGRAY)
+    rect(slide, l, Emu(int(t) + int(h) - int(cap_h)), w, cap_h, accent)
+    add_text(slide, l, Emu(int(t) + int(h) - int(cap_h)), w, cap_h,
+             [{"runs": [(caption, dict(name=JP, size=13, bold=True, color=WHITE))]}],
+             align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
+
+
+def slide_samples(prs, page):
+    """成果物サンプル：既存の学習資料/事例図を縮小し『作れます』を見せる（AI注記・小さく）。"""
+    s = blank_slide(prs)
+    kicker(s, "成果物サンプル", NAVY)
+    add_text(s, Inches(2.55), Inches(0.42), Inches(10.1), Inches(0.42),
+             [{"runs": [("こういう教材が、", dict(name=JP, size=22, bold=True, color=INK)),
+                        ("すぐ作れます", dict(name=JP, size=22, bold=True, color=NAVY))]}],
+             anchor=MSO_ANCHOR.MIDDLE)
+    cards = [
+        ("figs/fig_qual_table.png", "資格・装備 早見表", NAVY),
+        ("figs/fig_danger_points.png", "危険ポイント 図解", GREEN),
+        ("photos_v16/N01/google.png", "事故事例 教材（AI再現イメージ）", RED),
+    ]
+    cw, ch, gap = Inches(3.95), Inches(4.50), Inches(0.28)
+    x0, y0 = Inches(0.62), Inches(1.32)
+    for i, (rel, cap, acc) in enumerate(cards):
+        lx = Emu(int(x0) + i * (int(cw) + int(gap)))
+        thumb_card(s, lx, y0, cw, ch, os.path.join(BASE, rel), cap, acc)
+    # AI再現イメージ注記（小さく）
+    add_text(s, Inches(0.62), Inches(6.02), Inches(12.1), Inches(0.4),
+             [{"runs": [("※ 事故事例の写真はAIによる再現イメージです（実写ではありません）。",
+                         dict(name=JP, size=11, color=GRAY))]}])
+    footer(s, page)
+    return page + 1
+
+
 # 登録順＝スライド順（P3〜P6 でここに追記）
-SLIDES = [slide_cover, slide_problem, slide_approach, slide_data1, slide_data2]
+SLIDES = [slide_cover, slide_problem, slide_approach, slide_data1, slide_data2,
+          slide_measures, slide_value, slide_samples]
 
 
 def main():
