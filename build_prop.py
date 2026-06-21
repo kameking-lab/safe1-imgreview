@@ -254,8 +254,97 @@ def slide_approach(prs, page):
     return page + 1
 
 
+def head_bar(slide, l, t, w, text, color=NAVY):
+    """チャート上の小見出しバー（色帯＋白文字）。"""
+    rect(slide, l, t, w, Inches(0.46), color)
+    add_text(slide, l, t, w, Inches(0.46),
+             [{"runs": [(text, dict(name=JP, size=15, bold=True, color=WHITE))]}],
+             align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
+
+
+def stat_card(slide, l, t, w, h, accent, big, big_unit, label, sub):
+    """大きな数字＋短いラベルの統計カード（安全色アクセント）。"""
+    rect(slide, l, t, w, h, PALE, line=accent, line_w=2.0)
+    rect(slide, l, t, Inches(0.16), h, accent)
+    inx = Emu(int(l) + int(Inches(0.42)))
+    inw = Emu(int(w) - int(Inches(0.62)))
+    add_text(slide, inx, Emu(int(t) + int(Inches(0.10))), inw, Inches(0.86),
+             [{"runs": [(big, dict(name=JP, size=46, bold=True, color=accent)),
+                        (big_unit, dict(name=JP, size=18, bold=True, color=accent))]}],
+             anchor=MSO_ANCHOR.MIDDLE)
+    add_text(slide, inx, Emu(int(t) + int(Inches(0.96))), inw, Inches(0.40),
+             [{"runs": [(label, dict(name=JP, size=14, bold=True, color=INK))]}])
+    if sub:
+        add_text(slide, inx, Emu(int(t) + int(Inches(1.33))), inw, Inches(0.32),
+                 [{"runs": [(sub, dict(name=JP, size=11, color=GRAY))]}])
+
+
+def slide_data1(prs, page):
+    """データ分析①：規模感＋TGL/高所 型別ランキング横棒。"""
+    s = blank_slide(prs)
+    kx = kicker(s, "データ分析①", NAVY)
+    add_text(s, Emu(int(kx) + int(Inches(0.25))), Inches(0.42), Inches(9.8), Inches(0.42),
+             [{"runs": [("約", dict(name=JP, size=20, bold=True, color=INK)),
+                        ("42万件", dict(name=JP, size=26, bold=True, color=RED)),
+                        ("のデータから、型別の危険を特定", dict(name=JP, size=20, bold=True, color=INK))]}],
+             anchor=MSO_ANCHOR.MIDDLE)
+    add_text(s, Inches(0.62), Inches(1.02), Inches(12.1), Inches(0.34),
+             [{"runs": [("死亡DB 1991–2018 ＋ 死傷DB 2006–2017 を走査して抽出",
+                         dict(name=JP, size=12, color=GRAY))]}])
+    # 左右2チャート（小見出しバー付き）
+    lx, rx, cw = Inches(0.62), Inches(6.92), Inches(5.78)
+    head_bar(s, lx, Inches(1.46), cw, "TGL（計 1,878件）", NAVY)
+    head_bar(s, rx, Inches(1.46), cw, "高所作業車（計 1,149件）", NAVY)
+    place_fig(s, os.path.join(FIGS, "fig_tgl_type_rank.png"),
+              lx, Inches(2.00), cw, Inches(4.10))
+    place_fig(s, os.path.join(FIGS, "fig_aerial_type_rank.png"),
+              rx, Inches(2.00), cw, Inches(4.10))
+    # 結論バンド（安全色）
+    rect(s, Inches(0.62), Inches(6.26), Inches(12.08), Inches(0.56), PALE, line=RED, line_w=1.5)
+    add_text(s, Inches(0.80), Inches(6.26), Inches(11.8), Inches(0.56),
+             [{"runs": [("TGL＝", dict(name=JP, size=16, bold=True, color=INK)),
+                        ("はさまれ最多 30.9%", dict(name=JP, size=16, bold=True, color=RED)),
+                        ("／高所＝", dict(name=JP, size=16, bold=True, color=INK)),
+                        ("墜落最多 34.1%", dict(name=JP, size=16, bold=True, color=RED))]}],
+             anchor=MSO_ANCHOR.MIDDLE)
+    footer(s, page)
+    return page + 1
+
+
+def slide_data2(prs, page):
+    """データ分析②：死亡vs死傷の対比＋致死率/はさまれ過半を大きな数字で。"""
+    s = blank_slide(prs)
+    kx = kicker(s, "データ分析②", NAVY)
+    add_text(s, Emu(int(kx) + int(Inches(0.25))), Inches(0.42), Inches(9.8), Inches(0.42),
+             [{"runs": [("死亡と死傷の差 ＝ 守るべき急所", dict(name=JP, size=24, bold=True, color=INK))]}],
+             anchor=MSO_ANCHOR.MIDDLE)
+    # 左：死亡vs死傷チャート
+    head_bar(s, Inches(0.62), Inches(1.30), Inches(6.30), "死亡 vs 死傷（件数）", NAVY)
+    place_fig(s, os.path.join(FIGS, "fig_death_vs_injury.png"),
+              Inches(0.62), Inches(1.84), Inches(6.30), Inches(4.30))
+    # 右：統計カード3枚
+    cx, cwd = Inches(7.30), Inches(5.40)
+    stat_card(s, cx, Inches(1.30), cwd, Inches(1.46), RED,
+              "約31", "%", "高所作業車の致死率", "死亡358 / 全1,149件")
+    stat_card(s, cx, Inches(2.92), cwd, Inches(1.46), NAVY,
+              "約6", "%", "TGLの致死率", "死亡121 / 全1,878件")
+    stat_card(s, cx, Inches(4.54), cwd, Inches(1.60), RED,
+              "52.9", "%", "TGL死亡は「はさまれ」が過半", "死亡121件中 64件")
+    # 結論バンド（安全色）
+    rect(s, Inches(0.62), Inches(6.28), Inches(12.08), Inches(0.54), PALE, line=GREEN, line_w=1.5)
+    add_text(s, Inches(0.80), Inches(6.28), Inches(11.8), Inches(0.54),
+             [{"runs": [("高所＝", dict(name=JP, size=15, bold=True, color=INK)),
+                        ("墜落で死ぬ", dict(name=JP, size=15, bold=True, color=RED)),
+                        ("／TGL＝", dict(name=JP, size=15, bold=True, color=INK)),
+                        ("はさまれで死ぬ", dict(name=JP, size=15, bold=True, color=RED)),
+                        ("。守る急所が違う。", dict(name=JP, size=15, bold=True, color=INK))]}],
+             anchor=MSO_ANCHOR.MIDDLE)
+    footer(s, page)
+    return page + 1
+
+
 # 登録順＝スライド順（P3〜P6 でここに追記）
-SLIDES = [slide_cover, slide_problem, slide_approach]
+SLIDES = [slide_cover, slide_problem, slide_approach, slide_data1, slide_data2]
 
 
 def main():
