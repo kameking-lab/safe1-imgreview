@@ -8,7 +8,7 @@
 - [x] P6 まとめ＋提案スライド作成(連絡先/監修者名・価値1行)
 - [x] BUILD proposal_hakuten.pptx を python-pptx で組み上げ→PowerPoint COM で proposal_hakuten.pdf へ変換
 - [x] QA1 PNGレンダ目視(qa_prop/)→文字削減/見やすさ/歪み修正→新コミットpush
-- [ ] QA2 再点検→修正→push
+- [x] QA2 再点検→修正→push
 - [ ] QA3 再点検→修正(問題ゼロならスキップ)→push
 - [ ] QA4 最終点検→push
 - [ ] DEPLOY review_prop/<ランダム32文字>/ にpptx＋PDF＋index.html(静的/noindex/スマホ縦/各DL＋iframe)・Vercel hakuten-review再デプロイ(過去全トークンunionで既存URL全200保持・ルート/=404・HTTP200実測)・GitHub(main)push
