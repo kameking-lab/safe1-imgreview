@@ -7,7 +7,7 @@ build_prop.py — 商談用 提案資料 proposal_hakuten.pptx 生成（メラ�
 日本語フォントは游ゴシック（pptx 側で typeface 指定・禁則有効）。16:9。
 数値・法令は RULES_PROP.md の確定素材のみ（捏造なし）。新規 AI 画像生成なし。
 """
-import os, sys
+import os, sys, re
 from pptx import Presentation
 from pptx.util import Inches, Pt, Emu
 from pptx.dml.color import RGBColor
@@ -29,6 +29,7 @@ YELLOW = RGBColor(0xF2, 0xB7, 0x05)   # 注意
 GREEN  = RGBColor(0x2E, 0x9E, 0x5B)   # 対策
 WHITE  = RGBColor(0xFF, 0xFF, 0xFF)
 PALE   = RGBColor(0xF3, 0xF5, 0xF8)   # 薄地カード
+GRD    = RGBColor(0xD9, 0xD9, 0xD9)   # 表ラベル列グレー（博展テンプレ準拠）
 
 JP  = "游ゴシック"
 JPM = "游ゴシック Medium"
@@ -426,9 +427,120 @@ def slide_samples(prs, page):
     return page + 1
 
 
+# ---- 指定フォーマット事故事例（博展テンプレ：上=写真／下=項目別記載）---------
+def _trim(t, n):
+    t = (t or "").strip()
+    return t if len(t) <= n else t[:n - 1] + "…"
+
+
+def parse_case(num):
+    """cases_v2/<num>.md を読み、版面に流す項目を抽出（捏造なし・本文そのまま）。"""
+    path = os.path.join(BASE, "cases_v2", num + ".md")
+    txt = open(path, encoding="utf-8").read()
+    cat = typ = ""
+    m = re.search(r"カテゴリ：([^／\n]+)／事故の型：([^\n／]+)", txt)
+    if m:
+        cat, typ = m.group(1).strip(), m.group(2).strip()
+        cat = re.sub(r"（.*?）", "", cat).strip()  # 「TGL（…）」→「TGL」
+    secs, cur, buf = {}, None, []
+    for line in txt.splitlines():
+        if line.startswith("## "):
+            if cur is not None:
+                secs[cur] = buf
+            cur, buf = line[3:].strip(), []
+        elif cur is not None:
+            buf.append(line)
+    if cur is not None:
+        secs[cur] = buf
+
+    def get(key):
+        for k, v in secs.items():
+            if k.startswith(key):
+                return v
+        return []
+
+    def joined(key):
+        return " ".join(l.strip() for l in get(key) if l.strip())
+
+    def bullets(key):
+        return [l.strip()[1:].strip() for l in get(key) if l.strip().startswith("-")]
+
+    url, src = "", ""
+    for l in get("参考資料"):
+        s = l.strip()
+        if not src and s.startswith("-"):
+            src = re.sub(r"（.*?）", "", s[1:]).strip()
+        mm = re.search(r"(https?://\S+)", l)
+        if mm and not url:
+            url = mm.group(1)
+    return dict(cat=cat, typ=typ, title=joined("創作タイトル"),
+                happen=joined("発生事象"), cause=bullets("原因概要"),
+                resp=bullets("対応"), meas=bullets("対策概要"), url=url, src=src)
+
+
+def item_row(s, x, y, lw, vw, h, label, value, vsize=11):
+    """項目別記載の1行（左=灰ラベル／右=白値・word_wrap）。x,y,… は inch。"""
+    rect(s, Inches(x), Inches(y), Inches(lw), Inches(h), GRD, line=WHITE, line_w=1.0)
+    add_text(s, Inches(x), Inches(y), Inches(lw), Inches(h),
+             [{"runs": [(label, dict(name=JP, size=11, bold=True, color=INK))]}],
+             align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
+    rect(s, Inches(x + lw), Inches(y), Inches(vw), Inches(h), WHITE, line=GRD, line_w=1.0)
+    add_text(s, Inches(x + lw + 0.12), Inches(y), Inches(vw - 0.24), Inches(h),
+             [{"runs": [(value, dict(name=JP, size=vsize, color=INK))]}],
+             anchor=MSO_ANCHOR.MIDDLE)
+
+
+def slide_case(prs, page, num):
+    """1事例＝1スライド。上=AI再現写真3点／下=項目別記載。監修・出典・AI注記を小さく。"""
+    s = blank_slide(prs)
+    c = parse_case(num)
+    kx = kicker(s, "重大事故事例", RED)
+    add_text(s, Emu(int(kx) + int(Inches(0.25))), Inches(0.40), Inches(7.4), Inches(0.55),
+             [{"runs": [(c["title"], dict(name=JP, size=18, bold=True, color=INK))]}],
+             anchor=MSO_ANCHOR.MIDDLE)
+    add_text(s, Inches(10.0), Inches(0.40), Inches(2.72), Inches(0.55),
+             [{"runs": [(c["cat"] + "／" + c["typ"], dict(name=JP, size=13, bold=True, color=RED))]}],
+             align=PP_ALIGN.RIGHT, anchor=MSO_ANCHOR.MIDDLE)
+    # 上段：AI再現写真3点（ラベル帯＋画像／歪みなし fit）
+    photos = [("base", "現場ベース画像"), ("openai", "AI再現（OpenAI）"), ("google", "AI再現（Google）")]
+    x0, gap = 0.62, 0.30
+    cw = (12.08 - 2 * gap) / 3
+    lt, lh, pt, ph = 1.40, 0.26, 1.68, 2.06
+    for i, (key, lab) in enumerate(photos):
+        lx = x0 + i * (cw + gap)
+        rect(s, Inches(lx), Inches(lt), Inches(cw), Inches(lh), NAVY)
+        add_text(s, Inches(lx), Inches(lt), Inches(cw), Inches(lh),
+                 [{"runs": [(lab, dict(name=JP, size=10, bold=True, color=WHITE))]}],
+                 align=PP_ALIGN.CENTER, anchor=MSO_ANCHOR.MIDDLE)
+        img = os.path.join(BASE, "photos_v16", num, key + ".png")
+        place_fig(s, img, Inches(lx), Inches(pt), Inches(cw), Inches(ph), line=LGRAY)
+    # 下段：項目別記載（博展テンプレ準拠・本文そのまま・文字小さめ）
+    lw, vw, y = 2.05, 12.08 - 2.05, 3.96
+    rows = [
+        ("発生事象", _trim(c["happen"], 140), 0.66, 11),
+        ("原因概要", "／".join(c["cause"][:2]), 0.54, 11),
+        ("対応", "／".join(c["resp"][:2]), 0.44, 10),
+        ("対策概要", "／".join(c["meas"][:3]), 0.76, 11),
+    ]
+    for lab, val, h, sz in rows:
+        item_row(s, x0, y, lw, vw, h, lab, val, sz)
+        y += h
+    # 出典（小さく）＋AI再現イメージ注記（小さく）
+    add_text(s, Inches(0.62), Inches(6.40), Inches(12.1), Inches(0.30),
+             [{"runs": [("出典：", dict(name=JP, size=10, bold=True, color=GRAY)),
+                        (c["src"] + "　" + c["url"], dict(name=JP, size=10, color=GRAY))]}])
+    add_text(s, Inches(0.62), Inches(6.70), Inches(12.1), Inches(0.30),
+             [{"runs": [("※ 写真はAIによる再現イメージ（実写ではありません）。公的災害事例の機序を参考にした創作（再現）事例です。",
+                         dict(name=JP, size=10, color=LGRAY))]}])
+    footer(s, page)  # フッター左に監修表記（金田 義太・登録第4840号）
+    return page + 1
+
+
 # 登録順＝スライド順（P3〜P6 でここに追記）
 SLIDES = [slide_cover, slide_problem, slide_approach, slide_data1, slide_data2,
-          slide_measures, slide_value, slide_samples]
+          slide_measures, slide_value, slide_samples,
+          lambda prs, page: slide_case(prs, page, "N01"),
+          lambda prs, page: slide_case(prs, page, "N06")]
 
 
 def main():
