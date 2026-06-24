@@ -4,7 +4,7 @@
 - [x] A2 墜落・転落 の画像(実事例図/教育イラスト/写真/ポスター)を収集→aerial2_index.csv記録。
 - [x] A3 挟まれ・巻き込まれ の画像を収集→index記録。
 - [x] A4 転倒・横転 の画像を収集→index記録。
-- [ ] A5 感電・飛来落下・不安全行動・その他 の画像を収集→index記録。
+- [x] A5 感電・飛来落下・不安全行動・その他 の画像を収集→index記録。
 - [ ] A6 全体の重複排除(md5)・通し番号確定・index整備・出尽くし判定。
 - [ ] BUILD aerial2_catalog.pdf 生成（通し番号付き一覧・1ページ6枚）。
 - [ ] DEPLOY review_aerial2/<ランダム32文字>/ にPDF＋index.html(静的/noindex/スマホ縦/開く・保存＋iframe)を配置・Vercel hakuten-review再デプロイ(過去全トークンunionで既存URL全200保持・ルート/=404・HTTP200)・GitHub(master/main)へpush。
