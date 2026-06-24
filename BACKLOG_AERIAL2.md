@@ -1,6 +1,6 @@
 # BACKLOG_AERIAL2 — 高所作業車 事故・危険イメージ画像 収集（未完最上段を1つずつ）
 
-- [ ] A1 収集元・検索クエリ案を洗い出しリスト作成（collect_aerial2/sources2.md）。収集方式の雛形(search_ra1.mjs)確認・anzenプロファイル疎通確認。
+- [x] A1 収集元・検索クエリ案を洗い出しリスト作成（collect_aerial2/sources2.md）。収集方式の雛形(search_ra1.mjs)確認・anzenプロファイル疎通確認。
 - [ ] A2 墜落・転落 の画像(実事例図/教育イラスト/写真/ポスター)を収集→aerial2_index.csv記録。
 - [ ] A3 挟まれ・巻き込まれ の画像を収集→index記録。
 - [ ] A4 転倒・横転 の画像を収集→index記録。

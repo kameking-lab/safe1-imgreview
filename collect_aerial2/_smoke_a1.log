@@ -1,0 +1,3 @@
+SMOKE q="高所作業車 転倒 災害 イラスト" -> a.iusc parsed=30
+sample firstItem keys present: {"hasMurl":true,"hasPurl":true}
+RESULT: OK (anzen profile reachable, a.iusc parseable)
