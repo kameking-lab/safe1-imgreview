@@ -7,5 +7,5 @@
 - [x] A5 感電・飛来落下・不安全行動・その他 の画像を収集→index記録。
 - [x] A6 全体の重複排除(md5)・通し番号確定・index整備・出尽くし判定。
 - [x] BUILD aerial2_catalog.pdf 生成（通し番号付き一覧・1ページ6枚）。
-- [ ] DEPLOY review_aerial2/<ランダム32文字>/ にPDF＋index.html(静的/noindex/スマホ縦/開く・保存＋iframe)を配置・Vercel hakuten-review再デプロイ(過去全トークンunionで既存URL全200保持・ルート/=404・HTTP200)・GitHub(master/main)へpush。
+- [x] DEPLOY review_aerial2/<ランダム32文字>/ にPDF＋index.html(静的/noindex/スマホ縦/開く・保存＋iframe)を配置・Vercel hakuten-review再デプロイ(過去全トークンunionで既存URL全200保持・ルート/=404・HTTP200)・GitHub(master/main)へpush。
 - [ ] REPORT REPORT_AERIAL2.md作成push(公開URL/PDF直URL＋raw・収集枚数(型別/種別)・出所ドメイン別内訳・出尽くし判定・残課題)。
