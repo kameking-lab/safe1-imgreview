@@ -27,4 +27,4 @@
 - [x] E-914 番号914：同上
 - [x] BUILD compare_event_v20.pdf 生成(1元絵1ページ・元絵＋生成4枚対比)
 - [x] DEPLOY review_event/<ランダム32文字>/ にPDF＋index.html(静的/noindex/スマホ縦/開く・保存＋iframe)・Vercel hakuten-review再デプロイ(過去全トークンunionで既存URL全200保持・ルート/=404・HTTP200)・GitHub(master/main)へpush
-- [ ] REPORT REPORT_EVENT.md作成push(公開URL/PDF直URL＋raw・生成枚数(元絵数×4)・特定できなかった番号・残課題)
+- [x] REPORT REPORT_EVENT.md作成push(公開URL/PDF直URL＋raw・生成枚数(元絵数×4)・特定できなかった番号・残課題)
