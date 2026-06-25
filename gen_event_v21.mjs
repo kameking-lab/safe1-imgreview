@@ -49,6 +49,8 @@ const CAUSE_BY_NUM={
       en:"CAUSE (must be clearly visible in frame): the scissor lift was DRIVEN/TRAVELLED while still fully elevated and its raised platform edge SLAMS into a half-built aluminium booth truss/signage frame; the collision is happening right now and the impact throws the edge worker off balance so he is tipping/being thrown OVER the guardrail. Show BOTH the collision (the platform wedged/striking the truss, the truss frame bending) AND the worker falling over the rail in the SAME image."},
  "2":{ja:"高い看板パネルを取付けようとシザースリフトの手すりに片足を掛けて乗り上がり、身を大きく乗り出した不安全姿勢からバランスを崩して手すりを越え転落",
       en:"CAUSE (must be clearly visible in frame): to reach and fix a high signage panel a worker has PUT ONE FOOT UP ONTO THE GUARDRAIL of the scissor-lift platform and is standing/leaning far out over the rail in a clearly unsafe posture; from that posture he loses balance and is tipping head-first OVER the guardrail. Show BOTH the unsafe act (foot up on the rail, body leaning way out past the railing toward the booth panel) AND the worker falling over the rail in the SAME image."},
+ "3":{ja:"シザースリフト乗降口の安全チェーン(開閉バー)を掛け忘れたまま高所作業し、開いた乗降口の側へ後退りして、ガードのない開口部からそのまま転落",
+      en:"CAUSE (must be clearly visible in frame): the platform's ENTRY GATE / safety chain of the scissor lift was LEFT UNFASTENED (the entry gap in the guardrail is wide OPEN, the chain dangling unhooked); while working the worker steps/stumbles BACKWARD toward that open unguarded gap and is now falling straight out through the OPEN gate. Show BOTH the cause (the clearly open, unguarded entry gap with the dangling unhooked chain) AND the worker dropping through that gap in the SAME image."},
 };
 const CAUSE_BY_TYPE={
  "墜落・転落":{ja:"手すりに足を掛けて/身を乗り出して無理な姿勢で看板を取付け、バランスを崩して手すりを越え転落",
