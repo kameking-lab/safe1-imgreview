@@ -1,2 +1,3 @@
 元番号,元ファイル,事故の型,生成タイトル,openai_1,openai_2,google_1,google_2,使用モデル
 "1","0001.jpg","墜落・転落","展示会場ブース設営中の墜落・転落事故","openai_1.png","openai_2.png","google_1.png","google_2.png","gpt-image-2 / gemini-3-pro-image-preview"
+"2","0002.jpg","墜落・転落","展示会場ブース設営中の墜落・転落事故","openai_1.png","openai_2.png","google_1.png","google_2.png","gpt-image-2 / gemini-3-pro-image-preview"
