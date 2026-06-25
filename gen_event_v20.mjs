@@ -58,7 +58,9 @@ const TYPE_SCENE={
  "飛来・落下":"Accident type: FALLING / FLYING OBJECT. A tool, truss bar or signage panel falls from height and strikes a worker below at the booth-setup site.",
  "その他":"Accident type: other booth-setup hazard. A clear dangerous accident moment involving a scissor lift during exhibition booth setup.",
 };
-const scene=TYPE_SCENE[accType]||TYPE_SCENE["その他"];
+// 完全一致が無ければ前方/部分一致でフォールバック（例「挟まれ・巻き込まれ」→「挟まれ」）。
+const sceneKey=TYPE_SCENE[accType]?accType:(Object.keys(TYPE_SCENE).find(k=>k!=="その他"&&(accType.startsWith(k)||accType.includes(k)))||"その他");
+const scene=TYPE_SCENE[sceneKey];
 const VARIANTS=[
  "Wide angle showing the whole scissor lift and the half-built booth.",
  "Closer dramatic angle emphasising the worker and the moment of danger.",
