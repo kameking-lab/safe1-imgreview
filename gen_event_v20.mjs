@@ -7,6 +7,7 @@
 // キー値は出力しない(.env から読む)。削除/上書き/Chrome killしない。
 import fs from "node:fs";
 import path from "node:path";
+import { execFileSync } from "node:child_process";
 
 const BASE = "C:/Users/kanet/20260522/safe1";
 const baseNum = String(process.argv[2]||"").trim();
@@ -68,12 +69,25 @@ const buildPrompt=(vi)=>`${scene} ${STYLE} ${VARIANTS[vi%VARIANTS.length]}`;
 const refBuf=fs.readFileSync(refPath);
 const refMime=refFile.toLowerCase().endsWith(".png")?"image/png":refFile.toLowerCase().endsWith(".webp")?"image/webp":refFile.toLowerCase().endsWith(".gif")?"image/gif":"image/jpeg";
 
+// OpenAI images/edits accepts only jpeg/png/webp. For unsupported formats (e.g. GIF) make a
+// PNG copy via ImageMagick into the output dir (additive・non-destructive; original is untouched).
+const outDir0=path.join(BASE,"gen_event_v20",baseNum);
+let oaBuf=refBuf, oaMime=refMime, oaName=refFile;
+if(!["image/jpeg","image/png","image/webp"].includes(refMime)){
+  fs.mkdirSync(outDir0,{recursive:true});
+  const conv=path.join(outDir0,"_ref_openai.png");
+  if(!(fs.existsSync(conv)&&fs.statSync(conv).size>1000)){
+    execFileSync("magick",[refPath+"[0]",conv]);
+  }
+  oaBuf=fs.readFileSync(conv);oaMime="image/png";oaName="_ref_openai.png";
+}
+
 async function genOpenAI(prompt){
   let last="";
   for(let a=0;a<3;a++){try{
     const fd=new FormData();
     fd.append("model","gpt-image-2");
-    fd.append("image",new Blob([refBuf],{type:refMime}),refFile);
+    fd.append("image",new Blob([oaBuf],{type:oaMime}),oaName);
     fd.append("prompt",prompt);
     fd.append("size","1024x1024");
     fd.append("quality","high");
