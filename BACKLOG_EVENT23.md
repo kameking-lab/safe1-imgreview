@@ -24,7 +24,7 @@
 - [x] E-519 番号519：同上
 - [x] E-520 番号520：同上
 - [x] E-597 番号597：同上
-- [ ] E-914 番号914：同上
+- [x] E-914 番号914：同上
 - [ ] BUILD compare_event_v23.pdf 生成
 - [ ] DEPLOY review_event23/<ランダム32文字>/ にPDF＋index.html(静的/noindex/スマホ縦/開く保存＋iframe)・Vercel hakuten-review再デプロイ(過去全トークンunionで既存URL全200保持・ルート/=404・HTTP200)・GitHub(master/main)push
 - [ ] REPORT REPORT_EVENT23.md作成push(公開URL/PDF直URL＋raw・生成枚数・各番号の「元絵から読み取った原因・姿勢」と専用プロンプト要約一覧・忠実性が弱く再生成した番号・残課題)

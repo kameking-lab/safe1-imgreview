@@ -1,0 +1,45 @@
+【安全教育用イラスト｜日本の展示会場ブース設営現場・屋内｜シザースリフトの作業床からの墜落（FALL FROM WORK PLATFORM）の瞬間】
+
+■この1枚で必ず伝える原因（元絵0914.webpから読み取った事故原因）
+垂直昇降式シザースリフト（X字パンタグラフ）を高く上昇させた状態で、作業床（デッキ）の上の作業員1名が、届かない高所の対象物へ手を伸ばそうと上部手すりの外へ大きく身を乗り出し（または手すりに乗り上げ）、重心が手すりの外側＝支持範囲の外へ移ってバランスを失い、頭から先に上部手すりを越えて作業床の外の空中へ墜落し始めた。これが原因＝『作業床の手すりの外へ身を乗り出して重心を支持範囲の外へ移し、墜落防止措置（フルハーネスのフック接続）が無い／効いていないまま手すりを越えて作業床から転落＝高所からの墜落（FALL FROM WORK PLATFORM）』。重要：機体そのものは水平な床の上に正しく据えられて直立・安定しており、傾いたり横転したりしていない（横転事故ではない）。事故はあくまで『機体は立ったまま、人だけが作業床の手すりを越えて墜落する』こと。原因（手すりの外へ身を乗り出し重心が支持範囲の外へ出た不安全姿勢）と結果（その作業員が頭から手すりを越えて作業床の外の空中へ墜落し始める）が見る人に一目で分かること。
+
+■元絵の忠実な再現（機械・人数・姿勢・位置関係）
+・元絵は『FALL FROM WORK PLATFORM（作業床からの墜落）』を表した黒いシルエットの安全教育ベクター図で、高く上昇したシザースリフト（X字パンタグラフ・四方手すりの作業床デッキ・基部に車輪）が水平な床に直立し、作業床から1名の作業員が機体の右脇の空中へ頭が下・足が上の逆さ（頭から先に落ちる）姿勢で放り出され宙を飛んで墜落していく図。腰に高視認の反射ベルト／ストライプ。
+・機械＝元絵もシザース式なので、そのまま垂直昇降式シザースリフト（X字パンタグラフを高位置まで伸ばし作業床を上昇）を描く。四方を手すりで囲った作業床デッキ、基部に車輪、X字に交差するパンタグラフのアーム。ブーム式・トラック式・搭乗カゴは描かない。機体は水平な床に直立・安定（傾けない・横転させない）。
+・作業員は1名。上昇した作業床デッキの上から、上部手すりを越えて機体の脇の空中へ頭から先に（逆さ・頭が下）墜落し始めている。両腕を広げ両脚を泳がせ、ヘルメットをかぶり高視認ベスト＋安全帯（フルハーネス）を着用。墜落防止のランヤードのフックはアンカーに接続されていない（宙ぶらりん）か、効いておらず、落下を止められていない。
+
+■展示会場屋内への全置換（屋外要素は描かない）
+・舞台＝日本の展示会場・ブース設営現場の屋内。周囲は組みかけの展示ブース、アルミ展示トラスの支柱・横材、ブランク（無地）の看板パネル、什器、積んだ段ボール箱、搬入口、床に這わせた電線コードカバー（ケーブルプロテクター）。
+・元絵の白背景・真っ黒シルエット・ベクター調・透かしロゴ／URL・英字キャプション『FALL FROM WORK PLATFORM』・横線（地面線）は描かない＝1枚の実景イラストにする。アイ型鉄骨・H鋼など構造物は展示会場のアルミトラス支柱に置換。床の段差・縁石は床の電線コードカバー（ケーブルプロテクター）に置換。屋外要素（地面／外壁／空）は屋内会場に置換。
+・作業員が手を伸ばそうとしていた対象＝届かない高所のブランク看板パネル／アルミトラスの上部とし、それへ向かって身を乗り出した結果として墜落が始まる構図にする。
+
+■物理的整合（重力・重心・接触）
+作業員が上部手すりの外へ身を乗り出す → 重心が手すりの外＝作業床の支持範囲の外へ移る → バランスを失い頭が先に下がる → 頭から手すりを越えて作業床の外の空中へ墜落し始める。機体（X字パンタグラフ・作業床・車輪）は水平な床に直立したまま動かさず、傾けない・浮かせない・横転させない。人の落下は重力に沿って頭が下・足が上の逆さで、機体のすぐ脇の空中。墜落はまだ床に達しておらず、空中を落ちていく途中に留める（床に倒れ込んで潰れた図／落ちきった図／落下点・衝撃の星・血は描かない＝墜落が始まったまさにその瞬間に留める）。
+
+■画風・禁止事項
+・高品質で臨場感のある安全教育用イラスト。陰影・立体感のあるクリーンな作画。タッチは全シリーズで統一。
+・矢印を一切描かない。文字・キャプション・吹き出し・数字・警告記号・ピクトグラム・ロゴ・URL・元絵の英字『FALL FROM WORK PLATFORM』など画像内テキストを一切描かない（看板・パネル・壁・機体の面はすべて完全に無地＝ブランク）。動き線・揺れ線・衝撃の星も描かない。流血なし。実在ロゴ／ブランド名なし。黒いシルエット／ベクター調にはせず、立体的な実景イラストとして1枚絵で完成させる。
+
+==================== ENGLISH ====================
+
+[Safety-education illustration | Japanese exhibition-hall booth-setup site, INDOORS | the exact moment of a FALL FROM THE WORK PLATFORM of a scissor lift]
+
+THE ONE CAUSE THIS IMAGE MUST CONVEY (read from the source image 0914.webp):
+A vertical scissor lift (X-shaped pantograph) is RAISED HIGH, and a single worker standing on the elevated work platform (deck) LEANS HIS UPPER BODY FAR OUT past the top guardrail (or climbs up onto the rail) to reach a high object beyond arm's reach; his CENTRE OF GRAVITY moves OUTSIDE the guardrail = outside the deck's support footprint, he loses balance and begins to fall HEAD-FIRST OVER the top guardrail into the air beyond the platform. That is the cause = "leaning out past the platform guardrail so the centre of gravity goes outside the support footprint, and — with no working fall-arrest (harness lanyard hook not connected / not effective) — pitching head-first over the rail and FALLING FROM THE WORK PLATFORM (fall from height)." IMPORTANT: the machine itself is correctly set on level floor and stands UPRIGHT and STABLE — it does NOT tilt or tip over (this is NOT a tip-over accident). The accident is strictly "the machine stays standing, only the PERSON goes over the guardrail and falls." A viewer must instantly read both the cause (the unsafe lean-out posture with the centre of gravity outside the support footprint) and the result (that worker pitching head-first over the rail and beginning to fall into the air off the platform).
+
+FAITHFUL REPRODUCTION OF THE SOURCE (machine, count, posture, spatial relation):
+- The source is a black-silhouette safety-education vector titled "FALL FROM WORK PLATFORM": a raised scissor lift (X pantograph, four-sided guardrailed deck, wheeled base) standing on level ground, with ONE worker thrown off the deck into the air just beside the machine, going HEAD-DOWN / feet-up (head-first), flying and falling. A hi-vis reflective belt/stripe at the waist.
+- Machine = the source is already a scissor type, so draw a vertical scissor lift (X pantograph extended high, deck raised). Four-sided guardrailed deck, wheeled base, crossing X pantograph arms. No boom lift, no truck-mount, no basket. The machine stands UPRIGHT and STABLE on level floor (do NOT tilt or overturn it).
+- ONE worker. From the raised deck he is pitching HEAD-FIRST (upside-down, head down) over the top guardrail into the air beside the machine, arms spread and legs flailing, wearing a chin-strap helmet, hi-vis vest and full-body harness. The fall-arrest lanyard hook is NOT clipped to an anchor (hanging free) or not effective, so it does not stop the fall.
+
+FULL RELOCATION TO THE INDOOR EXHIBITION HALL (draw no outdoor elements):
+- Stage = a Japanese exhibition hall / trade-show booth-setup site, indoors. Surroundings: half-built exhibition booths, aluminium exhibition truss columns/cross-members, blank (plain) signage panels, display fixtures, stacked cardboard boxes, a loading entrance, floor cable protectors (cable covers) run across the floor.
+- Do NOT draw the source's white background, solid-black silhouette, vector look, watermark logo/URL, the English caption "FALL FROM WORK PLATFORM", or the ground line — make it ONE realistic shaded scene. Replace I-beams / H-steel with aluminium exhibition truss columns. Replace floor steps / curbs with floor cable protectors. Replace outdoor elements (ground/exterior wall/sky) with the indoor hall.
+- The object the worker was over-reaching toward = a too-high BLANK signage panel / the top of an aluminium truss; he leaned out toward it and as a result the fall begins.
+
+PHYSICAL CONSISTENCY (gravity, centre of gravity, contact):
+The worker leans out past the top guardrail → his centre of gravity moves outside the rail = outside the deck's support footprint → he loses balance, head dropping first → he pitches head-first over the guardrail into the air off the platform. The machine (X pantograph, deck, wheels) stays UPRIGHT on level floor — do not tilt it, do not lift wheels, do not overturn it. The person falls under gravity, head-down/feet-up, in the air right beside the machine. The fall has NOT yet reached the floor — keep it mid-air, still falling (do NOT draw a body crumpled on the floor, fully-landed figure, impact point, impact stars, or blood — keep it the very moment the fall begins).
+
+STYLE / PROHIBITIONS:
+- High-quality, vivid, realistic safety-education illustration with rich shading and depth; unified touch across the whole series.
+- Draw NO arrows. NO text, captions, speech bubbles, numbers, warning symbols, pictograms, logos, URLs, or the source's English "FALL FROM WORK PLATFORM" — no in-image text at all (every signboard/panel/wall/machine surface is completely blank). No motion lines, no shake lines, no impact stars. No blood. No real logos/brand names. Do NOT make it a black silhouette / vector; render it as a three-dimensional realistic scene, completed as a single image.
