@@ -1,0 +1,40 @@
+【元絵138（0138.png）から読み取った事故の型・原因・姿勢・状況】
+- 出所：dailyxenangnguoi.com の「HAZARDS WHEN OPERATING AERIAL WORK PLATFORMS」教育用イラスト（線画ピクトグラム複数コマの合成図／上部に英字見出し・右下にロゴ・URL）。複数の危険コマのうち、本番号138のカテゴリは「墜落・転落」＝中央コマの『高く上昇したシザースリフトの作業床から作業員が外へ放り出されて墜落する』場面を主題に採る。
+- 機械：元絵は既にシザースリフト（X字パンタグラフの垂直昇降式・基部に車輪・上部に四方手すりで囲んだ作業床デッキ）。中央コマでは作業床を最大近くまで高く上昇させている。→ 生成でもそのまま車輪付きシザースリフトを高く上昇させた状態で描く。
+- 人数・姿勢：作業員1名のみ。元絵中央コマでは、作業員が作業床デッキの上部手すりを越えて機体の脇の空中へ放り出され、上半身が外側・斜めに投げ出され腕脚が広がった「弾き出される／投げ出される」姿勢で落下し始めている（デッキ上端に描かれた曲線は、高く上昇した作業床が急に揺れた／傾いたことを示唆）。
+- 原因（なぜ起きるか・教訓）：高く上昇したシザースリフトを上昇させたまま走行・移動させた（または何かに当てた）ために、車輪が段差や障害物に乗り上げて急な揺れ・横振れ（リフトの揺動／転倒寸前の急停止）が発生し、作業床が大きく揺すられて、上部手すりの内側にいた作業員が反動で重心を失い手すりを越えて外側へ放り出された＝作業床からの墜落。元絵の右側に「上昇したまま走行禁止／斜面で使うな」の禁止コマ（赤の禁止マーク）が並ぶのは、この『上昇状態での走行・移動＝急な揺れ＝墜落』が原因であることを示す主眼。高所では小さな揺れが作業床上で大きく増幅され、手すりがあっても反動で外へ放り出される。
+- 事故の瞬間（生成で描く時点）：高く上昇した作業床が急な横揺れ（車輪が障害物に乗り上げた反動）を受け、作業員が反動で上部手すりを越えて外側・斜め下へ放り出され、踵がデッキから離れ体がデッキの外へ投げ出されて墜落が「始まる」まさにその瞬間（まだ地面に落ちきっていない・床に倒れていない・落下点や衝撃表現は描かない）。デッキは大きく揺れているがリフト自体はまだ立っており、墜落の開始に留める。
+
+==================== 生成用プロンプト（日本語） ====================
+高品質で臨場感のある日本の労働安全教育用イラスト（陰影・立体感のあるクリーンな作画、写実寄りのフルカラー）。元絵の描画スタイル（線画ピクトグラムの合成図）は真似ず、事故の「型」と「姿勢・原因」だけを継承する。元画像は危険の型の参照のみで、複数コマのうち中央の『高所の作業床から放り出されて墜落する』場面だけを1枚の絵として描く。
+
+舞台：日本の展示会場・トレードショーのブース設営現場の屋内。周囲は組みかけの展示ブース、床から高所まで立つアルミ展示トラス支柱、ブランクの看板パネル、什器、段ボール箱、床に敷かれたケーブルプロテクター（電線コードカバー）、奥に搬入口。屋外要素（地面・土・空・建物外壁）は描かない。元絵の白背景・英字見出し・ロゴ・URL・禁止マーク（赤い丸に斜線）は描かない。
+
+高所作業車は必ず車輪付きシザースリフト（X字パンタグラフの垂直昇降式・四方を手すりで囲んだ作業床デッキ・基部に車輪）のみ。元絵もシザース式なのでそのままシザースリフトとして高く上昇させた状態で描く。ブーム式・トラック式にしない。
+
+作業員：日本の展示設営作業員1名。顎ひも付きヘルメット、高視認ベスト、作業手袋、安全靴、フルボディの墜落制止用ハーネスを着用。元絵と同じく作業員は1名のみ（作業床の上には他に誰も乗っていない）。
+
+描く内容：高く上昇したシザースリフトの作業床（四方手すり付き）が急に大きく横揺れし、その反動で作業員1名が上部手すりを越えて機体の脇の空中へ放り出され、墜落し始めている。原因＝作業床を高く上昇させたままシザースリフトを走行・移動させ、基部の車輪が床のケーブルプロテクター（電線コードカバー）や什器・段差に乗り上げて急な揺れ・横振れが生じ、高所のデッキが大きく揺すられたこと。高所では足元の小さな揺れがデッキ上で大きく増幅され、手すりの内側にいた作業員が反動で重心を失い、上半身が手すりを越えて外側・斜め下へ投げ出され、腕脚が広がり、踵がデッキ床から離れている。シザースリフトはまだ立っているが、X字パンタグラフと作業床全体が傾き・揺れている様子（車輪が障害物に乗り上げて片側が浮く／傾く）を描き、揺れの原因が分かるようにする。
+
+まさにその瞬間：急な横揺れの反動で作業員の重心が上部手すりの線を越えて支持範囲の外へ抜け、体が手すりを越えて外側・斜め下へ放り出され、踵がデッキから離れて作業床からの墜落が「始まる」まさにその瞬間を描く（落ちきった後・地面に倒れた後ではない・地面に落下点や衝撃表現を描かない）。作業員はまだ作業床のすぐ外側・手すりのすぐ近くの空中にいて、放り出された直後の入り口にいる。重力・重心・揺れの反動の物理整合（高所デッキの急な揺れ→反動で重心が手すり外へ→体が外側へ投げ出され踵が浮く）を保つ。
+
+禁止：矢印を入れない。動きを示す線（スピード線・スウォッシュ・揺れ線）も入れない。衝撃の星形／効果記号も入れない。文字・数字・キャプション・吹き出し・記号を一切入れない（画像内テキストなし。元絵の「HAZARDS…」等の英字やロゴ・URL・赤い禁止マークも描かない）。流血なし。実在ロゴ／実在ブランドなし。元絵の線画ピクトグラム・白背景・複数コマ割りは描かない（1枚の臨場感ある絵にする）。
+
+構図メモ：高く上昇したシザースリフト全体（基部の車輪が床のケーブルプロテクター／什器に乗り上げて傾いている）・組みかけの高いアルミトラス／看板・上部手すりを越えて外側へ放り出され墜落し始めた作業員1名を、見る人が「高く上昇させたまま走行・移動させて車輪が障害物に乗り上げ、高所の作業床が急に揺れ、その反動で作業員が手すりを越えて作業床から放り出され墜落する」が原因だと一目で読み取れるように描く。安定して立つ姿勢でも、地面に落ちきった図でもなく、急な揺れで手すりを越えて放り出される不安定で危険な瞬間を描く。
+
+==================== Generation prompt (English) ====================
+A high-quality, realistic Japanese workplace-safety educational illustration (clean professional full-color art with rich shading, depth and a sense of presence). Do NOT imitate the source picture's drawing style (a multi-panel line-art pictogram poster); only inherit its accident TYPE and the unsafe posture/cause. The source image is a reference for the hazard only; depict ONLY the central scene — a worker thrown off a highly elevated work platform and falling — as a single illustration.
+
+Setting: the INDOOR floor of a JAPANESE EXHIBITION HALL / trade-show BOOTH SETUP site. Around them: half-built exhibition booths, vertical aluminium exhibition TRUSS COLUMNS running from floor to height, large BLANK signage panels, display fixtures, cardboard crates, FLOOR CABLE PROTECTORS (cable covers) laid on the floor, and a loading dock in the background. Do NOT draw any outdoor elements (bare ground, soil, sky, building facade). Do NOT draw the source picture's white background, the English heading, the logo, the URL, or the red prohibition (no-entry) marks.
+
+The aerial work platform MUST be a wheeled SCISSOR LIFT only (vertical X-shaped pantograph scissor-type elevating platform, deck enclosed by guardrails on all four sides, wheels at the base). The source is already a scissor lift, so keep it a wheeled scissor lift raised up HIGH. Never a boom lift or truck-mounted lift.
+
+Worker: ONE Japanese exhibition setup crew member wearing a chin-strap helmet, hi-vis vest, work gloves, safety boots and a FULL-BODY fall-arrest harness. As in the source, there is ONLY ONE worker (no one else on the deck).
+
+What to depict: a HIGHLY ELEVATED scissor lift's guard-railed deck is suddenly jolted and sways violently sideways, and from that jolt ONE worker is THROWN over the top guardrail out into the air beside the machine and is beginning to FALL. The cause: the scissor lift was DRIVEN / MOVED while still raised up high, and a base wheel rode up onto a FLOOR CABLE PROTECTOR (cable cover) / a fixture / a step, producing a sudden jolt and sideways lurch that violently shook the elevated deck. At height a small shake at the base is greatly amplified up on the deck, so the worker — who was inside the guardrail — lost his balance from the recoil, his upper body is flung OVER the rail outward and diagonally downward, his arms and legs splay out, and his heels have lifted off the deck floor. The scissor lift is still standing but the X-pantograph and the whole deck are visibly tilted / rocking (one side lifting because a wheel rode up onto the obstacle), so the cause of the shake is legible.
+
+The exact moment: from the recoil of the sudden sideways jolt, the worker's centre of gravity passes OUTSIDE the top-rail line (outside the support area), his body is thrown over the guardrail outward and diagonally downward, his heels leave the deck, and the fall from the work platform is just BEGINNING — draw this very instant (NOT a person already fully fallen or lying on the floor; do NOT draw an impact point or impact star on the ground). Keep him still in the air just outside the rail, close to the deck, at the entry of being thrown out. Keep the physics consistent: sudden jolt of the high deck → recoil carries the centre of gravity past the rail → the body is flung outward and the heels lift.
+
+Forbidden: NO arrows. NO motion/speed/swoosh/shake lines. NO impact star or effect symbols. NO text, letters, numbers, captions, speech bubbles or symbols anywhere (no in-image text; do NOT draw any English wording such as the source's "HAZARDS…", nor the logo, URL or red prohibition marks). No blood/gore. No real logos or real brand names. Do not draw the source picture's line-art pictograms, white background or multi-panel layout (make one single, immersive illustration).
+
+Composition notes: show the whole highly-elevated scissor lift (its base wheel having ridden up onto a floor cable protector / fixture so the machine is tilting), the tall half-built aluminium truss / signage around it, and the single worker thrown over the top guardrail beginning to fall, so a viewer instantly reads that the fall is caused by DRIVING / MOVING the lift while raised up high, a wheel hitting an obstacle, the high deck suddenly shaking, and the worker being flung over the guardrail off the work platform. Draw the unstable, dangerous instant of being thrown over the rail by the jolt — not a stable standing pose and not a completed ground fall.
