@@ -1,0 +1,37 @@
+【元絵番号1の専用プロンプト｜元絵: collect_aerial2/img/0001.jpg（高所作業車 墜落・転落 教育イラスト, 出所 www.sacl.or.jp）】
+
+■元絵から読み取った内容（この絵だけの作り込み・汎用テンプレ禁止）
+・機械種別: 自走式シザースリフト（垂直昇降式）。作業床は高く上昇したまま。X字シザース機構と車輪付き基部が見える。
+・人物と姿勢/動作/人数: 作業床に2名。左側の作業員は操作盤の前に立ち、機体を上昇させたまま走行（移動）操作している。右端の手すり際の作業員は、上昇したまま走行した作業床が前方の高い構造物に「激突したまさにその瞬間」、衝撃で体を前方・外側へ大きく投げ出され、両腕を振り、ヘルメットが浮き、手すりを越えて落ちかけている（まだ落ちきっていない）。さらに地上に1名が下から見上げて反応している。
+・事故の状況: 作業床を高く上げたままシザースリフトを走行させ、前方の背の高い剛構造物に作業床／手すりが激突。その衝撃で手すり際の作業員がバランスを崩し、手すりを越えて転落する寸前。
+・なぜ起きたか（原因）: 「作業床を上昇させたまま機体を走行（移動）させた」こと。上昇状態での走行は視界・安定・制御が悪く、前方の構造物に激突 → 衝撃で端の作業員が手すり越しに投げ出される。これが原因＝不安全行動。
+
+■この絵専用の生成指示（必ず守る）
+1.【原因への忠実性】「上昇したまま走行して構造物に激突」という原因をそのまま再現する。左の作業員が操作盤に手を置いて走行操作している様子と、激突の衝撃が伝わる構図にすること。原因が見る人に分かること。
+2.【姿勢・状況への忠実性】作業床に2名（左=操作盤で走行操作中／右=手すり際で衝撃に投げ出される作業員）を保つ。右の作業員は前方・外側へ体が傾き、両腕を振り、手すりを越えかけている不安定姿勢。元絵同様、地上にもう1名が見上げて反応している小さな人物を入れてよい。
+3.【事故の瞬間】激突の「まさにその瞬間」を描く。右の作業員はまだ完全には落ちていない（手すりを越えて落ちる寸前）。投げ出され始めの一瞬。
+4.【物理的忠実性】上昇した重心の高い作業床が前進し剛構造に当たり、その急減速の反動で端の作業員の上半身が前方へ投げ出され、重心が手すりの外へ出ていく——この重心移動と接触が物理的に整合すること。機体・シザース機構・手すりは正しい構造で、ありえない浮き方をしない。
+5.【展示会場屋内への置換】舞台は日本の展示会場・ブース設営現場の屋内。激突する相手＝組みかけの背の高いアルミ展示トラス（トラスタワー／看板ゲート）に置換。周囲は組みかけ展示ブース、什器、ブランク看板パネル、段ボール、搬入物、床のケーブルプロテクター、奥に搬入口。屋外/外壁/空/鉄骨は描かない。
+6.【シザース式統一】高所作業車は必ずシザースリフト（垂直昇降式）。ブーム式にしない。
+7.【画風】高品質・臨場感のある安全教育用イラスト。クリーンでプロフェッショナルな作画、陰影・立体感あり。元絵の絵柄を模倣せず事故タイプのみ継承。全25枚で統一できる落ち着いた配色。
+8.【禁止】矢印を一切入れない。文字・数字・キャプション・吹き出し・記号を画像内に入れない。流血・グロなし。実在ロゴ/ブランドなし。作業員は顎ひも付きヘルメット・高視認ベスト・手袋・安全靴、高所ではフルハーネス着用。
+
+────────────────────────────────────────
+
+[EN] Bespoke prompt for source image #1 (a scissor lift driven while elevated rams into a tall structure; the edge worker is thrown over the guardrail — the moment the accident begins).
+
+High-quality, realistic Japanese workplace-safety educational illustration (clean professional art with rich shading, depth and a sense of presence). Do NOT imitate the source picture's drawing style; only inherit its accident TYPE. The source image is a hazard-type reference only.
+
+Scene to depict: Inside a JAPANESE EXHIBITION HALL during trade-show booth SETUP. A self-propelled SCISSOR LIFT (vertical scissor-type elevating platform — never a boom lift) has its platform FULLY RAISED and is being DRIVEN / TRAVELLED while still elevated. The raised platform has just SLAMMED into a tall, rigid half-built ALUMINIUM EXHIBITION TRUSS TOWER / signage gantry directly ahead.
+
+Workers (keep the source's people and roles): TWO workers stand on the platform. The LEFT worker stands at the control panel with a hand on the drive controls, having just driven the still-elevated lift forward. The RIGHT worker, at the guardrail on the impact side, is THROWN by the collision — his upper body pitched forward and OUTWARD, both arms flailing, helmet jolted loose, his centre of gravity going OUTSIDE the rail as he is flung OVER the guardrail (NOT yet fallen — the very instant he begins to go over). Optionally a small ground-level worker below looks up reacting, as in the source.
+
+The exact moment: the INSTANT OF IMPACT — show the collision and the edge worker just beginning to be thrown over the rail, not a person already fallen or lying down.
+
+Physics: the high centre of gravity of the raised platform moving forward, the abrupt deceleration against the rigid truss, and the reaction throwing the edge worker's torso forward and his weight outside the guardrail must read as physically consistent. The machine, scissor mechanism and guardrail are structurally correct, no impossible floating.
+
+Substitutions: relocate everything indoors — the struck structure is an exhibition aluminium truss tower (not a steel/building beam); surroundings are half-built booths, display fixtures, blank signage panels, cardboard crates, floor cable protectors and a loading dock in the background. No outdoors, no exterior walls, no sky, no structural steel I-beams.
+
+Workers wear chin-strap helmets, hi-vis vests, gloves and safety boots; at height a full-body harness.
+
+ABSOLUTELY NO ARROWS. No text, no letters, no numbers, no captions, no speech bubbles, no symbols anywhere in the image. No blood or gore. No real brand names or logos. Unified, calm, professional safety-education illustration style consistent across a 25-image set.
