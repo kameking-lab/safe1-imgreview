@@ -1,0 +1,44 @@
+【元絵番号93の専用プロンプト｜元絵: collect_aerial2/img/0093.jpg（高所作業車 墜落・死亡災害 実事例図, 出所 anzeninfo.mhlw.go.jp「高所作業車 墜落 死亡災害 事例 厚生労働省」）】
+
+■元絵から読み取った内容（この絵だけの作り込み・汎用テンプレ禁止）
+・機械種別: 高所作業車＝自走式ブーム式高所作業車（クローラ＝履帯式の青い走行基部＋屈折／伸縮ブーム＋先端の搭乗バケット）。樹木（落葉した冬の裸木）の脇に据えてブームを高く伸ばし、バケットを樹上へ寄せて樹木の剪定／伐採作業をしていた。ルールにより本シーンではこのブーム式を「シザースリフト（垂直昇降式・X字パンタグラフ）」に置換する。
+・人物と姿勢/動作/人数: 作業員は1名のみ。バケット（搭乗カゴ）から樹木側へ身を乗り出して剪定／伐採作業をしていたが、いままさにバケットの外へ頭から放り出され（投げ出され）、両腕・両脚を振り回し、手に持っていた刃物／剪定工具（チェンソー／のこ）が手から離れて宙へ飛んでいる。体はバケットより外・上に飛び出し、頭が下・脚が上に近い倒立気味のはね飛ばされた姿勢。まだ地面に激突していない（投げ出された直後の空中）。
+・周囲の対象物: 左に落葉した裸の立木（剪定対象）。バケットはこの木のすぐ脇。基部はクローラ（履帯）で地面に接地。
+・事故の状況: バケットから樹木へ身を乗り出して作業中、機体／ブーム／バケットに不意の大きな振れ・反動（はね上げ）＝「カタパルト（はね飛ばし）」が生じ、その勢いで搭乗者が安全帯（命綱）でバケットに繋がれていなかったため、バケットの外へ頭から放り出された。元絵の大きな曲線（黄色の弧）はこの放り出されの軌道を示している。
+・なぜ起きたか（原因）: 「バケットから身を乗り出して樹木の剪定／伐採をしている最中に、ブーム式高所作業車の機体・ブーム・バケットに不意の大きな振れ／反動（はね＝カタパルト効果。切った枝のはね返り・ブームの急動・不整地でのガタつき等）が生じ、命綱（安全帯ランヤード）をバケットへ未接続のまま乗り出していた搭乗者が、その反動で支えを失いバケットの外へ頭から投げ出された（＝不意の反動による放り出され＋命綱未接続＋身を乗り出し）」こと。重心がバケットの支持範囲外へ一気に抜け、放り出しに至る。
+
+■この絵専用の生成指示（必ず守る）
+1.【原因への忠実性】「作業員が作業床から身を乗り出して高所作業中、機体・作業床に不意の大きな振れ／反動（はね＝カタパルト）が生じ、命綱（ランヤード）を作業床へ未接続のまま乗り出していたため、その反動で支えを失い作業床の外へ頭から投げ出される」という原因をそのまま再現する。原因（不意の反動によるはね飛ばし＋身を乗り出し＋命綱未接続で止める物が無い）が見る人に一目で分かること。手に持っていた電動工具／刃物が手から離れて宙へ飛んでいる描写で「不意の反動で投げ出された」ことが伝わること。フルハーネスは着用しているがランヤードのフックは作業床の手すり／アンカーへ未接続で垂れている（落下を止める物が無い＝原因の補強）。
+※元絵の「樹木の剪定／伐採」という屋外作業は、屋内会場の置換ルールにより「組みかけ展示ブースの高所の固定アルミ展示トラス支柱／横材に対する作業（締結・解体・配線等の力をかける作業）」へ読み替える。原因の本質（乗り出し＋不意の反動による放り出され＋命綱未接続）は変えない。
+
+2.【姿勢・状況への忠実性】作業床（搭乗部）の作業員は1名のみ（元絵どおり、増減しない）。顎ひも付きヘルメット・高視認ベスト・作業服・手袋・安全靴。作業員は作業床の外へ身を乗り出していた姿勢から、いままさに作業床の手すりを越えて外側へ頭から放り出され、両腕・両脚を振り回し、手に持っていた工具が手から離れて宙へ飛んでいる。頭が下・脚が上に近い、はね飛ばされた倒立気味の空中姿勢。驚き・恐怖の表情。体は作業床より外・上に飛び出している（まだ落ちきっていない）。
+
+3.【事故の瞬間】身を乗り出して作業中、機体・作業床に不意の反動が生じ、その勢いで搭乗者が作業床の手すりを越えて外へ頭から投げ出された「まさにその瞬間（投げ出された直後の空中・放物線の上り〜頂点付近）」を描く。まだ床にも地面にも激突していない（落ちきった後でない）。工具が手を離れて宙に飛び、体が振り回されている緊迫した瞬間。
+
+4.【物理的忠実性】作業床の手すりの外へ身を乗り出していた搭乗者に、機体・作業床の不意の急な振れ／反動（はね）が加わると、その慣性（はね上げの力）で重心が作業床の支持範囲（手すりの内側）の外へ一気に抜け、手すりを支点（てこ）に体が外側・上方へ放り出される。手に持っていた工具は慣性で手から離れて飛ぶ。この「不意の反動による慣性放出＋てこ」の力学が物理的に整合すること。シザース機構・作業床・手すり・固定トラス支柱は構造的に正しく接地・固定され、ありえない浮き方や構造破綻をしない（機械は正しく接地、搭乗者の重心移動と反動のみが事故を生む）。
+
+5.【展示会場屋内への置換】舞台は日本の展示会場・ブース設営現場の屋内に統一。元絵の「落葉した立木（剪定／伐採対象）」＝組みかけ展示ブースの高所に立つ固定アルミ展示トラス支柱／横材（作業員が締結・解体・配線等で力をかけていた対象）に置換する。周囲は組みかけ展示ブース、アルミ展示トラス支柱、ブランク看板パネル、什器、段ボール・搬入物、床のケーブルプロテクター（電線コードカバー）、奥に搬入口。屋外（地面・土・草・空・外壁・樹木）は描かない。床の段差・縁石は床のケーブルプロテクターに置換。元絵のクローラ（履帯）走行基部は屋内会場の床に接地した車輪（キャスター）付きシザースリフト基部に置換。
+
+6.【シザース式統一】高所作業車は必ずシザースリフト（垂直昇降式）。車輪（キャスター）付き基部＋X字パンタグラフ機構で高く上昇した作業床に統一する。元絵がブーム式（屈折／伸縮ブーム＋バケット）でも、本シーンではシザースリフトに置換する。ブーム式／トラック式／バケット型（高所作業車のカゴ）にしない。作業床の手すり・操作盤はシザースリフトのものとして正しく描く。
+
+7.【画風】高品質・臨場感のある安全教育用イラスト。クリーンでプロフェッショナルな作画、陰影・立体感あり。元絵の絵柄（簡易な実事例図・黄色い弧の矢印つき）を模倣せず、事故タイプ（身を乗り出し作業中に不意の反動で命綱未接続の搭乗者が作業床外へ頭から放り出される墜落）のみ継承。全25枚で統一できる落ち着いた配色。
+
+8.【禁止】矢印を一切入れない（元絵の黄色い弧の矢印は再現しない。放り出される動きは人物のダイナミックな空中姿勢と飛ぶ工具で表現する）。文字・数字・キャプション・吹き出し・記号・効果音・注記を画像内に一切入れない。流血・グロなし。実在ロゴ/ブランドなし。作業員は顎ひも付きヘルメット・高視認ベスト・手袋・安全靴、フルハーネス着用（ただしランヤードフックは未接続で垂れている＝原因の表現）。
+
+────────────────────────────────────────
+
+[EN] Bespoke prompt for source image #93 (accident TYPE = a FATAL FALL caused by the worker being VIOLENTLY THROWN / EJECTED OUT of the elevated platform by a SUDDEN JOLT / RECOIL ("catapult" effect) while he was LEANING OUT of the basket to do overhead work, NOT tied off — his safety lanyard never connected — so nothing arrests him; depict the INSTANT he is launched out, not after landing).
+
+High-quality, realistic Japanese workplace-safety educational illustration (clean professional art with rich shading, depth and a sense of presence). Do NOT imitate the source picture's simple case-diagram / yellow-arc-arrow style; only inherit its accident TYPE. The source image is a hazard-type reference only.
+
+Scene to depict: Inside a JAPANESE EXHIBITION HALL during trade-show booth SETUP. A self-propelled SCISSOR LIFT (vertical scissor-type elevating platform with an X-shaped pantograph mechanism and a wheeled/caster base firmly on the hall floor — never a boom lift, never an articulated/telescopic boom, never a truck-mounted boom, never a cherry-picker bucket) is raised high beside a tall FIXED aluminium exhibition-TRUSS COLUMN of a half-built booth (this replaces the bare tree the worker was pruning outdoors). EXACTLY ONE worker (do NOT add or remove workers). He had been LEANING OUT over the platform guardrail toward the fixed truss column to work on it (tightening / dismantling / wiring a high truss member). Now, at this instant, a SUDDEN VIOLENT JOLT / RECOIL of the machine and platform (a "catapult" bounce — the worked member springs back / the machine lurches) has FLUNG him head-first OUT over the guardrail: he is airborne just outside and above the platform, arms and legs flailing, his power tool / cutting tool FLYING OUT of his hand through the air. His body is in an inverted-ish, catapulted pose (head low, legs up), face shocked. He has NOT yet hit the floor — this is the moment just after being launched, on the rising arc.
+
+Workers (keep the source's count): exactly ONE worker. Chin-strap helmet, hi-vis vest, work clothes, gloves, safety boots; a full-body harness whose LANYARD HOOK is NOT CONNECTED to the platform rail / any anchor — it hangs free and dangling (this depicts the cause; nothing will arrest the fall). The tool that flew from his grip makes clear he was suddenly thrown out by a jolt.
+
+The exact moment: leaning out to work on the truss column, a sudden jolt/recoil of the platform catapults the un-tied-off worker head-first OVER and OUT of the guardrail — the INSTANT he is launched into the air, tool flying, body flailing. NOT a person already on the floor, NOT after impact. Mid-air, just ejected, the fall just beginning.
+
+Physics: while the worker leaned his body out past the rail, a sudden jolt/recoil (inertial "catapult" force) drives his centre of gravity abruptly OUTSIDE the platform's support area (inside the rails); the top guardrail acts as a pivot/lever and his body is flung outward and upward, his held tool released by inertia and flying free. This "sudden recoil → inertial ejection + lever over the rail" must read as physically consistent. The scissor mechanism, deck, guardrail and fixed truss column are structurally correct and properly grounded/fixed — no impossible floating of the machine, no broken structure; only the worker's recoil-driven weight-shift causes the accident.
+
+Substitutions: relocate everything indoors. The bare TREE being pruned becomes a tall FIXED aluminium exhibition-TRUSS COLUMN / high truss member of a half-built booth that the worker was working on. The CRAWLER/TRACK boom-lift base becomes a wheeled SCISSOR LIFT (caster base + X-shaped pantograph) standing on the hall floor with a guarded deck and control panel — NOT a truck/boom/bucket. Surroundings: half-built exhibition booths, aluminium exhibition TRUSS columns, blank signage panels, display fixtures, cardboard crates/loading items, floor CABLE PROTECTORS, and a loading dock in the background. No outdoors, no dirt ground, no grass, no sky, no exterior walls, no trees; any floor step/curb becomes a cable protector.
+
+ABSOLUTELY NO ARROWS (do NOT reproduce the source's yellow arc arrow; convey the ejection purely through the worker's dynamic airborne pose and the flying tool). No text, no letters, no numbers, no captions, no speech bubbles, no sound-effect marks, no annotation labels, no symbols anywhere in the image. No blood or gore. No real brand names or logos. Unified, calm, professional safety-education illustration style consistent across a 25-image set.
