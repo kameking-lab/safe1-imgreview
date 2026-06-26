@@ -1,0 +1,37 @@
+【元絵番号2の専用プロンプト｜元絵: collect_aerial2/img/0002.jpg（高所作業車 墜落・転落 教育イラスト, 出所 maruyama-support.jp）】
+
+■元絵から読み取った内容（この絵だけの作り込み・汎用テンプレ禁止）
+・機械種別: 自走式クローラ（キャタピラ）走行の小型ブーム式高所作業車。赤いブームアームの先端に小さなバスケット（搭乗カゴ）が付き、果樹園で使う高所作業車。バスケットは中ほどまで上昇している。
+・人物と姿勢/動作/人数: 搭乗カゴに作業員1名のみ。赤いヘルメット（顎ひも付き）・水色の作業着。元々は果実（りんご）に手を伸ばして作業していた。今まさにバスケット基部の連結部で「カチャ!」と何かが外れた/急に大きく振れた瞬間で、作業員は不意の衝撃でバランスを大きく崩している。上半身が後方・外側へねじれ、片腕（右手付近）は頭の横へ跳ね上がり、もう一方の腕は手すりを越えて外側へ大きく投げ出され、口を開けて「うわっ!」と驚いている。足はまだカゴ床にあるが体重・重心が手すりの外へ抜けつつある（まだ落ちきっていない）。
+・事故の状況: 搭乗カゴから身を乗り出して作業中、バスケット連結部が急に「カチャ」と外れる/カゴが不意に大きく振れ、その反動で搭乗者がバランスを崩し、上半身が手すりを越えて外側へ投げ出される、まさにその瞬間。
+・なぜ起きたか（原因）: 搭乗カゴ（作業床）から身を乗り出して手を伸ばし作業していたところへ、機体・カゴの不意の急な振れ／連結部のガタつきという外乱が加わり、乗り出していた重心が一気に手すりの外へ抜けて投げ出された。＝「乗り出し作業＋不意の機体の振れでバランス喪失」という不安全行動・不安全状態。
+
+■この絵専用の生成指示（必ず守る）
+1.【原因への忠実性】「搭乗カゴから身を乗り出して作業 → 機体/カゴの不意の急な振れ（連結部のガタつき）で重心が手すりの外へ抜け投げ出される」という原因をそのまま再現する。作業員が外側へ手を伸ばして作業していた流れと、不意の衝撃でのけぞる/ねじれる動きが見る人に分かること。原因が分かること。
+2.【姿勢・状況への忠実性】搭乗カゴに作業員は1名のみ（元絵どおり複数にしない）。上半身が後方・外側へねじれ、片腕は頭の横へ跳ね上がり、もう一方の腕は手すりを越えて外側へ投げ出される不安定姿勢。足はまだ床にあるが重心が手すりの外へ抜けつつある。顎ひも付きヘルメット着用。驚いて口を開けた表情（ただし文字・吹き出しは描かない）。
+3.【事故の瞬間】投げ出され「始めの一瞬」を描く。まだ完全には落ちていない（上半身が手すりを越え、重心が外へ抜ける寸前～抜けかけ）。地面に倒れた絵にしない。
+4.【物理的忠実性】不意の急な横揺れ/振れに対し、上半身の慣性がそのまま外側へ続き、重心（CG）が手すりの線を越えて外へ出ていく——この慣性と重心移動が物理的に整合すること。シザースリフトのX字機構・作業床・手すりは構造的に正しく、ありえない浮き方をしない。床がわずかに傾く/揺れる表現は可だが構造破綻させない。
+5.【展示会場屋内への置換】舞台は日本の展示会場・ブース設営現場の屋内。元絵の果樹（りんごの木）＝作業員が手を伸ばしていた対象は、組みかけの高いアルミ展示トラス／看板パネル（取付け途中の高い什器）に置換。周囲は組みかけ展示ブース、什器、ブランク看板パネル、段ボール、搬入物、床のケーブルプロテクター（コードカバー）、奥に搬入口。屋外要素（地面の土・草・低木・空・果樹）は一切描かない。
+6.【シザース式統一】高所作業車は必ずシザースリフト（垂直昇降式）に置換する。元絵のクローラ走行ブーム式にしない。基部は車輪付きシザースリフトの基部。
+7.【画風】高品質・臨場感のある安全教育用イラスト。クリーンでプロフェッショナルな作画、陰影・立体感あり。元絵の絵柄（マンガ調・効果音つき）を模倣せず、事故タイプ（乗り出し作業中の不意の振れによる墜落）のみ継承。全25枚で統一できる落ち着いた配色。
+8.【禁止】矢印を一切入れない。文字・数字・キャプション・吹き出し・記号・効果音（「カチャ」「うわっ」「!」等）を画像内に一切入れない。流血・グロなし。実在ロゴ/ブランドなし。作業員は顎ひも付きヘルメット・高視認ベスト・手袋・安全靴、高所ではフルハーネス着用。
+
+────────────────────────────────────────
+
+[EN] Bespoke prompt for source image #2 (a worker leaning out of an elevated platform to work; the platform suddenly jolts/lurches and the worker is thrown off balance, flung outward over the guardrail — the moment the accident begins).
+
+High-quality, realistic Japanese workplace-safety educational illustration (clean professional art with rich shading, depth and a sense of presence). Do NOT imitate the source picture's cartoon/sound-effect drawing style; only inherit its accident TYPE. The source image is a hazard-type reference only.
+
+Scene to depict: Inside a JAPANESE EXHIBITION HALL during trade-show booth SETUP. A self-propelled SCISSOR LIFT (vertical scissor-type elevating platform — never a boom lift, never a crawler/tracked machine) has its platform partly raised. A SINGLE worker stands in the platform. He had been LEANING OUT of the platform, reaching outward to work on a tall half-built ALUMINIUM EXHIBITION TRUSS / signage panel ahead of him (this replaces the orchard fruit he was reaching for in the source). The platform has just SUDDENLY JOLTED / LURCHED (a sharp mechanical jolt at the platform mount), and the abrupt jolt is THROWING him off balance.
+
+Worker (keep the source's single person and pose): exactly ONE worker on the platform (do NOT add other workers). His upper body is twisted and pitched BACKWARD and OUTWARD by the jolt; ONE arm is flung up beside his head, the OTHER arm is thrown OUT past the guardrail, his mouth open in alarm, chin-strap helmet on. His feet are still on the deck but his centre of gravity is going OUTSIDE the guardrail as he begins to be flung OVER the rail (NOT yet fallen — the very instant he starts to go over).
+
+The exact moment: the INSTANT of the jolt — show him just beginning to be thrown over the rail by the lurch, not a person already fallen or lying on the floor.
+
+Physics: against the sudden lateral jolt of the platform, the inertia of his leaning upper body carries it onward outward, so his centre of gravity crosses the guardrail line and goes outside — this inertia and weight-shift must read as physically consistent. The scissor mechanism, deck and guardrail are structurally correct; a slight tilt/shake of the deck is acceptable but no impossible floating or broken structure.
+
+Substitutions: relocate everything indoors — what he was reaching toward is a tall half-built aluminium exhibition truss / signage panel (NOT an orchard tree/fruit); surroundings are half-built booths, display fixtures, blank signage panels, cardboard crates, floor cable protectors (cable covers) and a loading dock in the background. No outdoors, no dirt ground, no grass, no bushes, no sky, no trees. The machine is a wheeled SCISSOR LIFT base (NOT a crawler/tracked boom lift).
+
+Workers wear chin-strap helmets, hi-vis vests, gloves and safety boots; at height a full-body harness.
+
+ABSOLUTELY NO ARROWS. No text, no letters, no numbers, no captions, no speech bubbles, no sound-effect marks (no "カチャ", "うわっ", "!" etc.), no symbols anywhere in the image. No blood or gore. No real brand names or logos. Unified, calm, professional safety-education illustration style consistent across a 25-image set.
