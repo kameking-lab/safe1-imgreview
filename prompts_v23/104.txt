@@ -1,0 +1,44 @@
+【元絵104（0104.jpg）から読み取った事故の型・原因・姿勢・状況】
+- 事故の型：墜落・転落（元絵の見出し＝「身を乗り出して作業し墜落」「墜落制止用器具（安全帯）の 未使用」）。
+- 機械：元絵は垂直マスト式の高所作業車（中央に1本の角柱マスト、上部にケージ型の高い手すり付き作業床、車輪付きの小さな基部）。→ 生成では車輪付きシザースリフト（X字パンタグラフの垂直昇降式）に置換する。
+- 人数・姿勢：作業員1名。届かない高所／前方の対象へ手を届かせるため、上半身と頭を作業床の上部手すりの外へ大きく前方へ乗り出して作業していた（身を乗り出す不安全姿勢）。元絵では既にバランスを失い、手すりの外・前方の空間で頭から下向き（逆さ）に落下している。
+- 原因（なぜ起きるか）：作業床（機体）を対象の真下へ寄せ直さず、上部手すりの外へ上半身を大きく乗り出して作業したため、重心が手すりの外（支持範囲の外）へ抜けた。さらに墜落制止用器具（フルハーネス）のランヤードフックをアンカーへ接続していない（安全帯未使用）ため、バランスを失った時に落下を止める物が何も無く、手すりを支点に頭から外側・前方下方へ墜落する。＝「身を乗り出して作業」＋「安全帯未接続」の二重の不安全。
+- 事故の瞬間：作業員が上部手すりの外へ上半身を大きく乗り出して作業した結果、重心が手すり線を越えて支持範囲の外へ抜け、バランスを失い、手すりを支点に頭から外側・前方下方へ回転して墜落が始まる、まさにその瞬間（まだ落ちきっていない・床に倒れていない）。フルハーネスのランヤードフックは未接続でだらりと垂れていることが分かる。
+
+==================== 生成用プロンプト（日本語） ====================
+高品質で臨場感のある日本の労働安全教育用イラスト（陰影・立体感のあるクリーンな作画、写実寄り）。元絵の描画スタイルは真似ず、事故の「型」と「姿勢・原因」だけを継承する。元画像は危険の型の参照のみ。
+
+舞台：日本の展示会場・トレードショーのブース設営現場の屋内。周囲は組みかけの展示ブース、床から高所まで立つアルミ展示トラス支柱／頭上に水平に渡したアルミ展示トラス横材、ブランクの看板パネル、什器、段ボール箱、床のケーブルプロテクター（電線コードカバー）、奥に搬入口。屋外要素（地面・土・草・空・外壁）は描かない。
+
+高所作業車は必ず車輪付きシザースリフト（X字パンタグラフの垂直昇降式）のみ。元絵の垂直マスト式・ブーム式・トラック搭載式にしない。元絵のマスト式作業床はシザースリフトの作業床（四方を手すりで囲んだデッキ）に置換する。
+
+作業員：日本の展示設営作業員1名。顎ひも付きヘルメット、高視認ベスト、作業手袋、安全靴、フルハーネスを着用。
+
+描く内容：シザースリフトの作業床（四方手すり付き）に作業員1名。届かない前方上方の対象（頭上のアルミ展示トラス横材／高所の看板取付け金具）へ手を届かせるため、上半身と頭を作業床の上部手すりの外へ大きく前方へ乗り出して作業している（身を乗り出す不安全姿勢）。体幹が上部手すりの線を越えて前方外側へ大きく傾き、頭が手すりの外で下がり、踵が床から浮き、重心が手すりの外（支持範囲の外）へ移っている。最重要：フルハーネスは着用しているが、墜落制止用のランヤードフックをアンカー（手すり等）へ接続しておらず、未接続のフックとランヤードがだらりと宙に垂れている（安全帯未使用）ことがはっきり分かるように描く。
+
+まさにその瞬間：作業員が上部手すりの外へ大きく身を乗り出して作業した結果、重心が手すり線を越えて支持範囲の外へ抜け、バランスを失い、手すりを支点に頭から外側・前方下方へ回転して墜落が始まる、まさにその瞬間を描く（落ちきった後・床に倒れた後ではない）。未接続のランヤードフックが落下を止められないことが伝わるように、フックは宙ぶらりんのまま。重力・重心の物理整合（重心が手すり線を越え、手すりを支点に体が前方外側へ回転し踵が浮く）を保つ。
+
+禁止：矢印を入れない。文字・数字・キャプション・吹き出し・記号を一切入れない（画像内テキストなし）。流血なし。実在ロゴ／実在ブランドなし。元絵の屋外・空・コンクリート部屋は描かない。
+
+構図メモ：シザースリフト全体・組みかけブース・乗り出した作業員1名と宙に垂れた未接続フックがはっきり分かるように描き、見る人が「身を乗り出して作業＋安全帯未接続」が墜落の原因だと一目で読み取れるようにする。
+
+最重要の強調（必ず守る）：作業員は作業床の中で前かがみになっているだけではない。上半身と頭が上部手すりの「外側・前方」へ完全に越えて突き出しており（頭・肩・胸が手すり線より外に出ている）、両足の踵が床から浮き、つま先だけで辛うじて床に残り、体が手すりを支点に頭から前方下方へ回転し始めている＝墜落がまさに今始まる瞬間。重心は明確に手すりの外。床に倒れた後ではなく、宙へ落ち始めた最初の一瞬を描く。安全のため床の中で立っている安定した姿ではなく、手すりを越えて前へ大きく倒れ込む不安定で危険な瞬間を描くこと。
+
+==================== Generation prompt (English) ====================
+A high-quality, realistic Japanese workplace-safety educational illustration (clean professional art with rich shading, depth and a sense of presence). Do NOT imitate the source picture's drawing style; only inherit its accident TYPE and the unsafe posture/cause. The source image is a reference for the hazard only.
+
+Setting: the INDOOR floor of a JAPANESE EXHIBITION HALL / trade-show BOOTH SETUP site. Around them: half-built exhibition booths, vertical aluminium exhibition TRUSS COLUMNS running from floor to height and a horizontal aluminium exhibition TRUSS BEAM running overhead, large BLANK signage panels, display fixtures, cardboard crates, FLOOR CABLE PROTECTORS (cable covers) on the floor, and a loading dock in the background. Do NOT draw any outdoor elements (ground, soil, grass, sky, building facade).
+
+The aerial work platform MUST be a wheeled SCISSOR LIFT only (vertical X-shaped pantograph scissor-type elevating platform). Never a vertical mast lift, a boom lift or a truck-mounted boom. Replace the source picture's mast-lift platform with a scissor-lift deck enclosed by guardrails on all four sides.
+
+Worker: ONE Japanese exhibition setup crew member wearing a chin-strap helmet, hi-vis vest, work gloves, safety boots and a full-body safety harness.
+
+What to depict: ONE worker on the guard-railed deck of the SCISSOR LIFT. To reach a target that is too far forward and above (an overhead aluminium exhibition truss beam / a high signage-mounting bracket), he LEANS HIS WHOLE UPPER BODY AND HEAD FAR OUT FORWARD past the TOP GUARDRAIL to work (the unsafe "leaning out over the rail" posture). His torso has crossed the top-rail line and tilts far forward and outward, his head is out past the rail and lowered, his heels are lifting off the deck, and his centre of gravity has moved OUTSIDE the rail (outside the support area). MOST IMPORTANT: although he wears a full-body harness, his fall-arrest LANYARD HOOK is NOT clipped to any anchor (rail etc.) — the unconnected hook and lanyard hang FREE and dangling in the air, clearly showing the harness is unused for fall arrest.
+
+The exact moment: because the worker leaned far out over the top rail to work, his centre of gravity passes OUTSIDE the support area, he loses balance, and he begins to pitch HEAD-FIRST outward and forward-downward, PIVOTING OVER the guardrail — draw this very instant the fall BEGINS (NOT a person already fully fallen or lying on the floor). Keep the dangling, unconnected lanyard hook visible to convey that nothing will arrest the fall. Keep the physics consistent: centre of gravity crossing the rail line, the body rotating forward/outward about the rail as the pivot, heels lifting.
+
+Forbidden: NO arrows. NO text, letters, numbers, captions, speech bubbles or symbols anywhere (no in-image text). No blood/gore. No real logos or real brand names. Do not draw the source picture's outdoor / sky / bare concrete room.
+
+Composition note: show the whole scissor lift, the half-built booth, the single worker leaning out over the rail and the dangling unconnected lanyard hook clearly — so a viewer instantly reads "leaning out over the rail to work + fall-arrest harness not connected" as the cause of the imminent head-first fall.
+
+CRITICAL EMPHASIS (must obey): the worker is NOT merely bending forward while standing safely inside the deck. His upper body and head have crossed COMPLETELY OVER and BEYOND the top guardrail to the OUTSIDE/FRONT (his head, shoulders and chest are clearly OUTSIDE the rail line), BOTH heels have lifted off the deck with only his toes barely still touching, and his body has STARTED TO ROTATE head-first forward-and-downward about the rail as the pivot = the very instant the fall is BEGINNING. His centre of gravity is unmistakably OUTSIDE the rail. Draw the first split-second of him pitching out into the air, NOT a stable standing pose and NOT a person already on the floor — an unstable, dangerous moment of toppling forward over the rail.
