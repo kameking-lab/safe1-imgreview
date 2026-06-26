@@ -1,0 +1,42 @@
+【元絵番号64の専用プロンプト｜元絵: collect_aerial2/img/0064.gif（高所作業車 墜落・転落 KYT教材イラスト, 出所 aichi-corp.co.jp「身を乗り出す転落」）】
+
+■元絵から読み取った内容（この絵だけの作り込み・汎用テンプレ禁止）
+・機械種別: 高所作業車の作業床（元絵は黄色いカゴ＝バケット型／操作盤付き。ルールによりシザースリフト＝垂直昇降式に置換する）。画面右下に黄色い手すり付き作業床と操作盤が小さく見える。
+・人物と姿勢/動作/人数: 作業員は1名のみ。顎ひも付きヘルメット・青い作業服。頭上を横に走る水平の構造材（梁／バー＝灰色のI型/H型の桁）に向かって両腕を高く上げ、両手でその梁にしがみついている。上半身を作業床の手すりの外へ大きく乗り出し、体は梁からぶら下がるように斜めに浮いており、両足は作業床から完全に離れて宙に浮いている（足が床に着いていない）。顔は驚き・恐怖の表情（元絵には「アワワワ!」の効果音吹き出しがあるが、これは描かない）。つまり、届かない頭上の梁へ手を伸ばすうちに重心が手すりの外へ抜け、いま梁にぶら下がってバランスを失い、両手が梁から離れれば作業床と梁の隙間へ落ちる寸前。
+・事故の状況: 作業床を対象（頭上の梁）の真下までしっかり寄せ・上げずに、手の届かない頭上の梁へ無理に手を伸ばし、上半身を手すりの外へ大きく乗り出して両手で梁を掴み、足が作業床から離れて梁にぶら下がった。重心が作業床の支持範囲（手すりの内側）の外＝手すりと梁の間の空中へ完全に出てしまい、両手の握力だけで体を支える極めて不安定な状態。手が滑る／力尽きた瞬間、作業床と梁の間の隙間へ墜落が始まる。
+・なぜ起きたか（原因）: 「作業床が届く位置まで寄せ・上げないまま、頭上の高い梁へ手を伸ばすために上半身を手すりの外へ大きく乗り出して両腕を過度に伸ばし（過伸展リーチ）、ついに両足が作業床から離れて梁にぶら下がってしまった」という不安全姿勢・不安全行動。＝“届かない頭上の梁への過伸展リーチ＋手すり越しの大きな乗り出し＋両足が床から離れて梁にぶら下がり、重心が手すりの外・空中へ完全に抜けた”。命綱フックも掛けていない（ぶら下がりで体を止める物が無い）。
+
+■この絵専用の生成指示（必ず守る）
+1.【原因への忠実性】「届かない頭上の水平梁（展示トラスの横材）へ手を伸ばすため、シザースリフトの作業床の手すりの外へ上半身を大きく乗り出し、両腕を過度に伸ばして（過伸展リーチ）両手で頭上の梁にしがみつき、ついに両足が作業床から離れて梁にぶら下がってしまった」という原因をそのまま再現する。原因（過伸展リーチ＋手すり越しの大きな乗り出し＋足が床から離れて梁にぶら下がり＝重心が手すりの外へ完全に抜けた）が見る人に一目で分かること。フルハーネスは着用しているがランヤードのフックは未接続で垂れている（落下を止める物が無い＝原因の補強）。
+
+2.【姿勢・状況への忠実性】作業床の作業員は1名のみ（元絵どおり、増減しない）。顎ひも付きヘルメット・高視認ベスト・作業服・手袋・安全靴。両腕を高く上げて頭上の水平梁を両手で掴み、上半身を作業床の手すりの外へ大きく乗り出し、体は梁からぶら下がるように斜めに浮き、両足は作業床から完全に離れて宙に浮く。顔は驚き・恐怖の表情。作業床（黄色／操作盤付き）は人物の足の下〜斜め後ろにあり、人物との間に空間（隙間）がある。
+
+3.【事故の瞬間】両足が作業床から離れて頭上の梁にぶら下がり、握力だけで体を支えてバランスを失い、手が滑って／力尽きて作業床と梁の隙間へ落ちる「まさにその寸前」を描く。まだ床にも地面にも激突していない（落ちきった後でない）。梁にしがみついて宙ぶらりんの、墜落が始まる直前の瞬間。
+
+4.【物理的忠実性】作業床の手すりの外へ上半身を乗り出し＋両腕を頭上の梁へ過度に伸ばし＋両足が床から離れたことで、人の重心が作業床の支持範囲（手すりの内側）の外＝手すりと梁の間の空中へ完全に出る。体は両手で掴んだ梁を支点に振り子のように下垂し、握りが外れれば真下〜作業床との隙間へ落下する。この重心移動・ぶら下がりの力学が物理的に整合すること。シザース機構・作業床・手すり・頭上トラスは構造的に正しく、ありえない浮き方や構造破綻をしない（人だけが宙に浮き、機械構造は正しく接地・固定）。
+
+5.【展示会場屋内への置換】舞台は日本の展示会場・ブース設営現場の屋内に統一。元絵の屋外要素は一切描かない。頭上の灰色のI型/H型鉄骨梁＝組みかけ展示ブースの高い位置に水平に渡したアルミ展示トラスの横材（桁）に置換。周囲は組みかけ展示ブース、アルミ展示トラス支柱、ブランク看板パネル、什器、段ボール・搬入物、床のケーブルプロテクター（電線コードカバー）、奥に搬入口。屋外（地面・土・草・空・外壁・縁石・段差）は描かない。床の段差・縁石は床のケーブルプロテクターに置換。
+
+6.【シザース式統一】高所作業車は必ずシザースリフト（垂直昇降式）。元絵のバケット型／操作盤付き作業床は、車輪（キャスター）付き基部＋X字パンタグラフ機構で上昇した作業床に置換する。ブーム式／トラック式／バケット型にしない。作業床の手すり・操作盤はシザースリフトのものとして正しく描く。
+
+7.【画風】高品質・臨場感のある安全教育用イラスト。クリーンでプロフェッショナルな作画、陰影・立体感あり。元絵の絵柄（簡易な線画・効果音つき）を模倣せず、事故タイプ（届かない頭上の梁への過伸展リーチ＋手すり越しの乗り出しで足が床を離れ梁にぶら下がる墜落）のみ継承。全25枚で統一できる落ち着いた配色。
+
+8.【禁止】矢印を一切入れない。文字・数字・キャプション・吹き出し・記号・効果音（「アワワワ!」等）を画像内に一切入れない。流血・グロなし。実在ロゴ/ブランドなし。作業員は顎ひも付きヘルメット・高視認ベスト・手袋・安全靴、フルハーネス着用（ただしランヤードフックは未接続で垂れている＝原因の表現）。
+
+────────────────────────────────────────
+
+[EN] Bespoke prompt for source image #64 (accident TYPE = a FALL caused by OVER-REACHING toward a HIGH OVERHEAD HORIZONTAL BEAM that the platform was not raised/positioned close enough to reach: the lone worker leaned his upper body FAR OUT over the guardrail, over-extended both arms and GRABBED the overhead beam with both hands, and his BOTH FEET HAVE LEFT THE DECK so he is now HANGING from the beam — his centre of gravity completely outside the rail, the instant the fall is about to begin, not after landing).
+
+High-quality, realistic Japanese workplace-safety educational illustration (clean professional art with rich shading, depth and a sense of presence). Do NOT imitate the source picture's simple line-art / sound-effect style; only inherit its accident TYPE. The source image is a hazard-type reference only.
+
+Scene to depict: Inside a JAPANESE EXHIBITION HALL during trade-show booth SETUP. A self-propelled SCISSOR LIFT (vertical scissor-type elevating platform — never a boom lift, never a truck-mounted boom, never a bucket/cherry-picker) is raised. EXACTLY ONE worker is on/at the platform (do NOT add or remove workers). To reach a HIGH HORIZONTAL OVERHEAD BEAM (an aluminium exhibition-truss cross member running overhead) that the platform was NOT raised/positioned close enough to reach, the worker has LEANED HIS UPPER BODY FAR OUT over the platform guardrail, OVER-EXTENDED BOTH ARMS upward and GRABBED the overhead beam with BOTH HANDS, and his BOTH FEET HAVE LIFTED COMPLETELY OFF the platform deck — he is now HANGING from the overhead beam, body swinging out at an angle in mid-air, supported only by his grip, an alarmed/terrified expression on his face. The yellow scissor-lift platform (with control panel and guardrail) is below and slightly behind his dangling feet, with an open GAP between the man and the deck.
+
+Workers (keep the source's count): exactly ONE worker. Chin-strap helmet, hi-vis vest, work clothes, gloves, safety boots; a full-body harness whose LANYARD HOOK is NOT CONNECTED to any anchor — it hangs free and dangling (this depicts the cause; nothing will arrest the fall). His centre of gravity is now completely OUTSIDE the guardrail line, in the air between the rail and the beam.
+
+The exact moment: both feet off the deck, hanging from the overhead beam by his hands alone, balance lost, on the verge of his grip slipping so that he drops into the GAP between the platform and the overhead beam — the INSTANT just before the fall. NOT a person already on the floor, NOT after impact. He is still clinging to the beam, dangling, about to fall.
+
+Physics: leaning the upper body out over the rail PLUS over-extending both arms to the far overhead beam PLUS lifting both feet off the deck moves the worker's centre of gravity completely OUTSIDE the platform's support area (inside the rails), into the air. His body hangs like a pendulum from the beam he grips; the moment his grip fails he drops straight down into the gap toward the deck/floor below. This weight-shift and hanging must read as physically consistent. The scissor mechanism, deck, guardrail and overhead truss are structurally correct and properly supported — only the PERSON floats/hangs; no impossible floating of the machine and no broken structure.
+
+Substitutions: relocate everything indoors. The high grey I-beam / H-beam overhead becomes an ALUMINIUM EXHIBITION-TRUSS cross member of a half-built booth running horizontally up high. Surroundings: half-built exhibition booths, aluminium exhibition TRUSS columns, blank signage panels, display fixtures, cardboard crates/loading items, floor CABLE PROTECTORS, and a loading dock in the background. No outdoors, no dirt ground, no grass, no sky, no exterior walls, no real curb/step (any floor step becomes a cable protector). The machine is a wheeled SCISSOR LIFT (caster base + X-shaped pantograph) with a guarded deck — NOT a truck/boom/bucket.
+
+ABSOLUTELY NO ARROWS. No text, no letters, no numbers, no captions, no speech bubbles, no sound-effect marks (no "アワワワ" etc.), no annotation labels, no symbols anywhere in the image. No blood or gore. No real brand names or logos. Unified, calm, professional safety-education illustration style consistent across a 25-image set.
