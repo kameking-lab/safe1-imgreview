@@ -1,0 +1,44 @@
+【元絵番号94の専用プロンプト｜元絵: collect_aerial2/img/0094.png（高所作業車 墜落／横転 死亡災害 実事例図, 出所 www.rodo.co.jp「高所作業車 墜落 死亡災害 事例 厚生労働省」）】
+
+■元絵から読み取った内容（この絵だけの作り込み・汎用テンプレ禁止）
+・機械種別: 自走式シザースリフト（垂直昇降式・X字パンタグラフ機構＋車輪付き基部）。左側に高く上昇した状態で描かれ、作業床（手すり付き）に複数名が搭乗。本シーンでもこのシザースリフトを踏襲する（置換不要）。
+・人物と姿勢/動作/人数: 作業床に作業員が3名、肩を寄せ合うように立って搭乗している。各自ヘルメット着用。3名が同時搭乗して「最大積載荷重に近い」高荷重・高重心の状態（元絵の注記「(b) 最大積載荷重に近い状態」が作業床を指している）。
+・周囲/床: 床は「転圧していない凹凸のある砂利の床面」（元絵下部の★注記）。締め固められていない軟弱・不陸（凹凸）の地面で、機体の片側が沈み込み／傾きやすい不安定な接地。
+・事故の状況: 元絵は2段階で示される。①左＝3名搭乗で最大積載荷重に近い状態のまま高く上昇。②右下＝その機体が支えを失って横方向へ横転し、X字機構が倒れ込み、搭乗していた作業員が作業床の外へ投げ出されて地面に激突している（右の衝撃マーク）。斜め下向きの矢印が①→②の遷移（横転していく流れ）を示す。
+・なぜ起きたか（原因）: 「締め固めていない凹凸のある軟弱な砂利の床面（不安定・不陸な接地）に据えたまま、最大積載荷重に近い高荷重（作業員3名搭乗）で作業床を高く上昇させ、高い重心が機体の支持多角形（車輪の接地範囲）の外へ出て、軟弱地盤の沈み込み・凹凸による傾きをきっかけに機体全体が支点を越えて横方向へ横転した（＝過積載に近い高重心＋不安定／不陸な接地面での上昇作業による機体ごとの横転）」こと。搭乗者の不安全姿勢ではなく、機体そのものが横転する「転倒・横転」災害である。
+
+■この絵専用の生成指示（必ず守る）
+1.【原因への忠実性】「最大積載荷重に近い高荷重（作業員3名搭乗）＋不安定／不陸（凹凸）な接地面に据えたまま高く上昇」という二つの原因が重なって、高い重心が支持範囲の外へ出て機体全体が横転する、という原因をそのまま再現する。原因（過積載に近い高重心＋不安定な接地での上昇）が見る人に一目で分かること。搭乗者は3名のまま（増減しない）で「混み合った満載」感を出し、機体の片側の車輪（キャスター）が浮き／沈んで機体が傾き始めていることで「不安定な接地＋高重心で横転する」原因が伝わること。
+※屋内会場の置換ルールにより、元絵の「転圧していない凹凸のある砂利の床面（屋外の軟弱・不陸地盤）」は、屋内展示会場の「不安定・不陸な接地面」＝床のケーブルプロテクター（電線コードカバー）や仮設の床パネルの段差・継ぎ目に片側のキャスターが乗り上げ／またいで、機体基部が水平でなくガタつく不安定な接地状態へ読み替える。原因の本質（高重心＋不安定／不陸な接地面で機体ごと横転）は変えない。
+
+2.【姿勢・状況への忠実性】作業床（搭乗部）の作業員は3名（元絵どおり、増減しない）。各自ヘルメット（顎ひも付き）・高視認ベスト・作業服・手袋・安全靴、フルハーネス着用。3名が狭い作業床に肩を寄せて立つ満載状態。機体は高く上昇しており、横転が始まって作業床が傾き、3名がバランスを崩して手すり側・外側へ振られ始めている（まだ作業床から完全に投げ出されてはいない／機体もまだ床に倒れ込んではいない）。
+
+3.【事故の瞬間】最大積載荷重に近い高荷重のまま不安定・不陸な接地面で高く上昇していた機体が、片側の沈み込み／乗り上げをきっかけに重心が支持範囲の外へ出て、機体全体が支点（傾いた側の車輪）を中心に横方向へ倒れ始める「まさにその瞬間」を描く。反対側のキャスターが床から浮き上がり、X字パンタグラフごと作業床が大きく傾いて横へ振れ出し、搭乗中の3名がその傾きで外側・斜め下へ放り出されかけている瞬間。まだ機体は床に倒れ込んでおらず、人もまだ地面に激突していない（落ちきった後・横転しきった後でない）。
+
+4.【物理的忠実性】最大積載荷重に近い高荷重を高く上げると重心が高くなり、機体の安定（車輪の接地で作る支持多角形）の余裕が小さくなる。そこへ不安定・不陸な接地（片側のキャスターがケーブルプロテクター／床段差に乗り上げる・沈む）が加わると、機体は傾いた側の車輪を支点に回転し、重心が支持多角形の外へ出た瞬間に反対側の車輪が浮いて一気に横転する。この「高重心＋不安定接地→支持多角形を外れて機体ごと横転」の力学が物理的に整合すること。X字パンタグラフ機構・作業床・手すり・基部・車輪は構造的に正しく描き、ありえない浮き方や構造破綻をしない（破綻ではなく、重心移動による剛体としての横転）。
+
+5.【展示会場屋内への置換】舞台は日本の展示会場・ブース設営現場の屋内に統一。元絵の「転圧していない凹凸のある砂利の床面（屋外の軟弱・不陸地盤）」は、屋内会場の床のケーブルプロテクター（電線コードカバー）／仮設床パネルの段差・継ぎ目に片側キャスターが乗り上げ／またいだ不安定・不陸な接地に置換する。周囲は組みかけ展示ブース、アルミ展示トラス支柱、ブランク看板パネル、什器、段ボール・搬入物、床のケーブルプロテクター、奥に搬入口。屋外（地面・土・砂利・草・空・外壁）は描かない。床の段差・縁石は床のケーブルプロテクターに置換。
+
+6.【シザース式統一】高所作業車は必ずシザースリフト（垂直昇降式）。車輪（キャスター）付き基部＋X字パンタグラフ機構で高く上昇した作業床に統一する（元絵も既にシザースリフトなので踏襲）。ブーム式／トラック式／バケット型にしない。作業床の手すり・操作盤はシザースリフトのものとして正しく描く。横転時もX字機構が剛体として傾く様子を構造的に正しく描く。
+
+7.【画風】高品質・臨場感のある安全教育用イラスト。クリーンでプロフェッショナルな作画、陰影・立体感あり。元絵の絵柄（簡易な実事例図・(b)注記・★注記・矢印つきの2段構成）を模倣せず、事故タイプ（最大積載荷重に近い高重心＋不安定／不陸な接地面での上昇作業により機体全体が横転し搭乗者が投げ出される「転倒・横転」災害）のみ継承。全25枚で統一できる落ち着いた配色。
+
+8.【禁止】矢印を一切入れない（元絵の斜め下向き矢印・(b)注記・★注記を再現しない。横転していく動きは傾いた機体・浮いた車輪・3名の崩れた体勢で表現する）。文字・数字・キャプション・吹き出し・記号・効果音・注記を画像内に一切入れない。流血・グロなし。実在ロゴ/ブランドなし。作業員3名は顎ひも付きヘルメット・高視認ベスト・手袋・安全靴・フルハーネス着用。
+
+────────────────────────────────────────
+
+[EN] Bespoke prompt for source image #94 (accident TYPE = a TIP-OVER / OVERTURN of the WHOLE scissor lift, caused by carrying NEAR-MAXIMUM RATED LOAD — three workers crowded on the elevated deck = high centre of gravity — while standing on UNSTABLE, UNEVEN, NON-COMPACTED ground; the machine loses stability and the entire lift overturns sideways, throwing the occupants out. Depict the INSTANT the machine begins to overturn, NOT after it has crashed down).
+
+High-quality, realistic Japanese workplace-safety educational illustration (clean professional art with rich shading, depth and a sense of presence). Do NOT imitate the source picture's simple two-panel case-diagram with its "(b)" note, "★" ground note and diagonal arrow; only inherit its accident TYPE. The source image is a hazard-type reference only.
+
+Scene to depict: Inside a JAPANESE EXHIBITION HALL during trade-show booth SETUP. A self-propelled SCISSOR LIFT (vertical scissor-type elevating platform with an X-shaped pantograph mechanism and a wheeled/caster base — never a boom lift, never a truck-mounted boom, never a cherry-picker bucket) has been raised HIGH while carrying NEAR-MAXIMUM RATED LOAD: EXACTLY THREE workers crowded shoulder-to-shoulder on the small guarded deck (do NOT change the count — keep three). The base stands on UNSTABLE, UNEVEN footing — one side's casters have RIDDEN UP ONTO / STRADDLED a thick floor CABLE PROTECTOR (cable cover) or an uneven temporary floor-panel seam, so the wheeled base is NOT level and rocks. At this instant the top-heavy, overloaded machine has just passed its stability limit: it is beginning to OVERTURN SIDEWAYS — the far-side casters are LIFTING off the floor, the whole X-pantograph and the elevated deck are tilting and swinging over toward the uneven side, and the three workers on the deck are losing their footing and being thrown toward the low/outer side. The machine has NOT yet crashed onto the floor and the workers are NOT yet on the ground — this is the MOMENT the overturn begins.
+
+Workers (keep the source's count): EXACTLY THREE workers crammed on the deck, each with a chin-strap helmet, hi-vis vest, work clothes, gloves, safety boots and a full-body harness. Their crowded "fully loaded" stance plus the tilting deck must read as "near-maximum load + high centre of gravity." As the lift tips, they are off balance, grabbing the rail / pitching toward the outer (low) side — not yet ejected, not yet on the floor.
+
+The exact moment: the overloaded, top-heavy scissor lift on uneven/unstable footing reaches its stability limit and the ENTIRE MACHINE begins to overturn sideways — far-side wheels lifting, the X-pantograph and deck tilting hard, the three occupants thrown off balance. NOT the machine already collapsed flat, NOT people already lying on the floor. Mid-overturn, just beginning.
+
+Physics: raising a near-maximum load high raises the centre of gravity and shrinks the stability margin of the wheeled base's support polygon. Add unstable/uneven footing (one side's casters up on a cable protector / floor-panel step, or sinking) and the machine rotates about the wheels on the tilted side; the instant the high CG passes outside the support polygon, the opposite wheels lift and the whole rigid machine overturns sideways. This "near-max load high CG + unstable uneven footing → CG leaves the support polygon → the whole machine overturns" must read as physically consistent. The X-pantograph, deck, guardrail, base and wheels are drawn structurally correct, tilting as a rigid body — no impossible floating, no broken structure; the overturn is a rigid-body tip-over driven by the weight-shift, not a structural failure.
+
+Substitutions: relocate everything indoors. The outdoor "non-compacted, uneven gravel ground" becomes UNSTABLE, UNEVEN INDOOR FOOTING — one side's casters ridden up on a thick floor CABLE PROTECTOR / an uneven temporary floor-panel seam so the base is off-level. Surroundings: half-built exhibition booths, aluminium exhibition TRUSS columns, blank signage panels, display fixtures, cardboard crates/loading items, floor CABLE PROTECTORS, and a loading dock in the background. No outdoors, no dirt/gravel ground, no grass, no sky, no exterior walls; any floor step/curb becomes a cable protector. Keep the machine a SCISSOR LIFT.
+
+ABSOLUTELY NO ARROWS (do NOT reproduce the source's diagonal arrow, "(b)" note or "★" note; convey the overturn purely through the tilting machine, the lifted wheels and the three workers' off-balance bodies). No text, no letters, no numbers, no captions, no speech bubbles, no sound-effect marks, no annotation labels, no symbols anywhere in the image. No blood or gore. No real brand names or logos. Unified, calm, professional safety-education illustration style consistent across a 25-image set.
