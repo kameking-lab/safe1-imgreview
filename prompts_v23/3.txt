@@ -1,0 +1,37 @@
+【元絵番号3の専用プロンプト｜元絵: collect_aerial2/img/0003.png（高所作業車 墜落・転落／実態は横転 教育イラスト, 出所 rodo.co.jp）】
+
+■元絵から読み取った内容（この絵だけの作り込み・汎用テンプレ禁止）
+・機械種別: トラック搭載型ブーム式高所作業車（車両の荷台にブームアーム＋搭乗カゴ）。元絵では車両全体が大きく傾き、前輪が地面から浮き上がり、運転台（キャブ）が斜め上を向いて、まさに「車両ごと横転していく」最中。ブームアームは画面左上へ伸びている。
+・人物と姿勢/動作/人数: 作業員1名（赤いヘルメット＝顎ひも付き・水色の作業着）。横転する車両／搭乗カゴから外側・斜め下へ投げ出され、体がほぼ横向きに放り出されて落下しかけている（頭の横に「ビシッ」という衝撃マーク）。まだ地面には激突しておらず、放り出された直後の一瞬。
+・事故の状況: 高く上げたブーム（高重心）の状態で、片側の車輪が地面の段差／縁石に乗り上げ（または接地・アウトリガー設置が不十分）、重心が支持範囲（安定限界）を越え、車両全体が支点を中心に横方向へ転倒（横転）していく、その瞬間。搭乗していた作業員は転倒する機体に振り回されてカゴの外へ投げ出される。
+・なぜ起きたか（原因）: 高所作業車を高く上昇（高重心）させたまま、片輪が段差・縁石に乗り上げる／接地不良・アウトリガー未設置で機体の安定（支持多角形）が崩れ、高い重心が支点を越えて車両全体が横転した。＝「高重心のまま段差乗り上げ／接地不良で機体ごと横転」という不安全状態。元絵の事故の本質は“人だけが落ちる”ではなく“機械ごと横転して搭乗者が投げ出される”横転災害。
+
+■この絵専用の生成指示（必ず守る）
+1.【原因への忠実性】「高く上昇させた高重心の機体の片側ベースが床の段差（縁石）に乗り上げて安定を失い、機械全体が支点を越えて横方向へ横転し、その反動で搭乗者がカゴの外へ投げ出される」という原因をそのまま再現する。人だけが手すりを越えるのではなく、“機体ごと横転”していることが見る人に分かること。原因（片側ベースの乗り上げ＝接地不良）が分かること。
+2.【姿勢・状況への忠実性】作業員は搭乗カゴに1名のみ（元絵どおり複数にしない）。横転する機体に振り回され、体がほぼ横向きに外側・斜め下へ投げ出される不安定姿勢。顎ひも付きヘルメット着用。驚いた表情（ただし文字・吹き出し・効果音は描かない）。
+3.【事故の瞬間】機体が傾き始め支点を越えて横転していく「まさにその瞬間」＝片側ベースが浮き上がり、作業員が外へ放り出された直後を描く。地面に倒れ伏した後の絵にしない（まだ床に激突していない）。
+4.【物理的忠実性】高い重心（上昇したシザース機構＋搭乗者）が、片側ベースの乗り上げで支持多角形の外へ出て、機体全体が乗り上げた支点を中心に横方向へ回転（横転）する——この重心移動と回転が物理的に整合すること。乗り上げた側のキャスターが浮く／反対側が支点になる関係を正しく。ありえない浮き方・構造破綻をしない。
+5.【展示会場屋内への置換】舞台は日本の展示会場・ブース設営現場の屋内。元絵の屋外（地面・段差/縁石・外光）は屋内会場へ置換。片輪が乗り上げる「段差・縁石」は床のケーブルプロテクター（電線コードカバー）の太い段差に置換。周囲は組みかけ展示ブース、アルミ展示トラス支柱、ブランク看板パネル、什器、段ボール・搬入物、奥に搬入口。屋外要素（土・草・空・外壁・縁石）は一切描かない。
+6.【シザース式統一】高所作業車は必ずシザースリフト（垂直昇降式）に置換する。元絵のトラック搭載ブーム式にしない。基部は車輪（キャスター）付きシザースリフトの基部とし、その片側キャスターが床のケーブルプロテクターに乗り上げて機体全体が横転していく構図。
+7.【画風】高品質・臨場感のある安全教育用イラスト。クリーンでプロフェッショナルな作画、陰影・立体感あり。元絵の絵柄（マンガ調・効果音つき）を模倣せず、事故タイプ（高重心＋接地不良による機体ごとの横転と搭乗者の投げ出し）のみ継承。全25枚で統一できる落ち着いた配色。
+8.【禁止】矢印を一切入れない。文字・数字・キャプション・吹き出し・記号・効果音（「ビシッ」「!」等）を画像内に一切入れない。流血・グロなし。実在ロゴ/ブランドなし。作業員は顎ひも付きヘルメット・高視認ベスト・手袋・安全靴、高所ではフルハーネス着用。
+
+────────────────────────────────────────
+
+[EN] Bespoke prompt for source image #3 (accident TYPE = a whole-machine TIP-OVER: a fully-elevated aerial lift with a high centre of gravity has one base wheel ride up over a floor obstruction, so the entire machine overturns sideways and the platform worker is FLUNG OUT — the moment it begins, not after landing).
+
+High-quality, realistic Japanese workplace-safety educational illustration (clean professional art with rich shading, depth and a sense of presence). Do NOT imitate the source picture's cartoon/sound-effect drawing style; only inherit its accident TYPE. The source image is a hazard-type reference only.
+
+Scene to depict: Inside a JAPANESE EXHIBITION HALL during trade-show booth SETUP. A self-propelled SCISSOR LIFT (vertical scissor-type elevating platform — never a boom lift, never a truck-mounted boom) is FULLY RAISED with a SINGLE worker on its platform. One side of the wheeled base has RIDDEN UP onto a thick FLOOR CABLE PROTECTOR (cable cover) — this replaces the outdoor curb/step in the source — so the base is tilting off level. The high centre of gravity (the raised scissor stack plus the worker) has just crossed the machine's stability limit, and the ENTIRE LIFT is now OVERTURNING SIDEWAYS, pivoting about the ridden-up wheel.
+
+Worker (keep the source's single person): exactly ONE worker on the platform (do NOT add others). As the whole machine rolls over, he is being FLUNG OUT of the platform — his body thrown nearly sideways, outward and downward, arms flailing, chin-strap helmet on, alarmed expression (NOT yet hit the floor — the instant just after he is thrown).
+
+The exact moment: the INSTANT the machine tips past its stability point — one base wheel/caster lifting clear, the platform swinging over, and the worker just thrown out. NOT a person already lying on the floor, NOT after impact.
+
+Physics: the high CG of the elevated lift plus rider moves OUTSIDE the support polygon when one base wheel rides up onto the cable protector, so the whole machine rotates about that pivot and overturns sideways; the opposite base wheels lift off the floor. This weight-shift and rotation must read as physically consistent — the ridden-up wheel as pivot, the off-side wheels rising, the platform swinging over. The scissor mechanism, deck and guardrail are structurally correct; no impossible floating or broken structure.
+
+Substitutions: relocate everything indoors — the outdoor ground/curb/step becomes the exhibition-hall floor with a thick CABLE PROTECTOR that one wheel has ridden up onto; surroundings are half-built exhibition booths, aluminium exhibition TRUSS columns, blank signage panels, display fixtures, cardboard crates/loading items, and a loading dock in the background. No outdoors, no dirt ground, no real curb/kerb, no sky, no exterior walls. The machine is a wheeled SCISSOR LIFT base (NOT a truck/boom).
+
+Workers wear chin-strap helmets, hi-vis vests, gloves and safety boots; at height a full-body harness.
+
+ABSOLUTELY NO ARROWS. No text, no letters, no numbers, no captions, no speech bubbles, no sound-effect marks (no "ビシッ", "!" etc.), no symbols anywhere in the image. No blood or gore. No real brand names or logos. Unified, calm, professional safety-education illustration style consistent across a 25-image set.
