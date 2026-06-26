@@ -1,0 +1,37 @@
+【元絵番号45の専用プロンプト｜元絵: collect_aerial2/img/0045.png（高所作業車 墜落・転落 KYT教材イラスト, 出所 rodo.co.jp）】
+
+■元絵から読み取った内容（この絵だけの作り込み・汎用テンプレ禁止）
+・機械種別: シザースリフト（垂直昇降式高所作業車）。元絵の段階で既にX字パンタグラフ機構の作業床で、奥行の浅い（薄型の）細長い搭乗カゴ。
+・人物と姿勢/動作/人数: 作業員は3名。3名とも頭上を横に走る水平の梁／バー（天井近くの構造材）に向かって両腕を高く上げ、両手で梁を掴んでいる。左・中央の2名は作業床に立ったまま頭上の梁を掴んで上向きに作業。右端の1名がもっとも危険で、薄い（奥行の浅い）作業床の端の手すりを越えて体を大きく外側・斜め上へ乗り出し、片腕を遠くの梁へ過度に伸ばしている（手すりの外へ上半身が抜けかけ・足が床から浮きかけ）。背中からはフルハーネスのランヤード（命綱）が垂れ下がっているが、各自しっかり固定アンカーへ接続されていない（宙ぶらりん）。足元の作業床には小さな脚立／踏み台が置かれ、かさ上げに使われている。
+・事故の状況: 手の届かない頭上の梁に手を伸ばして作業するため、奥行の浅い作業床の手すり越しに身を乗り出し、過度に腕を伸ばし（過伸展リーチ）、さらに足元の脚立でかさ上げして、重心が作業床の支持範囲＝手すりの外側・上方へ抜けていく。特に右端の1名が手すりを越えて外へ乗り出した瞬間、重心が手すり線の外へ出てバランスを失い、手すりを支点に上半身から外側へ引かれて転落が始まる。
+・なぜ起きたか（原因）: 「届かない頭上の梁へ、奥行の浅い作業床から手すり越しに身を乗り出して過度に手を伸ばし（過伸展）、足元に脚立を載せてかさ上げし、命綱フックも未接続のまま無理な姿勢で作業した」という不安全姿勢・不安全行動。作業床を対象へ寄せず・降ろさずに手すりの外へ重心を出したため、重心が支持範囲を越えて手すりを越え転落する。＝“過伸展リーチ＋手すり越しの乗り出し＋脚立かさ上げ＋フック未接続”。
+
+■この絵専用の生成指示（必ず守る）
+1.【原因への忠実性】「頭上の高い水平梁（展示トラスの横材）へ手を伸ばして作業するため、奥行の浅いシザースリフトの作業床から手すり越しに身を乗り出し、腕を過度に伸ばし（過伸展リーチ）、足元の脚立でかさ上げし、フルハーネスのランヤードフックを固定アンカーへ接続しないまま（宙ぶらりん）無理な姿勢で作業している」という原因をそのまま再現する。原因（過伸展リーチ＋手すり越しの乗り出し＋脚立かさ上げ＋フック未接続）が見る人に分かること。
+2.【姿勢・状況への忠実性】作業床の作業員は3名（元絵どおり、増減しない）。左・中央の2名は作業床に立ち両腕を高く上げて頭上の梁を両手で掴む。右端の1名がもっとも乗り出し、薄い作業床の端の手すりを越えて上半身を外側・斜め上へ大きく乗り出し、片腕を遠くの梁へ過度に伸ばし、足が床から浮きかけている。各自フルハーネス着用だがランヤードフックは未接続で垂れ下がる。足元の作業床に小さな脚立／踏み台。顎ひも付きヘルメット着用。
+3.【事故の瞬間】右端の1名が手すりを越えて乗り出し、重心が手すり線の外側へ抜けてバランスを失い、手すりを支点に上半身から外側・斜め下へ引かれて転落が始まる「まさにその瞬間」を描く。まだ床にも地面にも激突していない（落ちきった後でない）。
+4.【物理的忠実性】奥行の浅い作業床から手すり越しに上半身を乗り出し＋腕を遠くへ伸ばすことで、人＋（梁を引く）荷重の合成重心が作業床の支持範囲（手すりの内側）の外へ出る。足元の脚立で立ち位置が高くなり重心がさらに上がって不安定。重心が手すり線を越えた瞬間に手すりを支点として上半身が外側へ回転して落下が始まる——この重心移動と回転が物理的に整合すること。シザース機構・作業床・手すり・脚立は構造的に正しく、ありえない浮き方や構造破綻をしない。
+5.【展示会場屋内への置換】舞台は日本の展示会場・ブース設営現場の屋内。元絵の屋外要素は一切描かない。頭上の水平梁＝組みかけ展示ブースのアルミ展示トラスの横材（高い位置の梁）に置換。周囲は組みかけ展示ブース、アルミ展示トラス支柱、ブランク看板パネル、什器、段ボール・搬入物、床のケーブルプロテクター（電線コードカバー）、奥に搬入口。屋外（地面・土・草・空・外壁・縁石・段差）は描かない。床の段差・縁石は床のケーブルプロテクターに置換。
+6.【シザース式統一】高所作業車は必ずシザースリフト（垂直昇降式）。基部は車輪（キャスター）付きシザースリフトの基部、X字パンタグラフ機構で上昇した奥行の浅い作業床。ブーム式／トラック式にしない。
+7.【画風】高品質・臨場感のある安全教育用イラスト。クリーンでプロフェッショナルな作画、陰影・立体感あり。元絵の絵柄（線画・効果音つき）を模倣せず、事故タイプ（過伸展リーチ＋手すり越しの乗り出しによる転落）のみ継承。全25枚で統一できる落ち着いた配色。
+8.【禁止】矢印を一切入れない。文字・数字・キャプション・吹き出し・記号・効果音を画像内に一切入れない（元絵の「薄型」「奥行」等の注記文字も描かない）。流血・グロなし。実在ロゴ/ブランドなし。作業員は顎ひも付きヘルメット・高視認ベスト・手袋・安全靴、高所ではフルハーネス着用（ただしフックは未接続で垂れている＝原因の表現）。
+
+────────────────────────────────────────
+
+[EN] Bespoke prompt for source image #45 (accident TYPE = a FALL caused by OVER-REACHING and LEANING OUT over the guardrail of a shallow-depth scissor-lift platform to reach a HIGH OVERHEAD HORIZONTAL BEAM, made worse by a step-stool on the deck for extra height and an UNCONNECTED harness lanyard hook — the moment the fall begins, not after landing).
+
+High-quality, realistic Japanese workplace-safety educational illustration (clean professional art with rich shading, depth and a sense of presence). Do NOT imitate the source picture's line-art / annotation style; only inherit its accident TYPE. The source image is a hazard-type reference only.
+
+Scene to depict: Inside a JAPANESE EXHIBITION HALL during trade-show booth SETUP. A self-propelled SCISSOR LIFT (vertical scissor-type elevating platform — never a boom lift, never a truck-mounted boom) is raised, with a SHALLOW, NARROW-DEPTH platform basket. THREE workers are on the platform, all reaching UP toward a HIGH HORIZONTAL OVERHEAD BEAM (an aluminium exhibition-truss cross member running overhead). The left and middle workers stand on the deck with both arms raised, gripping the overhead beam with both hands. The RIGHTMOST worker is the most dangerous: from the shallow platform he LEANS FAR OUT over the END guardrail, upper body thrust outward and upward, ONE ARM OVER-REACHING toward the beam where it runs beyond the platform edge, his feet beginning to lift off the deck. Each worker wears a full-body harness, but the LANYARD HOOKS are NOT CONNECTED to any anchor — they hang free and dangling. A small STEP-STOOL / step-ladder sits ON the deck, used to gain extra height.
+
+Workers (keep the source's count): exactly THREE workers on the platform (do NOT add or remove). The over-reaching right-hand worker's centre of gravity is just crossing OUTSIDE the guardrail line, so he is being pulled head/torso-first outward and down — chin-strap helmets on, alarmed expressions (NOT yet hit the floor — the instant the fall begins).
+
+The exact moment: the INSTANT the leaning worker's centre of gravity passes outside the guardrail, balance lost, his upper body rotating over the rail outward and downward — the start of the fall. NOT a person already lying on the floor, NOT after impact.
+
+Physics: leaning the upper body out over the rail of a shallow-depth platform PLUS over-extending the arm toward the far overhead beam moves the combined centre of gravity (body plus the pull on the beam) OUTSIDE the platform's support area (inside the rails). The step-stool raises his stance, lifting the CG and making it more unstable. The instant the CG crosses the rail line, his upper body rotates about the guardrail as a pivot and the fall begins. This weight-shift and rotation must read as physically consistent; the scissor mechanism, deck, guardrail and step-stool are structurally correct — no impossible floating or broken structure.
+
+Substitutions: relocate everything indoors. The high overhead horizontal beam becomes an ALUMINIUM EXHIBITION-TRUSS cross member of a half-built booth (a high beam). Surroundings are half-built exhibition booths, aluminium exhibition TRUSS columns, blank signage panels, display fixtures, cardboard crates/loading items, floor CABLE PROTECTORS, and a loading dock in the background. No outdoors, no dirt ground, no grass, no sky, no exterior walls, no real curb/step (any floor step becomes a cable protector). The machine is a wheeled SCISSOR LIFT with a shallow-depth platform (NOT a truck/boom).
+
+Workers wear chin-strap helmets, hi-vis vests, gloves and safety boots; full-body harnesses — but with the lanyard hooks left UNCONNECTED and dangling (this depicts the cause).
+
+ABSOLUTELY NO ARROWS. No text, no letters, no numbers, no captions, no speech bubbles, no sound-effect marks, no annotation labels (no "薄型", "奥行" etc.), no symbols anywhere in the image. No blood or gore. No real brand names or logos. Unified, calm, professional safety-education illustration style consistent across a 25-image set.
