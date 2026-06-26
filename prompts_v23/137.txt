@@ -1,0 +1,40 @@
+【元絵137（0137.webp）から読み取った事故の型・原因・姿勢・状況】
+- 出所：dreamstime の安全教育用ピクトグラム（黒シルエット＋下部に「FALL FROM WORK PLATFORM」の英字キャプション）。事故の型＝墜落・転落（作業床からの墜落）。
+- 機械：元絵は既に車輪付きのシザースリフト（X字パンタグラフの垂直昇降式・基部に車輪・上部に四方手すりで囲んだ作業床デッキ）。作業床は高く上昇している。→ 生成でもそのまま車輪付きシザースリフト（X字パンタグラフ・四方手すりデッキ）で描く。
+- 人数・姿勢：作業員1名のみ（黒シルエット、腰〜腿に黄色いハーネスのストラップ）。作業床は無人で、作業員は既に作業床の上部手すりの外側へ抜け、機体の脇の空中で頭を下・脚を上にした逆さ（頭から落ちる）姿勢で落下している。＝作業床の手すりを越えて頭から墜落している図。
+- 原因（なぜ起きるか・教訓）：高く上昇した作業床の上部手すり際で身を乗り出す／背伸びする等で重心が手すりの外（支持範囲の外）へ抜け、バランスを失って手すりを支点に頭から外側へ回転し、作業床から墜落した（＝「作業床からの墜落＝FALL FROM WORK PLATFORM」）。ハーネスは着用しているが命綱（ランヤード）フックがアンカーへ未接続のため、手すりを越えた時に落下を止める物が無く、そのまま墜落が止まらない（元絵が完全な自由落下＝逆さ落下で描くのは、命綱が機能していないことを示す）。
+- 事故の瞬間（生成で描く時点）：上部手すり際で重心が手すりの外へ抜け、上半身と頭が手すりを越えて外側へ出て、踵が床から浮き、体が手すりを支点に頭から外側・下方へ回転して作業床からの墜落が「始まる」まさにその瞬間（まだ地面に落ちきっていない・床に倒れていない・落下点や衝撃表現は描かない）。ハーネスは着用だがランヤードフックはアンカー未接続で宙にだらりと垂れ、落下を止められないことが見て取れる。
+
+==================== 生成用プロンプト（日本語） ====================
+高品質で臨場感のある日本の労働安全教育用イラスト（陰影・立体感のあるクリーンな作画、写実寄りのフルカラー）。元絵の描画スタイル（黒のフラットなシルエット・ピクトグラム）は真似ず、事故の「型」と「姿勢・原因」だけを継承する。元画像は危険の型の参照のみ。
+
+舞台：日本の展示会場・トレードショーのブース設営現場の屋内。周囲は組みかけの展示ブース、床から高所まで立つアルミ展示トラス支柱、ブランクの看板パネル、什器、段ボール箱、床のケーブルプロテクター（電線コードカバー）、奥に搬入口。屋外要素（地面・土・空・建物外壁）は描かない。元絵の白背景・地面の横線・下部キャプション帯は描かない。
+
+高所作業車は必ず車輪付きシザースリフト（X字パンタグラフの垂直昇降式・四方を手すりで囲んだ作業床デッキ・基部に車輪）のみ。元絵もシザース式なのでそのままシザースリフトとして高く上昇させた状態で描く。ブーム式・トラック式にしない。
+
+作業員：日本の展示設営作業員1名。顎ひも付きヘルメット、高視認ベスト、作業手袋、安全靴、フルボディの墜落制止用ハーネスを着用。元絵と同じく作業員は1名のみ（作業床の上には他に誰も乗っていない）。
+
+描く内容：高く上昇したシザースリフトの作業床（四方手すり付き）から、作業員1名が上部手すりを越えて墜落し始めている。原因＝高所の対象（組みかけアルミ展示トラスの高い金具／看板パネルの上縁）へ手を届かせようと作業床の上部手すり際で身を乗り出し・背伸びして重心が手すりの外（支持範囲の外）へ抜けたこと。その結果、上半身と頭が上部手すりの線を越えて外側へ出て、踵が床から浮き、体が手すりを支点に頭から前方外側・下方へ回転し始めている。最重要：フルハーネスは着用しているが、墜落制止用のランヤードフックをアンカー（手すり等）へ接続しておらず、未接続のフックとランヤードがだらりと宙に垂れている（安全帯未使用＝命綱が機能していない）ことがはっきり分かるように描く。アンカーレールには何も掛かっていない。
+
+まさにその瞬間：重心が手すり線を越えて支持範囲の外へ抜け、バランスを失い、手すりを支点に頭から外側・下方へ回転して作業床からの墜落が「始まる」まさにその瞬間を描く（落ちきった後・地面に倒れた後ではない・地面に落下点や衝撃表現を描かない）。作業員はまだ作業床のすぐ外側・手すりのすぐ近くで、頭が下がり脚が浮き始めた回転の入り口にいる（元絵のような地面間際の完全な逆さ自由落下までは描かず、墜落が始まる瞬間に留める）。未接続のランヤードフックが宙ぶらりんのままで、落下を止める物が何も無いことが伝わるようにする。重力・重心の物理整合（手すり際で重心が手すり線を越え、手すりを支点に体が外側へ回転し踵が浮く）を保つ。
+
+禁止：矢印を入れない。動きを示す線（スピード線・スウォッシュ）も入れない。衝撃の星形／効果記号も入れない。文字・数字・キャプション・吹き出し・記号を一切入れない（画像内テキストなし。元絵の「FALL FROM WORK PLATFORM」のような英字も描かない）。流血なし。実在ロゴ／実在ブランドなし。元絵の黒シルエット・白背景・地面線は描かない。
+
+構図メモ：高く上昇したシザースリフト全体・組みかけの高いアルミトラス／看板・上部手すりを越えて頭から墜落し始めた作業員1名・宙に垂れた未接続フックがはっきり分かるように描き、見る人が「高所の作業床の手すり際で身を乗り出して重心を手すりの外へ移した＋命綱（ハーネスのランヤードフック）を接続していなかったために落下を止められず作業床から墜落する」が原因だと一目で読み取れるようにする。
+
+==================== Generation prompt (English) ====================
+A high-quality, realistic Japanese workplace-safety educational illustration (clean professional full-color art with rich shading, depth and a sense of presence). Do NOT imitate the source picture's drawing style (a flat black silhouette pictogram); only inherit its accident TYPE and the unsafe posture/cause. The source image is a reference for the hazard only.
+
+Setting: the INDOOR floor of a JAPANESE EXHIBITION HALL / trade-show BOOTH SETUP site. Around them: half-built exhibition booths, vertical aluminium exhibition TRUSS COLUMNS running from floor to height, large BLANK signage panels, display fixtures, cardboard crates, FLOOR CABLE PROTECTORS (cable covers) on the floor, and a loading dock in the background. Do NOT draw any outdoor elements (bare ground, soil, sky, building facade). Do NOT draw the source picture's plain white background, the horizontal ground line, or the bottom caption band.
+
+The aerial work platform MUST be a wheeled SCISSOR LIFT only (vertical X-shaped pantograph scissor-type elevating platform, deck enclosed by guardrails on all four sides, wheels at the base). The source is already a scissor lift, so keep it a wheeled scissor lift raised up HIGH. Never a boom lift or truck-mounted lift.
+
+Worker: ONE Japanese exhibition setup crew member wearing a chin-strap helmet, hi-vis vest, work gloves, safety boots and a FULL-BODY fall-arrest harness. As in the source, there is ONLY ONE worker (no one else on the deck).
+
+What to depict: from the guard-railed deck of a HIGHLY ELEVATED scissor lift, ONE worker is beginning to FALL OVER the top guardrail. The cause: to reach a high target (a fixing bracket high on a half-built aluminium exhibition truss, or the top edge of a signage panel) he leaned out / over-reached at the top guardrail so his centre of gravity passed OUTSIDE the rail (outside the support area). As a result his upper body and head have crossed the top-rail line and gone OUTSIDE the rail, his heels are lifting off the deck, and his body is starting to pitch HEAD-FIRST, outward and downward, PIVOTING OVER the guardrail. MOST IMPORTANT: although he wears a full-body harness, his fall-arrest LANYARD HOOK is NOT clipped to any anchor (rail etc.) — the unconnected hook and lanyard hang FREE and dangling in the air and the anchor rail is clearly bare, plainly showing the harness is unused for fall arrest (nothing will stop the fall).
+
+The exact moment: his centre of gravity passes OUTSIDE the support area, he loses balance, and he BEGINS to pitch head-first outward and downward, pivoting over the guardrail — draw this very instant the fall from the work platform BEGINS (NOT a person already fully fallen or lying on the floor; do NOT draw an impact point or impact star on the ground). Keep him still just outside the rail, close to the deck, at the entry of the head-down rotation (do NOT draw the source picture's fully inverted near-ground free-fall; stop at the instant the fall begins). Keep the dangling, unconnected lanyard hook clearly visible to convey that nothing will arrest the fall. Keep the physics consistent: the lean carries the centre of gravity across the rail line, the body rotating outward about the rail as the pivot, heels lifting.
+
+Forbidden: NO arrows. NO motion/speed/swoosh lines. NO impact star or effect symbols. NO text, letters, numbers, captions, speech bubbles or symbols anywhere (no in-image text; do NOT draw any English wording such as the source's "FALL FROM WORK PLATFORM"). No blood/gore. No real logos or real brand names. Do not draw the source picture's black silhouette, white background or ground line.
+
+Composition notes: show the whole highly-elevated scissor lift, the tall half-built aluminium truss / signage, the single worker beginning to pitch head-first over the top guardrail, and the dangling unconnected lanyard hook, so a viewer instantly reads that the fall is caused by (1) leaning out at the top rail and moving the centre of gravity outside the rail AND (2) the fall-arrest lanyard hook being left unconnected so nothing stops the fall from the work platform. Draw the unstable, dangerous instant of toppling head-first over the rail with the lifeline unattached, not a stable standing pose and not a completed ground fall.
