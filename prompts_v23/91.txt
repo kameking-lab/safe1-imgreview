@@ -1,0 +1,43 @@
+【元絵番号91の専用プロンプト｜元絵: collect_aerial2/img/0091.jpg（高所作業車 墜落・転落 実事例図, 出所 rodo.co.jp「天井内ラックの電気配線作業中の墜落・死亡災害」）】
+
+■元絵から読み取った内容（この絵だけの作り込み・汎用テンプレ禁止）
+・機械種別: 高所作業車＝シザースリフト（X字パンタグラフ機構＝元絵にもX字が見える、垂直昇降式）。作業床は高く上昇している。基部はクローラ／キャスター付き。ルールどおりシザース式を維持する。
+・人物と姿勢/動作/人数: 作業員は1名のみ。作業床の上に立ち、頭上〜斜め上にある天井内の「電線ラック（ケーブルトレイ）」へ手を伸ばして電気配線（ケーブル敷設・結線）の作業をしている。届かせるために上半身を作業床の手すりの外へ大きく乗り出している（元絵の「乗り出る」の注記がまさにこの不安全姿勢を指す）。片腕〜両腕を天井ラックへ伸ばし、体幹が手すり線を越えて外側・上方へ傾いている。
+・周囲の対象物: 頭上に「大型ダクト（大きな角型の空調ダクト）」が水平に走り、そのすぐ脇／下に「電線ラック（天井内のケーブルトレイ）」がある。作業員はこのラックの電気配線をしていた。
+・事故の状況: 作業床を対象（天井の電線ラック）の真下まで十分に寄せ・上げず、手の届かない天井ラックへ手を伸ばすため上半身を手すりの外へ乗り出した。重心が作業床の支持範囲（手すりの内側）の外へ移り、わずかな反動・伸び切りで手すりを支点に外側へ振られて墜落が始まる。
+・なぜ起きたか（原因）: 「天井内の電線ラックの電気配線という届きにくい頭上作業を、作業床を対象の真下まで寄せ・上げ直さずに、手すりの外へ身を大きく乗り出して無理に手を伸ばして行った（身を乗り出す不安全姿勢＋過伸展リーチ）」こと。重心が手すりの外へ抜け、墜落に至る。命綱フックも掛けていない（落下を止める物が無い）。
+
+■この絵専用の生成指示（必ず守る）
+1.【原因への忠実性】「頭上（斜め上）の天井ケーブルトレイ＝電線ラックの電気配線作業を、シザースリフトの作業床を対象の真下まで寄せ・上げ直さずに、作業床の手すりの外へ上半身を大きく乗り出して手を伸ばして行った」という原因をそのまま再現する。原因（電気配線のための頭上ラックへの過伸展リーチ＋手すり越しの大きな乗り出し＝重心が手すりの外へ抜ける）が見る人に一目で分かること。フルハーネスは着用しているがランヤードのフックは未接続で垂れている（落下を止める物が無い＝原因の補強）。手にはケーブル／配線工具を持ち、配線作業中であることが分かること。
+
+2.【姿勢・状況への忠実性】作業床の作業員は1名のみ（元絵どおり、増減しない）。顎ひも付きヘルメット・高視認ベスト・作業服・手袋・安全靴。上半身を作業床の手すりの外へ大きく乗り出し、片腕〜両腕を頭上斜め上の天井ケーブルトレイへ伸ばして配線している。体幹は手すり線を越えて外側・上方へ傾き、足はまだ作業床に着いているが踵が浮きかけ、重心が手すりの外へ移りつつある。手すり・操作盤付きの作業床の上に立つ。
+
+3.【事故の瞬間】届かない天井ラックへ手を伸ばして身を乗り出し、重心が手すりの外へ抜けてバランスを失い、手すりを支点に上半身から外側へ振られて墜落が「まさに始まる寸前〜始まった瞬間」を描く。まだ床にも地面にも激突していない（落ちきった後でない）。乗り出した不安全姿勢のまま、転落が始まる直前の緊迫した瞬間。
+
+4.【物理的忠実性】作業床の手すりの外へ上半身を乗り出し＋頭上斜め上の天井ラックへ腕を過度に伸ばしたことで、人の重心が作業床の支持範囲（手すりの内側）の外へ出る。手すりを支点（ヒンジ）に上半身が外側へ倒れ込み、踵が浮き、体は外側・下方へ振り出される。この重心移動・てこの力学が物理的に整合すること。シザース機構・作業床・手すり・天井ダクト・天井ケーブルトレイは構造的に正しく、ありえない浮き方や構造破綻をしない（人の重心移動のみが事故を生み、機械構造は正しく接地・固定）。
+
+5.【展示会場屋内への置換】舞台は日本の展示会場・ブース設営現場の屋内に統一。元絵の「大型ダクト」＝展示会場の高い天井を走る大きな角型空調ダクト（会場の天井設備）として描く。元絵の「電線ラック（天井内ケーブルトレイ）」＝組みかけ展示ブースの高所に水平に渡したアルミ展示トラスに沿って這わせた照明・電源ケーブルのケーブルトレイ／配線ラックに置換し、作業員はその照明・電源配線を行っている。周囲は組みかけ展示ブース、アルミ展示トラス支柱、ブランク看板パネル、什器、段ボール・搬入物、床のケーブルプロテクター（電線コードカバー）、奥に搬入口。屋外（地面・土・草・空・外壁）は描かない。床の段差・縁石は床のケーブルプロテクターに置換。
+
+6.【シザース式統一】高所作業車は必ずシザースリフト（垂直昇降式）。車輪（キャスター）付き基部＋X字パンタグラフ機構で高く上昇した作業床に統一する。ブーム式／トラック式／バケット型にしない。作業床の手すり・操作盤はシザースリフトのものとして正しく描く。
+
+7.【画風】高品質・臨場感のある安全教育用イラスト。クリーンでプロフェッショナルな作画、陰影・立体感あり。元絵の絵柄（簡易な実事例図・注記つき）を模倣せず、事故タイプ（天井ケーブルトレイへの配線作業のため身を乗り出して重心が手すり外へ抜ける墜落）のみ継承。全25枚で統一できる落ち着いた配色。
+
+8.【禁止】矢印を一切入れない。文字・数字・キャプション・吹き出し・記号・注記（「乗り出る」「電線ラック」「大型ダクト」等）を画像内に一切入れない。流血・グロなし。実在ロゴ/ブランドなし。作業員は顎ひも付きヘルメット・高視認ベスト・手袋・安全靴、フルハーネス着用（ただしランヤードフックは未接続で垂れている＝原因の表現）。
+
+────────────────────────────────────────
+
+[EN] Bespoke prompt for source image #91 (accident TYPE = a FALL caused by LEANING THE BODY FAR OUT over the guardrail to reach and WIRE an OVERHEAD CEILING CABLE TRAY / CABLE RACK next to a large overhead duct: the platform was NOT raised/positioned directly under the work, so the lone worker leaned his upper body out past the rail and over-reached up toward the ceiling cable tray to do electrical wiring, his centre of gravity moving OUTSIDE the platform support — the instant the fall is about to begin, not after landing).
+
+High-quality, realistic Japanese workplace-safety educational illustration (clean professional art with rich shading, depth and a sense of presence). Do NOT imitate the source picture's simple case-diagram / annotation style; only inherit its accident TYPE. The source image is a hazard-type reference only.
+
+Scene to depict: Inside a JAPANESE EXHIBITION HALL during trade-show booth SETUP. A self-propelled SCISSOR LIFT (vertical scissor-type elevating platform with an X-shaped pantograph mechanism and a caster/track base — never a boom lift, never a truck-mounted boom, never a bucket/cherry-picker) is raised high. EXACTLY ONE worker is on the platform (do NOT add or remove workers). High overhead runs a LARGE rectangular HVAC DUCT (the hall's ceiling services); right beside/under it runs an OVERHEAD CABLE TRAY / cable rack carrying lighting and power cables along a high horizontal aluminium exhibition-truss member. The platform was NOT raised/positioned directly under this overhead cable tray, so to reach it the worker has LEANED HIS UPPER BODY FAR OUT past the platform guardrail and OVER-REACHED UPWARD with his arm(s) toward the ceiling cable tray, doing ELECTRICAL WIRING (holding cable / a wiring tool, threading cables into the tray). His torso has crossed the guardrail line, tilting outward and upward, his heels lifting, centre of gravity moving OUTSIDE the platform.
+
+Workers (keep the source's count): exactly ONE worker. Chin-strap helmet, hi-vis vest, work clothes, gloves, safety boots; a full-body harness whose LANYARD HOOK is NOT CONNECTED to any anchor — it hangs free and dangling (this depicts the cause; nothing will arrest the fall). He is clearly mid-task wiring the overhead cable tray (cable/wiring tool in hand).
+
+The exact moment: leaning far out to reach the overhead cable tray, balance lost as the centre of gravity passes OUTSIDE the guardrail, the rail acting as a pivot so his upper body swings outward and he begins to fall — the INSTANT just before / just as the fall begins. NOT a person already on the floor, NOT after impact. Still in the lean-out posture, the fall just starting.
+
+Physics: leaning the upper body out over the rail PLUS over-extending the arm(s) up to the ceiling cable tray moves the worker's centre of gravity OUTSIDE the platform's support area (inside the rails). The top guardrail becomes a pivot/hinge: the upper body topples outward, the heels lift off the deck, and the body is thrown outward and downward. This weight-shift and lever action must read as physically consistent. The scissor mechanism, deck, guardrail, overhead duct and ceiling cable tray are structurally correct and properly supported — only the PERSON's centre of gravity causes the accident; no impossible floating of the machine and no broken structure.
+
+Substitutions: relocate everything indoors. The large overhead DUCT becomes a big rectangular HVAC duct running across the exhibition hall's high ceiling. The ceiling CABLE RACK becomes a CABLE TRAY of lighting/power cables run along a high horizontal aluminium exhibition-truss member of a half-built booth, which the worker is wiring. Surroundings: half-built exhibition booths, aluminium exhibition TRUSS columns, blank signage panels, display fixtures, cardboard crates/loading items, floor CABLE PROTECTORS, and a loading dock in the background. No outdoors, no dirt ground, no grass, no sky, no exterior walls; any floor step becomes a cable protector. The machine is a wheeled SCISSOR LIFT (caster base + X-shaped pantograph) with a guarded deck and control panel — NOT a truck/boom/bucket.
+
+ABSOLUTELY NO ARROWS. No text, no letters, no numbers, no captions, no speech bubbles, no annotation labels (no "乗り出る", "電線ラック", "大型ダクト" etc.), no symbols anywhere in the image. No blood or gore. No real brand names or logos. Unified, calm, professional safety-education illustration style consistent across a 25-image set.
