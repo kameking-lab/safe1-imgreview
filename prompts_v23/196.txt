@@ -1,0 +1,40 @@
+【元絵196（0196.webp）から読み取った事故の型・原因・姿勢・状況】
+- 出所：dreamstime.com の「TIP OVER RISK（横転の危険）」安全教育用イラスト（白背景・下部に大きな英字キャプション「TIP OVER RISK」・右下に赤い丸の「!」注意記号・中央に dreamstime の透かしロゴ／URL）。CSV のカテゴリは「墜落・転落」だが、元絵が描く事故の本質は機械全体の「横転（TIP OVER）」＝高く上昇したシザースリフトそのものが倒れ、その反動で高所の作業員が作業床から外へ放り出されて墜落する、という複合事故。原因＝機械の横転、結果＝作業員の墜落。
+- 機械：元絵は既に青いシザースリフト（X字パンタグラフの垂直昇降式・基部に4輪のキャスター・上部に四方手すりで囲んだ作業床デッキ）。作業床を高く上昇させた状態。基部は床の段差／レベル差（右側で床面が一段下がっている＝段差・縁／不整地）の上にあり、その段差のせいで機体が傾き、X字パンタと作業床デッキが大きく斜めに傾いている＝今まさに横転しつつある。→ 生成でもそのまま車輪付きシザースリフトを高く上昇させ、基部が床の障害物で傾いて横転し始めた状態で描く。
+- 人数・姿勢：作業員1名のみ（黄色いヘルメット・高視認の黄色いベスト・灰色の作業服）。元絵では、横転する作業床から既に外（機体の左側の空中）へ放り出され、両腕を広げ脚を泳がせ、上半身が外側へ投げ出された「弾き出される／投げ出される」姿勢で落下し始めている。作業床デッキの上にはもう乗っておらず、手すりの外の空中にいる。
+- 原因（なぜ起きるか・教訓）：作業床を高く上昇させたまま、機体の基部が床の段差／縁／不整地（屋内なら床のケーブルプロテクター／什器／搬入口の段差）に片側のキャスターを乗せた／乗り上げた／落とし込んだため、重心の高い（トップヘビーな）機体の重心が基部の支持範囲（車輪の外形）を越え、機体全体が支えを失って横方向へ倒れ始めた＝横転。横転で作業床が一気に傾いて振られ、その遠心力・傾きの反動で高所デッキにいた作業員が手すりを越えて外側へ放り出され、作業床から墜落する。教訓＝シザースリフトは重心が高く、段差・縁・不整地で容易に横転し、横転すれば作業員は手すりがあっても外へ放り出される。元絵下部の「TIP OVER RISK」の文字と注意記号は、この『機械の横転＝墜落』が主題であることを示す。
+- 事故の瞬間（生成で描く時点）：高く上昇したシザースリフトの基部の片側キャスターが床の障害物（段差／縁／ケーブルプロテクター）に乗り上げ／落ち込み、トップヘビーな機体の重心が車輪の支持範囲を越えて機体全体が横方向へ倒れ始め、作業床デッキが大きく斜めに傾き、その傾き・振られの反動で作業員1名が上部手すりを越えて機体の脇の空中へ放り出され、墜落が「始まる」まさにその瞬間（機体はまだ完全には倒れ込んでおらず傾いて倒れていく途中・作業員はまだ手すりのすぐ外の空中・まだ地面に落ちきっていない・床に倒れた図や落下点・衝撃表現は描かない）。横転の途中と墜落の開始に留める。
+
+==================== 生成用プロンプト（日本語） ====================
+高品質で臨場感のある日本の労働安全教育用イラスト（陰影・立体感のあるクリーンな作画、写実寄りのフルカラー）。元絵の描画スタイル（白背景のフラットなベクター風ピクトグラム）は真似ず、事故の「型」と「原因・姿勢・状況」だけを継承する。元画像は危険の型（機械の横転＝作業員の墜落）の参照のみ。
+
+舞台：日本の展示会場・トレードショーのブース設営現場の屋内。周囲は組みかけの展示ブース、床から高所まで立つアルミ展示トラス支柱、ブランクの看板パネル、什器、段ボール箱、床に敷かれたケーブルプロテクター（電線コードカバー）、奥に搬入口。屋外要素（地面・土・空・建物外壁）は描かない。元絵の白背景・英字キャプション「TIP OVER RISK」・赤い丸の「!」注意記号・dreamstime の透かしロゴ／URL は描かない。
+
+高所作業車は必ず車輪付きシザースリフト（X字パンタグラフの垂直昇降式・四方を手すりで囲んだ作業床デッキ・基部に4輪のキャスター）のみ。元絵もシザース式なのでそのままシザースリフトとして高く上昇させた状態で描く。ブーム式・トラック式にしない。
+
+作業員：日本の展示設営作業員1名。顎ひも付きヘルメット、高視認ベスト、作業手袋、安全靴、フルボディの墜落制止用ハーネスを着用。元絵と同じく作業員は1名のみ（作業床の上には他に誰も乗っていない）。
+
+描く内容：高く上昇したシザースリフトそのものが横転（TIP OVER）しつつあり、その反動で作業員1名が作業床の手すりを越えて機体の脇の空中へ放り出され、墜落し始めている。原因＝作業床を高く上昇させたまま、機体の基部の片側のキャスターが床のケーブルプロテクター（電線コードカバー）／什器／搬入口の段差・縁に乗り上げた／落とし込んだため、重心の高い（トップヘビーな）機体の重心が車輪の支持範囲（基部の外形）を越え、機体全体が支えを失って横方向へ倒れ始めたこと。X字パンタグラフと作業床デッキが大きく斜めに傾き、片側の車輪が床から浮き、機体が倒れていく途中を描く。横転で作業床が一気に傾いて振られ、その傾き・振られの反動で、デッキにいた作業員が上部手すりを越えて外側へ投げ出され、両腕脚が広がり、踵がデッキ床から離れて手すりの外の空中にいる。
+
+まさにその瞬間：基部のキャスターが床の障害物に乗り上げ／落ち込み、トップヘビーな機体の重心が支持範囲を越えて機体全体が横方向へ倒れ始め、作業床が大きく傾き、その反動で作業員の重心が上部手すりの線を越えて外へ抜け、体が手すりを越えて外側・斜め下へ放り出され、踵がデッキから離れて作業床からの墜落が「始まる」まさにその瞬間を描く（機体はまだ完全には倒れ込んでおらず傾いて倒れていく途中・作業員はまだ手すりのすぐ外の空中・落ちきった後や地面に倒れた図ではない・地面に落下点や衝撃表現を描かない）。重力・重心・横転の物理整合（基部が片側で支えを失う→トップヘビーな機体が横へ倒れ始める→作業床が振られ→反動で作業員が手すり外へ放り出される）を保つ。
+
+禁止：矢印を入れない。動きを示す線（スピード線・スウォッシュ・揺れ線）も入れない。衝撃の星形／効果記号も入れない。文字・数字・キャプション・吹き出し・記号を一切入れない（画像内テキストなし。元絵の「TIP OVER RISK」等の英字や注意記号・透かしロゴ・URL も描かない）。流血なし。実在ロゴ／実在ブランドなし。元絵のフラットな白背景ベクター風・キャプション付きレイアウトは描かない（1枚の臨場感ある絵にする）。
+
+構図メモ：高く上昇したシザースリフト全体（基部の片側キャスターが床のケーブルプロテクター／什器・段差に乗り上げ／落ち込み、X字パンタと作業床デッキが大きく斜めに傾き、片側車輪が浮いて機体が横転していく途中）・組みかけの高いアルミトラス／看板・上部手すりを越えて外側へ放り出され墜落し始めた作業員1名を、見る人が「高く上昇させたまま基部が段差・縁・ケーブルプロテクターで支えを失い、トップヘビーな機体が横転し、その反動で作業員が手すりを越えて作業床から放り出され墜落する」が原因だと一目で読み取れるように描く。安定して立つ姿勢でも、地面に落ちきった図でもなく、機体が横転していく途中で作業員が手すりを越えて放り出される不安定で危険な瞬間を描く。
+
+==================== Generation prompt (English) ====================
+A high-quality, realistic Japanese workplace-safety educational illustration (clean professional full-color art with rich shading, depth and a sense of presence). Do NOT imitate the source picture's drawing style (a flat white-background vector-style pictogram); only inherit its accident TYPE and the cause/posture/situation. The source image is a reference for the hazard only — a whole-machine TIP-OVER that throws the elevated worker into a fall.
+
+Setting: the INDOOR floor of a JAPANESE EXHIBITION HALL / trade-show BOOTH SETUP site. Around them: half-built exhibition booths, vertical aluminium exhibition TRUSS COLUMNS running from floor to height, large BLANK signage panels, display fixtures, cardboard crates, FLOOR CABLE PROTECTORS (cable covers) laid on the floor, and a loading dock in the background. Do NOT draw any outdoor elements (bare ground, soil, sky, building facade). Do NOT draw the source picture's white background, the English caption "TIP OVER RISK", the red round "!" warning icon, or the dreamstime watermark/logo/URL.
+
+The aerial work platform MUST be a wheeled SCISSOR LIFT only (vertical X-shaped pantograph scissor-type elevating platform, deck enclosed by guardrails on all four sides, four casters at the base). The source is already a scissor lift, so keep it a wheeled scissor lift raised up HIGH. Never a boom lift or truck-mounted lift.
+
+Worker: ONE Japanese exhibition setup crew member wearing a chin-strap helmet, hi-vis vest, work gloves, safety boots and a FULL-BODY fall-arrest harness. As in the source, there is ONLY ONE worker (no one else on the deck).
+
+What to depict: the HIGHLY ELEVATED scissor lift ITSELF is TIPPING OVER, and from that the ONE worker is THROWN over the deck guardrail out into the air beside the machine and is beginning to FALL. The cause: the lift was raised up high while ONE base CASTER rode up onto / dropped into a FLOOR CABLE PROTECTOR (cable cover) / a fixture / a step or edge at the loading area, so the TOP-HEAVY (high centre of gravity) machine's centre of gravity passed OUTSIDE the support footprint of the wheels and the whole machine lost support and began to topple SIDEWAYS. Draw the X-pantograph and the deck tilted hard at an angle, one base wheel lifting clear of the floor, the machine mid-topple (not yet fully fallen). The toppling violently swings and tilts the deck, and from that recoil the worker on the deck is flung OVER the top guardrail outward, arms and legs splayed, heels lifted off the deck, out in the air just beyond the rail.
+
+The exact moment: the base caster rode up onto / dropped into the floor obstacle, the top-heavy machine's centre of gravity passed outside the wheel footprint and the whole machine began to topple sideways, the deck tilted hard, and from that recoil the worker's centre of gravity passed OUTSIDE the top-rail line, his body is thrown over the guardrail outward and diagonally downward, his heels leave the deck, and the fall from the work platform is just BEGINNING — draw this very instant (the machine still mid-topple, NOT fully overturned; the worker still in the air just beyond the rail; NOT already fully fallen or lying on the floor; do NOT draw an impact point or impact star on the ground). Keep the physics consistent: base loses support on one side → top-heavy machine begins toppling sideways → the deck swings → recoil flings the worker over the rail.
+
+Forbidden: NO arrows. NO motion/speed/swoosh/shake lines. NO impact star or effect symbols. NO text, letters, numbers, captions, speech bubbles or symbols anywhere (no in-image text; do NOT draw any English wording such as the source's "TIP OVER RISK", nor the warning icon, watermark, logo or URL). No blood/gore. No real logos or real brand names. Do not draw the source picture's flat white-background vector style or captioned layout (make one single, immersive illustration).
+
+Composition notes: show the whole highly-elevated scissor lift (one base caster having ridden up onto / dropped into a floor cable protector / fixture / step so the X-pantograph and deck are tilted hard at an angle, one wheel lifting clear, the machine mid-topple), the tall half-built aluminium truss / signage around it, and the single worker thrown over the top guardrail beginning to fall, so a viewer instantly reads that the fall is caused by the lift being TOP-HEAVY and TIPPING OVER when a base wheel lost support on a step/edge/cable protector while raised up high, flinging the worker over the guardrail off the work platform. Draw the unstable, dangerous instant of the machine toppling and the worker being thrown over the rail — not a stable standing pose and not a completed ground fall.
