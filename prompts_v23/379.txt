@@ -1,0 +1,35 @@
+【元絵から読み取った事故の型・原因・姿勢（番号379 / 0379.jpg）】
+事故の型＝挟まれ・巻き込まれ（クラッシュ。墜落ではない）。元絵は鉄骨建方（structural steel erection）の屋外現場で、青い高所作業車（搭乗カゴ）を上昇させ、手前の作業員1名（顎ひもヘルメット・目出し帽／ネックゲイター・灰色パーカー・胸に緑色のフルハーネスのストラップ・腰に工具袋）が作業床（搭乗カゴ）の中にとどまらず、上部手すりの上／脇の鉄骨柱の天端に立ち上がって作業床から身を出し、頭上から斜めに伸びる大きな鋼鉄の斜め梁（柱と梁の継手部）へ手を伸ばして取り付け・継手作業をしている。後方の作業床（カゴ）内にはもう1名の作業員（迷彩ズボン）が黄色いリギングロープ（吊り索／介錯ロープ）を扱っている。
+
+【原因＝なぜ事故が起きるか】「意図しない継続作動（sustained involuntary operation）」。手前の作業員が作業床にとどまらず上部手すりの上に立ち上がって身を出し、すぐ脇／頭上の大きな斜め梁へ寄って継手作業をしている最中に、操作レバー（ジョイスティック）に体や物が意図せず触れ続けた／寄りかかった等で作業床が止められないまま上昇し続け、手すりの上に立った作業員の下半身・胴体が、上昇してくる作業床の上部手すりと頭上から迫る大きな斜め梁との隙間に挟み込まれて押し潰される。作業床の中で正規の姿勢を保たず手すりの上に立ち（不安全姿勢）、頭上に障害物（斜め梁）があるのに作業床の意図しない継続上昇を止められなかった（不安全状態）ことが原因。墜落ではなく、上昇する作業床と頭上の斜め梁の間での挟まれ・クラッシュ。
+
+【描くべき内容（展示会場屋内・シザース式へ全置換した専用シーン）】
+高品質で臨場感のある日本の安全教育用イラスト（陰影・立体感のあるクリーンな作画、全25枚で画風統一）。元絵の絵柄を真似ず、事故の「型・原因・姿勢・物理」だけを忠実に継承する。元絵は参照（事故の型の手がかり）に過ぎない。
+
+舞台＝日本の展示会場・トレードショーのブース設営現場の屋内。周囲は組みかけの展示ブース、アルミ展示トラスの支柱・横材、大きなブランク（無地）の看板パネル、什器、段ボール箱、床を這う電線をまたぐケーブルプロテクター（コードカバー）、奥に搬入口。屋外・空・グレーの空・地面横線・鉄骨建方の鋼鉄柱や鋼鉄梁・元絵の青いカゴのブランド文字は描かない。
+
+機械＝高所作業車は必ずシザースリフト（垂直昇降式・X字パンタグラフ・四方を上部手すりで囲んだデッキ・基部4輪キャスター）。ブーム式・トラック式・搭乗カゴ式にしない。元絵の鉄骨の「縦の鋼鉄柱」＝縦のアルミ展示トラス支柱に置換、「頭上から斜めに伸びる大きな鋼鉄の斜め梁（継手部）」＝組みかけブースの高所に斜めに渡した大きなアルミ展示トラスの斜め梁（ブレース／斜材）に置換。
+
+人物＝作業員2名。手前の主役1名は、シザースリフトの作業床の中にとどまらず上部手すりの上（または手すり際から脇の固定トラス支柱の天端）に立ち上がって作業床から身を出し、頭上から斜めに迫る大きなアルミトラスの斜め梁の継手へ両手を伸ばして取り付け作業をしている（顎ひもヘルメット・ネックゲイター・高視認の作業服・胸にフルハーネスのストラップ・腰に工具袋）。もう1名は作業床（デッキ）内にとどまり、黄色いリギングロープ（介錯ロープ）を手で扱っている。
+
+事故の瞬間＝意図しない継続作動で作業床が止められないまま上昇し続け、上部手すりの上に立った手前の作業員の下半身・腰・胴体が、上昇してくるシザースリフトの上部手すり（デッキ縁）と頭上から斜めに迫る大きなアルミトラスの斜め梁との狭まる隙間に、まさに挟み込まれて押し潰され始める、その瞬間。作業床はまだ上昇途中、斜め梁との隙間が詰まりつつある（隙間が完全に閉じて潰れきった図・骨折や損傷の生々しい描写・床に倒れた図・墜落して落ちきった図は描かない＝挟まれの瞬間の圧迫に留める）。シザース本体（X字パンタと基部）は安定して立っているが、作業床が意図せず上昇して頭上の斜め梁に作業員を詰め寄せて挟む、危険な瞬間。物理整合（作業床が上昇→上部手すりと頭上の斜め梁の隙間が狭まる→手すりの上に立った作業員の下半身・胴が両者の間に挟まれ圧迫）。
+
+禁止＝矢印を入れない。文字・数字・キャプション・吹き出し・記号・画像内テキストを一切入れない。流血・損傷の生々しい描写なし。実在ロゴ／ブランド名なし。作業員には適切なPPE（顎ひもヘルメット・高視認ベスト／作業服・手袋・安全靴・フルハーネス）。
+
+---ENGLISH (for generation)---
+Accident TYPE: a CAUGHT-BETWEEN / CRUSH (nobody falls). Faithfully recreate this from the source: structural-steel-erection scene where a worker, instead of staying inside the aerial platform, has CLIMBED UP AND IS STANDING ON TOP OF THE TOP GUARDRAIL of the platform, leaning out of the deck to reach and connect a LARGE DIAGONAL overhead beam (a beam-to-column splice). A SECOND worker stays inside the platform deck handling a yellow rigging/tag rope.
+
+CAUSE (why it happens): SUSTAINED INVOLUNTARY OPERATION of the lift. While the front worker stands up on the top guardrail and leans toward the big diagonal beam to make the connection, the up control lever/joystick is unintentionally kept pressed (body/object leaning on it), so the platform KEEPS RISING and cannot be stopped; the worker standing on the rail has his lower body/torso PINNED and CRUSHED in the narrowing gap between the rising top guardrail (deck edge) and the large overhead diagonal beam. Root cause = not staying in the deck (standing up on the rail = unsafe act) plus an overhead obstruction (the diagonal beam) while the platform's unintended continuous rise could not be stopped (unsafe condition). This is a crush between the rising platform and the overhead diagonal beam, NOT a fall.
+
+WHAT TO DRAW — relocated entirely to a JAPANESE EXHIBITION-HALL / trade-show BOOTH-SETUP indoor site, scissor-lift substitution:
+High-quality, realistic Japanese workplace-safety educational illustration (clean professional art with rich shading, depth and a sense of presence; unified touch across all 25). Do NOT imitate the source photo's look; inherit only its accident TYPE, cause, posture and physics. The source image is a reference for the hazard only.
+
+Setting: indoor Japanese exhibition hall / trade-show booth setup. Surroundings: half-built exhibition booths, aluminium exhibition-truss columns and members, large BLANK (text-free) signage panels, display fixtures, cardboard crates, cable protectors (cord covers) running over floor cables, a loading dock in the background. Do NOT draw outdoors, sky, grey sky, ground horizon line, structural-steel columns/beams, or any brand text from the source basket.
+
+Machine: the aerial work platform MUST be a SCISSOR LIFT only (vertical scissor-type elevating platform: X-shaped pantograph, a deck enclosed by guardrails on all four sides, four base casters). Never a boom lift, truck-mount or cherry-picker basket. Replace the source's VERTICAL STEEL COLUMN with a vertical ALUMINIUM EXHIBITION-TRUSS COLUMN, and the LARGE OVERHEAD DIAGONAL STEEL BEAM (splice) with a LARGE DIAGONAL ALUMINIUM EXHIBITION-TRUSS MEMBER (brace) spanning high across the half-built booth.
+
+People: TWO workers. The main front worker is NOT staying inside the scissor-lift deck — he has CLIMBED UP AND IS STANDING ON TOP OF THE TOP GUARDRAIL (or from the rail onto the top of the adjacent fixed truss column), leaning out of the deck, reaching both hands up to the diagonal overhead aluminium truss member to make a connection (chin-strap helmet, neck gaiter, hi-vis workwear, full-body harness straps on chest, tool pouch at waist). The SECOND worker stays inside the deck handling a yellow rigging/tag rope.
+
+THE ACCIDENT MOMENT: by sustained involuntary operation the platform keeps rising and cannot be stopped, and the front worker standing on the top guardrail is JUST BEGINNING to be pinned/crushed — his lower body / waist / torso caught in the NARROWING gap between the rising scissor-lift top guardrail (deck edge) and the large overhead diagonal aluminium truss member. The platform is still mid-rise, the gap closing in (do NOT draw the gap fully closed / a person fully crushed, broken bones or gore, lying on the ground, or a completed fall — keep it to the compression of the caught-between moment as it begins). The scissor body (X-pantograph and base) stands stably, but the deck rises unintentionally and squeezes the worker against the overhead diagonal beam. Physically coherent (deck rises → gap between top guardrail and overhead diagonal beam narrows → the worker standing on the rail is pinned between them).
+
+FORBIDDEN: NO arrows. NO text, letters, numbers, captions, speech bubbles, symbols or any in-image text. No blood/gore. No real brand names or logos. Proper PPE on workers (chin-strap helmet, hi-vis vest/workwear, gloves, safety boots, full-body harness).
