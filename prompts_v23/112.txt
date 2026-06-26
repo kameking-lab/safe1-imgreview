@@ -1,0 +1,44 @@
+【元絵112（0112.jpg）から読み取った事故の型・原因・姿勢・状況】
+- 事故の型：墜落・転落（出所＝高所作業車 墜落 死亡災害 事例）。
+- 機械：元絵はトラック搭載式（ブーム式）高所作業車（右下に緑色のトラック車体、そこから屈折ブームが伸び、上端に緑色のカゴ型バケット）。→ 生成では車輪付きシザースリフト（X字パンタグラフの垂直昇降式・四方手すりのデッキ）に置換する。
+- 人数・姿勢：作業員1名。黄色い顎ひも付きヘルメット、灰青色の作業服。届かない前方の対象へ長い水平の部材（長尺の棒／パイプ状の横材）を差し込む／受け渡すため、上半身と頭をバケット前方の上部手すりの外へ大きく乗り出し、両腕を前方へ大きく伸ばして長尺の横材を抱え持ち、前方の壁状構造（水平に並んだ横桟・横レールが連続する高い壁面、左側に垂直の鉄骨支柱）の高い位置の溝／受けへ押し込もうとしている（身を乗り出す不安全姿勢＋長尺物の過伸展リーチ）。体幹が手すり線を完全に越えて前方外側へ突き出し、頭・肩・胸が手すりの外、重心が手すりの外（支持範囲の外）へ移っている。
+- 原因（なぜ起きるか）：作業床（バケット）を対象の真正面へ十分に寄せ直さず、届かない前方の高い受けへ長尺の横材を差し込むために、上部手すりの外へ上半身を大きく乗り出し、重い長尺物を腕いっぱいに前方へ伸ばして扱った。長尺物の重さと前方への伸びで重心が前方・手すりの外へ大きく抜け、支持範囲（足元のデッキ）の外に出る。バランスを失うと手すりを支点に頭から前方外側・下方へ回転して墜落する。＝「身を乗り出して長尺物を扱う」＋「過伸展リーチ」による墜落（命綱フックは未接続で落下を止める物が無い）。
+- 事故の瞬間：長尺の横材を手すり越しに前方の高い受けへ押し込もうと身を大きく乗り出した結果、重心が手すり線を越えて支持範囲の外へ抜け、バランスを失い、手すりを支点に頭から前方外側・下方へ回転して墜落が始まる、まさにその瞬間（まだ落ちきっていない・床に倒れていない）。両手はまだ長尺の横材を掴んでいる／離しかけ、フルハーネスのランヤードフックは未接続で宙にだらりと垂れている。
+
+==================== 生成用プロンプト（日本語） ====================
+高品質で臨場感のある日本の労働安全教育用イラスト（陰影・立体感のあるクリーンな作画、写実寄り）。元絵の描画スタイルは真似ず、事故の「型」と「姿勢・原因」だけを継承する。元画像は危険の型の参照のみ。
+
+舞台：日本の展示会場・トレードショーのブース設営現場の屋内。周囲は組みかけの展示ブース、床から高所まで立つアルミ展示トラス支柱、水平に渡したアルミ展示トラス横材で組んだ高い壁面状の骨組み、ブランクの看板パネル、什器、段ボール箱、床のケーブルプロテクター（電線コードカバー）、奥に搬入口。屋外要素（地面・土・草・空・建物外壁・鉄骨の屋外現場）は描かない。元絵の屋外の鉄骨壁／横桟の壁は、屋内会場の組みかけアルミ展示トラスの壁面状骨組み（水平のトラス横材が何段も並ぶ）に置換する。
+
+高所作業車は必ず車輪付きシザースリフト（X字パンタグラフの垂直昇降式・四方を手すりで囲んだデッキ）のみ。元絵のトラック搭載式・ブーム式・バケット式にしない。元絵のブーム＋カゴ型バケットはシザースリフトの作業床（四方手すり付きデッキ）に置換する。
+
+作業員：日本の展示設営作業員1名。顎ひも付きヘルメット、高視認ベスト、作業手袋、安全靴、フルハーネスを着用。
+
+描く内容：シザースリフトの作業床（四方手すり付き）に作業員1名。前方の高いアルミ展示トラスの壁面状骨組みへ、長尺で重い水平のアルミ展示トラス横材（長い棒状の横材／ビーム）を差し込んで取り付けようとしている。作業床を対象の真正面へ十分に寄せ直さないまま、届かない前方の高い受けへ届かせるため、上半身と頭を作業床の前方上部手すりの外へ大きく乗り出し、両腕を前方へ大きく伸ばして長尺の横材を抱え持ち、前方の骨組みの受け／溝へ押し込もうとしている（身を乗り出す不安全姿勢＋長尺物の過伸展リーチ）。体幹が上部手すりの線を完全に越えて前方外側へ突き出し、頭・肩・胸が手すりの外に出て、踵が床から浮き、重心が手すりの外（支持範囲の外）へ移っている。最重要：フルハーネスは着用しているが、墜落制止用のランヤードフックをアンカー（手すり等）へ接続しておらず、未接続のフックとランヤードがだらりと宙に垂れている（安全帯未使用）ことがはっきり分かるように描く。
+
+まさにその瞬間：長尺の横材を手すり越しに前方の高い受けへ押し込もうと身を大きく乗り出した結果、重心が手すり線を越えて支持範囲の外へ抜け、バランスを失い、手すりを支点に頭から前方外側・下方へ回転して墜落が始まる、まさにその瞬間を描く（落ちきった後・床に倒れた後ではない）。両手はまだ長尺の横材を掴んでいる／離しかけで、長尺物の重さが前方へ重心を引いている。未接続のランヤードフックが落下を止められないことが伝わるように、フックは宙ぶらりんのまま。重力・重心の物理整合（長尺物の重さ＋前方リーチで重心が手すり線を越え、手すりを支点に体が前方外側へ回転し踵が浮く）を保つ。
+
+禁止：矢印を入れない。動きを示す線（スピード線・スウォッシュ）も入れない。文字・数字・キャプション・吹き出し・記号を一切入れない（画像内テキストなし）。流血なし。実在ロゴ／実在ブランドなし。元絵の屋外・空・鉄骨の屋外壁は描かない。
+
+構図メモ：シザースリフト全体・組みかけの高いアルミトラス壁面骨組み・乗り出した作業員1名・抱えた長尺横材・宙に垂れた未接続フックがはっきり分かるように描き、見る人が「作業床を寄せず、長尺物を扱うため手すりの外へ大きく身を乗り出して過伸展リーチした＋安全帯未接続」が墜落の原因だと一目で読み取れるようにする。
+
+最重要の強調（必ず守る）：作業員は作業床の中で前かがみになっているだけではない。上半身と頭が前方上部手すりの「外側・前方」へ完全に越えて突き出しており（頭・肩・胸が手すり線より外に出ている）、両腕が長尺の横材を抱えて前方いっぱいに伸び、両足の踵が床から浮き、つま先だけで辛うじて床に残り、体が手すりを支点に頭から前方下方へ回転し始めている＝墜落がまさに今始まる瞬間。重心は明確に手すりの外（長尺物の重さがさらに前へ引く）。床に倒れた後ではなく、宙へ落ち始めた最初の一瞬を描く。安定して立つ姿ではなく、手すりを越えて前へ大きく倒れ込む不安定で危険な瞬間を描くこと。
+
+==================== Generation prompt (English) ====================
+A high-quality, realistic Japanese workplace-safety educational illustration (clean professional art with rich shading, depth and a sense of presence). Do NOT imitate the source picture's drawing style; only inherit its accident TYPE and the unsafe posture/cause. The source image is a reference for the hazard only.
+
+Setting: the INDOOR floor of a JAPANESE EXHIBITION HALL / trade-show BOOTH SETUP site. Around them: half-built exhibition booths, vertical aluminium exhibition TRUSS COLUMNS running from floor to height, a tall WALL-LIKE FRAMEWORK built from horizontal aluminium exhibition TRUSS BEAMS stacked in several rows, large BLANK signage panels, display fixtures, cardboard crates, FLOOR CABLE PROTECTORS (cable covers) on the floor, and a loading dock in the background. Do NOT draw any outdoor elements (ground, soil, grass, sky, building facade, outdoor steel-frame site). Replace the source picture's outdoor steel wall of horizontal rails with an indoor half-built aluminium exhibition-truss WALL FRAMEWORK (several stacked horizontal truss beams).
+
+The aerial work platform MUST be a wheeled SCISSOR LIFT only (vertical X-shaped pantograph scissor-type elevating platform, deck enclosed by guardrails on all four sides). Never a truck-mounted lift, a boom lift or a bucket. Replace the source picture's boom + basket with a scissor-lift deck enclosed by guardrails.
+
+Worker: ONE Japanese exhibition setup crew member wearing a chin-strap helmet, hi-vis vest, work gloves, safety boots and a full-body safety harness.
+
+What to depict: ONE worker on the guard-railed deck of the SCISSOR LIFT, trying to fit a LONG, HEAVY HORIZONTAL aluminium exhibition TRUSS CROSS-BEAM (a long bar/beam) into a tall aluminium exhibition-truss WALL FRAMEWORK in front of him. Without repositioning the deck squarely in front of the work, to reach a high receiver/slot that is too far forward, he LEANS HIS WHOLE UPPER BODY AND HEAD FAR OUT FORWARD past the FRONT TOP GUARDRAIL, BOTH ARMS EXTENDED FAR FORWARD carrying the long cross-beam and pushing it toward the high receiver/slot of the framework (the unsafe "leaning out over the rail + over-reaching with a long member" posture). His torso has completely crossed the top-rail line and juts far forward and outward, his head, shoulders and chest are out past the rail, his heels are lifting off the deck, and his centre of gravity has moved OUTSIDE the rail (outside the support area). MOST IMPORTANT: although he wears a full-body harness, his fall-arrest LANYARD HOOK is NOT clipped to any anchor (rail etc.) — the unconnected hook and lanyard hang FREE and dangling in the air, clearly showing the harness is unused for fall arrest.
+
+The exact moment: because he leaned far out over the front rail to push the long beam into the high receiver, his centre of gravity passes OUTSIDE the support area (the weight of the long beam pulling it further forward), he loses balance, and he begins to pitch HEAD-FIRST forward, outward and downward, PIVOTING OVER the guardrail — draw this very instant the fall BEGINS (NOT a person already fully fallen or lying on the floor). His hands are still gripping / just losing the long beam. Keep the dangling, unconnected lanyard hook visible to convey that nothing will arrest the fall. Keep the physics consistent: the long member's weight plus the forward reach carries the centre of gravity across the rail line, the body rotating forward/outward about the rail as the pivot, heels lifting.
+
+Forbidden: NO arrows. NO motion/speed/swoosh lines. NO text, letters, numbers, captions, speech bubbles or symbols anywhere (no in-image text). No blood/gore. No real logos or real brand names. Do not draw the source picture's outdoor / sky / outdoor steel wall.
+
+Composition note: show the whole scissor lift, the tall half-built aluminium-truss wall framework, the single worker leaning far out over the front rail, the long cross-beam he carries, and the dangling unconnected lanyard hook clearly — so a viewer instantly reads "deck not repositioned, leaning far out over the rail to handle a long member with over-reach + fall-arrest harness not connected" as the cause of the imminent head-first fall.
+
+CRITICAL EMPHASIS (must obey): the worker is NOT merely bending forward while standing safely inside the deck. His upper body and head have crossed COMPLETELY OVER and BEYOND the front top guardrail to the OUTSIDE/FRONT (his head, shoulders and chest are clearly OUTSIDE the rail line), both arms reach out fully forward carrying the long truss beam, BOTH heels have lifted off the deck with only his toes barely still touching, and his body has STARTED TO ROTATE head-first forward-and-downward about the rail as the pivot = the very instant the fall is BEGINNING. His centre of gravity is unmistakably OUTSIDE the rail (further dragged out by the weight of the long beam). Draw the first split-second of him pitching out into the air, NOT a stable standing pose and NOT a person already on the floor — an unstable, dangerous moment of toppling forward over the rail.
