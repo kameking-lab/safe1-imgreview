@@ -1,0 +1,35 @@
+【安全教育用イラスト｜日本の展示会場ブース設営現場・屋内｜シザースリフトの不整地・段差での転倒（横転）の瞬間】
+
+■この1枚で必ず伝える原因（元絵0597.jpgから読み取った事故原因）
+青い四輪のシザースリフト（垂直昇降式・X字パンタグラフ）を、作業床（デッキ）を中〜高位置まで上昇させたまま、床が水平でない不整地＝片側が一段低く落ち込む床の段差／ドロップオフの『際』に据えて（または上昇させたまま移動して）使用したため、低い側の基部車輪が床の段差／縁を越えて支えを失い、重心の高い（トップヘビーな）機体の重心が車輪の支持範囲（基部の外形）を越え、機体全体が低い側＝段差の落ち込む側へ傾いて横転（転倒）し始めた。これが原因＝『作業床を上昇させたまま不整地・床の段差／ドロップオフの際で使用＝機体の転倒（横転）』。原因（不整地・段差の際で上昇したまま使用）と結果（機体全体が低い側へ横転を始め、高所デッキの作業員2名が放り出されそうになる）が見る人に一目で分かること。
+
+■元絵の忠実な再現（機械・人数・姿勢・位置関係）
+・機械＝元絵もシザース式なので、そのまま青い四輪のシザースリフト（X字パンタグラフを中〜高位置まで伸ばし作業床を上昇）を描く。四方を手すりで囲った作業床デッキ、基部に4つの車輪、X字に交差するパンタグラフのアーム。ブーム式・トラック式・搭乗カゴは描かない。
+・作業員は2名。2名とも上昇した作業床デッキの上に立っており、青いヘルメット＋オレンジ／黄色の高視認ベストを着用。機体が傾き始めたため、片手で手すりをつかみもう一方の腕を振り、上体が傾く側へ振られてバランスを崩しかけている姿勢。まだデッキ内にいるが今にも放り出されそうな、転倒が始まったまさにその瞬間。
+・機体は低い側＝床の段差の落ち込む側へ大きく傾き、X字パンタグラフと作業床デッキが斜めに傾き、段差から遠い側（高い床側）の基部車輪が床から浮き上がり、低い側の基部車輪が段差の縁を越えて支えを失っている。機体はまだ完全には倒れ込んでおらず、横転していく途中。
+
+■展示会場屋内への全置換（屋外要素は描かない）
+・舞台＝日本の展示会場・ブース設営現場の屋内。周囲は組みかけの展示ブース、アルミ展示トラスの支柱・横材、ブランク（無地）の看板パネル、什器、積んだ段ボール箱、搬入口、床に這わせた電線コードカバー（ケーブルプロテクター）。
+・元絵の屋外（舗装路・草の斜面・空・地面）は描かない。屋外の不整地・舗装の縁・草の斜面・段差は、屋内会場の『床の段差／一段下がった搬入口の縁／低い台座・展示用ステージの縁／積み重ねた床パネルの段差』＋床の電線コードカバー（ケーブルプロテクター）に置換する。アイ型鉄骨・H鋼など構造物は展示会場のアルミトラス支柱に置換。
+・床に一段低く落ち込む段差／ドロップオフの縁を設け、その際にシザースリフトの基部を据える。低い側の基部車輪が段差の縁を越えて支えを失い、機体全体が低い側へ横転し始める物理を正確に描く。
+
+■物理的整合（重力・重心・接触）
+基部が床の段差／ドロップオフの際で片側の車輪の支えを失う → 重心の高いトップヘビーな機体の重心が車輪の支持範囲を越える → 機体全体が低い側＝段差の落ち込む側へ傾いて横転し始める → デッキが斜めに傾いて振られる → 高所の作業員2名がその傾きで振られバランスを崩す。X字パンタグラフ・作業床・車輪の構造と傾きが力学的に正しいこと。ありえない浮き方や構造破綻をしない。機体はまだ倒れる途中・作業員はまだデッキ上で振られている最中に留め、床に倒れ込んで潰れた図／作業員が落ちきった図／落下点・衝撃の星は描かない（横転の始まりの瞬間に留める）。
+
+■画風・禁止事項
+・高品質で臨場感のある安全教育用イラスト。陰影・立体感のあるクリーンな作画。タッチは全シリーズで統一。
+・矢印を一切描かない。文字・キャプション・吹き出し・数字・警告記号・ピクトグラム・ロゴ・URLなど画像内テキストを一切描かない（看板・パネル・壁・機体の面はすべて完全に無地＝ブランク）。動き線・揺れ線・衝撃の星も描かない。流血なし。実在ロゴ／ブランド名なし。1枚絵として完成させる。
+
+==================== ENGLISH ====================
+
+[Safety-education illustration | Indoor Japanese exhibition-hall booth-setup site | The exact moment a scissor lift tips over on uneven ground / a floor drop-off]
+
+CAUSE TO CONVEY (read from source 0597.jpg): A blue four-wheel scissor lift (vertical X-pantograph) is used with its work platform raised to mid/upper height while positioned at — or driven onto — uneven ground: the edge of a floor step / drop-off where one side of the floor drops one level lower. The base wheel on the low side rides over the edge of the step and loses support, the center of gravity of the top-heavy elevated machine moves outside the wheelbase (the footprint of the base), and the whole machine begins to TIP OVER sideways toward the low / dropped side. Cause = "used a raised scissor lift on uneven ground / at the edge of a floor step-drop-off = machine tip-over." Both the cause (raised on uneven ground / at the step edge) and the result (the whole machine starting to topple to the low side, the two elevated workers about to be thrown) must be instantly readable.
+
+FAITHFUL TO SOURCE: The source is already a scissor lift, so draw a blue four-wheel scissor lift (X-pantograph extended to mid/upper height, platform raised) with a guard-railed work-platform deck, four base wheels, and crossing pantograph arms. NO boom lift, NO truck-mounted unit, NO bucket/cage. Two workers, both standing on the raised platform deck, blue hardhats + orange/yellow hi-vis vests; as the machine begins to tilt they grab the rail with one hand, the other arm swung out, upper body thrown toward the tilting side, losing balance — still inside the deck but about to be thrown out, the very moment the tip-over begins. The machine leans strongly toward the low / dropped side; the X-pantograph and deck tilt diagonally; the base wheel on the far (high) side lifts off the floor while the low-side base wheel has gone over the step edge and lost support; the machine is mid-topple, not yet fully fallen.
+
+INDOOR EXHIBITION SUBSTITUTION: Stage = indoor Japanese exhibition-hall booth-setup site. Surroundings = half-built exhibition booths, aluminum exhibition-truss columns/cross-members, blank (text-free) sign panels, fixtures, stacked cardboard boxes, a loading entrance, floor cable protectors. Draw NO outdoor elements (pavement, grass slope, sky, ground). Replace the outdoor uneven ground / pavement edge / grass slope / curb with an indoor floor step / one-level-lower loading-bay edge / edge of a low platform-stage / step of stacked floor panels, plus floor cable protectors. Replace any steel/H-beams with aluminum exhibition-truss columns. Create a one-level floor drop-off and place the scissor lift base at its edge; the low-side base wheel goes over the edge, loses support, and the whole machine starts to topple to the low side — drawn with correct physics.
+
+PHYSICS: base loses one wheel's support at the floor step/drop-off edge → top-heavy raised machine's CoG passes outside the wheelbase → whole machine tilts and begins to topple toward the low/dropped side → deck tilts diagonally and swings → the two elevated workers are thrown by the tilt and lose balance. Structure and lean of pantograph/deck/wheels must be mechanically correct; no impossible floating or broken structure. Keep it mid-topple with the workers still being swung on the deck; do NOT draw the machine crashed flat, the workers fallen to the floor, an impact point, or impact stars (only the START of the tip-over).
+
+STYLE & PROHIBITIONS: High-quality, vivid safety-education illustration; clean shaded line art with depth; unified touch across the series. NO arrows of any kind. NO text/captions/speech-bubbles/numbers/warning symbols/pictograms/logos/URLs anywhere (all signs, panels, walls and machine surfaces completely blank). NO motion/shake lines, NO impact stars. No blood. No real logos/brands. Finish as a single complete illustration.
