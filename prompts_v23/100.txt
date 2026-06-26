@@ -1,0 +1,42 @@
+【元絵100（0100.jpg）から読み取った事故の型・原因・姿勢・状況】
+- 事故の型：墜落・転落
+- 機械：元絵はブーム式高所作業車のバケット（カゴ型作業床。側面にX字の筋交いを持つ手すり付きカゴ、右下からブームのアームが伸びる）。→ 生成では車輪付きシザースリフト（X字パンタグラフ）に置換。
+- 人数・姿勢：作業床（カゴ）に作業員2名。左の1名は床に低くしゃがみ込む／座り込む姿勢（脚を前に投げ出し、手すり内側に体を寄せている）。右の1名が問題で、上半身と頭を作業床の上部手すりの外へ大きく前方・斜め上（右上）へ乗り出し、両腕を遠くの頭上／右上の対象（元絵は電線・高所の点）へ過度に伸ばして掴もう・届かせようとしている。頭は手すりの外で下がり気味、体幹が手すり線を越えて外側へ抜けつつある。
+- 原因（なぜ起きるか）：作業床を対象の真下へ寄せ直さず・上げ直さず、届かない右上／頭上の対象へ手を伸ばすため、上部手すりの外へ上半身を大きく乗り出して過伸展リーチした不安全姿勢。重心が手すりの外（支持範囲の外）へ抜け、手すりを支点に上半身から外側・斜め下へ引かれて墜落に至る。命綱フック未接続で落下を止める物が無い。
+- 事故の瞬間：右の作業員が手すり越しに大きく乗り出して過伸展リーチした結果、重心が手すりの外へ抜けてバランスを失い、手すりを支点に外側・斜め下へ倒れ込み墜落が始まる、まさにその瞬間（まだ落ちきっていない）。左の作業員は低くしゃがんだまま。
+
+==================== 生成用プロンプト（日本語） ====================
+高品質で臨場感のある日本の労働安全教育用イラスト（陰影・立体感のあるクリーンな作画、写実寄り）。元絵の描画スタイルは真似ず、事故の「型」と「姿勢・原因」だけを継承する。元画像は危険の型の参照のみ。
+
+舞台：日本の展示会場・トレードショーのブース設営現場の屋内。周囲は組みかけの展示ブース、床から高所まで立つアルミ展示トラス支柱／頭上に水平に渡したアルミ展示トラス横材、ブランクの看板パネル、什器、段ボール箱、床のケーブルプロテクター（電線コードカバー）、奥に搬入口。屋外要素（地面・土・草・空・外壁・電線）は描かない。
+
+高所作業車は必ず車輪付きシザースリフト（X字パンタグラフの垂直昇降式）のみ。ブーム式・トラック搭載式にしない。元絵のブーム式バケットはシザースリフトの作業床に置換する。
+
+作業員：日本の展示設営作業員。顎ひも付きヘルメット、高視認ベスト、作業手袋、安全靴。高所ではフルハーネスを着用。
+
+描く内容：シザースリフトの作業床（手すり付き）に作業員2名。
+- 左の1名：作業床に低くしゃがみ込む／座り込む姿勢（脚を前に出し、手すりの内側に体を寄せている）。
+- 右の1名：上半身と頭を作業床の上部手すりの外へ大きく前方・斜め上（右上）へ乗り出し、両腕を頭上のアルミ展示トラス横材／高所の看板取付け金具へ過度に伸ばして（過伸展リーチ）掴もうとしている。頭は手すりの外で下がり気味、体幹が手すり線を越えて外側へ傾き、踵が浮きかけ、重心が手すりの外へ移りつつある。フルハーネスのランヤードフックは未接続でだらりと垂れている。
+
+まさにその瞬間：右の作業員が手すり越しに大きく乗り出して過伸展リーチした結果、重心が支持範囲（手すりの内側）の外へ抜けてバランスを失い、手すりを支点に上半身から外側・斜め下へ引かれて墜落が始まる、まさにその瞬間を描く（落ちきった後ではない）。重心が手すり線を越え、手すりを支点に外側へ回転し踵が浮く、という重力・重心の物理整合を保つ。
+
+禁止：矢印を入れない。文字・数字・キャプション・吹き出し・記号を一切入れない（画像内テキストなし）。流血なし。実在ロゴ／実在ブランドなし。元絵の電線・屋外・空は描かない。
+
+==================== Generation prompt (English) ====================
+A high-quality, realistic Japanese workplace-safety educational illustration (clean professional art with rich shading, depth and a sense of presence). Do NOT imitate the source picture's drawing style; only inherit its accident TYPE and the unsafe posture/cause. The source image is a reference for the hazard only.
+
+Setting: the INDOOR floor of a JAPANESE EXHIBITION HALL / trade-show BOOTH SETUP site. Around them: half-built exhibition booths, vertical aluminium exhibition TRUSS COLUMNS running from floor to height and a horizontal aluminium exhibition TRUSS BEAM running overhead, large BLANK signage panels, display fixtures, cardboard crates, FLOOR CABLE PROTECTORS (cable covers) on the floor, and a loading dock in the background. Do NOT draw any outdoor elements (ground, soil, grass, sky, building facade, power lines).
+
+The aerial work platform MUST be a wheeled SCISSOR LIFT only (vertical X-shaped pantograph scissor-type elevating platform). Never a boom lift or truck-mounted boom. Replace the source picture's boom-mounted bucket with a scissor-lift platform.
+
+Workers: Japanese exhibition setup crew wearing chin-strap helmets, hi-vis vests, work gloves and safety boots; at height they wear a full-body safety harness.
+
+What to depict: TWO workers on the guard-railed deck of the SCISSOR LIFT.
+- The LEFT worker: CROUCHED / SITTING LOW on the platform deck (legs forward, body kept inside the guardrail).
+- The RIGHT worker: LEANS HIS WHOLE UPPER BODY AND HEAD FAR OUT past the TOP GUARDRAIL toward the upper-right, OVER-REACHING with BOTH ARMS toward an overhead aluminium exhibition truss beam / a high signage-mounting bracket that is beyond arm's reach. His head is out past the rail and lowered, his torso has crossed the rail line and tilts outward, his heels lifting off the deck, his centre of gravity moving OUTSIDE the rail. His full-body harness LANYARD HOOK is clearly UNCONNECTED and dangling.
+
+The exact moment: because the right worker leans far out over the rail and over-reaches, his centre of gravity passes OUTSIDE the support area (inside of the rail), he loses balance, and he begins to pitch head-first outward and downward, PIVOTING OVER the guardrail — draw this very instant the fall BEGINS (NOT a person already fully fallen or lying down). Keep the physics consistent: centre of gravity crossing the rail line, body rotating outward about the rail as the pivot, heels lifting.
+
+Forbidden: NO arrows. NO text, letters, numbers, captions, speech bubbles or symbols anywhere (no in-image text). No blood/gore. No real logos or real brand names. Do not draw the source picture's power line / outdoor / sky.
+
+Composition note: show the whole scissor lift, the half-built booth and both workers clearly — the seated left worker and the right worker leaning out over the rail — so a viewer instantly reads the over-reach/lean-out as the cause of the imminent fall.
