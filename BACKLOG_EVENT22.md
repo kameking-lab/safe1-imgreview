@@ -27,4 +27,4 @@
 - [x] E-914 番号914：同上
 - [x] BUILD compare_event_v22.pdf 生成
 - [x] DEPLOY review_event22/<ランダム32文字>/ にPDF＋index.html(静的/noindex/スマホ縦/開く保存＋iframe)・Vercel hakuten-review再デプロイ(過去全トークンunionで既存URL全200保持・ルート/=404・HTTP200)・GitHub(master/main)push
-- [ ] REPORT REPORT_EVENT22.md作成push(公開URL/PDF直URL＋raw・生成枚数・各番号の「危険姿勢→事故」シナリオ一覧・矢印が弱く再生成した番号・残課題)
+- [x] REPORT REPORT_EVENT22.md作成push(公開URL/PDF直URL＋raw・生成枚数・各番号の「危険姿勢→事故」シナリオ一覧・矢印が弱く再生成した番号・残課題)
