@@ -15,3 +15,8 @@ B,03,realtime-default(SDXL),img2img(realtime),base/0091,0.55,"高さを稼ごう
 B,04,realtime-default(SDXL),img2img(realtime),base/0093,0.55,"手すりを跨いで反対側へ→跨いだ足が滑り抜けて転落","i2i/realtime-default(SDXL)/base/0093",B_04.png
 B,05,realtime-default(SDXL),img2img(realtime),base/0100,0.55,"隣のトラスへ乗り移ろうと踏み出し→隙間で踏み外し転落","i2i/realtime-default(SDXL)/base/0100",B_05.png
 B,06,realtime-default(SDXL),img2img(realtime),base/0112,0.55,"手すりに腰掛け休憩→後ろへ体重をかけ背中から転落","i2i/realtime-default(SDXL)/base/0112",B_06.png
+B,07,realtime-default(SDXL),img2img(realtime),base/0114,0.55,"フック未接続のまま前傾作業→崩れてもフックが効かず転落","i2i/realtime-default(SDXL)/base/0114",B_07.png
+B,08,realtime-default(SDXL),img2img(realtime),base/0137,0.55,"重い看板を抱え手すり越し→重量に前方へ引かれ荷ごと転落","i2i/realtime-default(SDXL)/base/0137",B_08.png
+B,09,realtime-default(SDXL),img2img(realtime),base/0138,0.55,"作業床に脚立でかさ上げ→ぐらつき手すり外へ転落","i2i/realtime-default(SDXL)/base/0138",B_09.png
+B,10,realtime-default(SDXL),img2img(realtime),base/0215,0.55,"濡れ床で足を滑らせ→手すり下の隙間から滑り落ち転落","i2i/realtime-default(SDXL)/base/0215",B_10.png
+C1,01,flat-2d-animerge,img2img(images),draft/01,0.72,"右足を上部手すりに乗せ身を乗り出し看板へ手→重心が手すり外へ","i2i/flat-2d-animerge/draft/01",C1_01.png
