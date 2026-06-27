@@ -20,3 +20,8 @@ B,08,realtime-default(SDXL),img2img(realtime),base/0137,0.55,"重い看板を抱
 B,09,realtime-default(SDXL),img2img(realtime),base/0138,0.55,"作業床に脚立でかさ上げ→ぐらつき手すり外へ転落","i2i/realtime-default(SDXL)/base/0138",B_09.png
 B,10,realtime-default(SDXL),img2img(realtime),base/0215,0.55,"濡れ床で足を滑らせ→手すり下の隙間から滑り落ち転落","i2i/realtime-default(SDXL)/base/0215",B_10.png
 C1,01,flat-2d-animerge,img2img(images),draft/01,0.72,"右足を上部手すりに乗せ身を乗り出し看板へ手→重心が手すり外へ","i2i/flat-2d-animerge/draft/01",C1_01.png
+C1,02,flat-2d-animerge,img2img(images),draft/02,0.72,"上半身を手すり外へ大きく乗り出し看板に両手→前のめり","i2i/flat-2d-animerge/draft/02",C1_02.png
+C1,03,flat-2d-animerge,img2img(images),draft/03,0.72,"高さを稼ごうと手すりの上に立って作業→不安定で転落","i2i/flat-2d-animerge/draft/03",C1_03.png
+C1,04,flat-2d-animerge,img2img(images),draft/04,0.72,"手すりを跨いで反対側へ→跨いだ足が滑り抜けて転落","i2i/flat-2d-animerge/draft/04",C1_04.png
+C1,05,flat-2d-animerge,img2img(images),draft/05,0.72,"隣のトラスへ乗り移ろうと踏み出し→隙間で踏み外し転落","i2i/flat-2d-animerge/draft/05",C1_05.png
+C2,01,flat-2d-animerge,img2img(images),draft/01,0.5,"右足を上部手すりに乗せ身を乗り出し看板へ手→重心が手すり外へ","i2i/flat-2d-animerge/draft/01",C2_01.png
