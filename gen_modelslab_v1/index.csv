@@ -1,0 +1,7 @@
+方式,連番,使用モデルID,手法,ベース下書き,prompt_strength,原因状況,プロンプト要約,画像ファイル
+A,02,flat-2d-animerge,text2img,-,-,"上半身を手すり外へ大きく乗り出し看板に両手→前のめり","t2i/flat-2d-animerge/-",A_02.png
+A,01,flat-2d-animerge,text2img,-,-,"右足を上部手すりに乗せ身を乗り出し看板へ手→重心が手すり外へ","t2i/flat-2d-animerge/-",A_01.png
+A,03,flat-2d-animerge,text2img,-,-,"高さを稼ごうと手すりの上に立って作業→不安定で転落","t2i/flat-2d-animerge/-",A_03.png
+A,04,flat-2d-animerge,text2img,-,-,"手すりを跨いで反対側へ→跨いだ足が滑り抜けて転落","t2i/flat-2d-animerge/-",A_04.png
+A,05,flat-2d-animerge,text2img,-,-,"隣のトラスへ乗り移ろうと踏み出し→隙間で踏み外し転落","t2i/flat-2d-animerge/-",A_05.png
+A,06,flat-2d-animerge,text2img,-,-,"手すりに腰掛け休憩→後ろへ体重をかけ背中から転落","t2i/flat-2d-animerge/-",A_06.png
