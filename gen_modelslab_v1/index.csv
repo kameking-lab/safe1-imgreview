@@ -5,3 +5,8 @@ A,03,flat-2d-animerge,text2img,-,-,"高さを稼ごうと手すりの上に立�
 A,04,flat-2d-animerge,text2img,-,-,"手すりを跨いで反対側へ→跨いだ足が滑り抜けて転落","t2i/flat-2d-animerge/-",A_04.png
 A,05,flat-2d-animerge,text2img,-,-,"隣のトラスへ乗り移ろうと踏み出し→隙間で踏み外し転落","t2i/flat-2d-animerge/-",A_05.png
 A,06,flat-2d-animerge,text2img,-,-,"手すりに腰掛け休憩→後ろへ体重をかけ背中から転落","t2i/flat-2d-animerge/-",A_06.png
+A,07,flat-2d-animerge,text2img,-,-,"フック未接続のまま前傾作業→崩れてもフックが効かず転落","t2i/flat-2d-animerge/-",A_07.png
+A,08,flat-2d-animerge,text2img,-,-,"重い看板を抱え手すり越し→重量に前方へ引かれ荷ごと転落","t2i/flat-2d-animerge/-",A_08.png
+A,09,flat-2d-animerge,text2img,-,-,"作業床に脚立でかさ上げ→ぐらつき手すり外へ転落","t2i/flat-2d-animerge/-",A_09.png
+A,10,flat-2d-animerge,text2img,-,-,"濡れ床で足を滑らせ→手すり下の隙間から滑り落ち転落","t2i/flat-2d-animerge/-",A_10.png
+B,01,realtime-default(SDXL),img2img(realtime),base/0002,0.55,"右足を上部手すりに乗せ身を乗り出し看板へ手→重心が手すり外へ","i2i/realtime-default(SDXL)/base/0002",B_01.png
