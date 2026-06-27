@@ -7,7 +7,12 @@ const KEYFILE = path.resolve(__dirname, "..", ".secrets", "modelslab.key");
 export const KEY = fs.readFileSync(KEYFILE, "utf8").trim();
 export const KEY_TAIL = "…" + KEY.slice(-4);   // ログ表示用（末尾4桁のみ）
 
-const BASE = "https://modelslab.com/api/v6/realtime";
+const EP = {
+  realtime: "https://modelslab.com/api/v6/realtime",
+  images:   "https://modelslab.com/api/v6/images",
+};
+// images は enhance_prompt:"yes" を受け付ける。realtime は boolean を要求するので false にする。
+const ENH = (endpoint) => (endpoint === "realtime" ? false : "yes");
 
 async function postJSON(url, body) {
   const r = await fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
@@ -39,39 +44,37 @@ async function resolveResult(j, maxWaitMs = 180000) {
 
 const COMMON_NEG = "photo, photorealistic, realistic photo, 3d render, cgi, text, letters, words, numbers, watermark, signature, logo, arrows, caption, speech bubble, blood, gore, extra limbs, extra arms, extra legs, bad anatomy, deformed, deformed hands, mutated hands, bad hands, missing fingers, fused fingers, lowres, blurry, jpeg artifacts, tilted machine, fallen machine, overturned vehicle";
 
-export async function text2img({ prompt, negative_prompt, width=1024, height=1024, steps=30, guidance=7.5, seed=null, model_id=null }) {
+export async function text2img({ prompt, negative_prompt, width=1024, height=1024, steps=30, guidance=7.5, seed=null, model_id=null, endpoint="images" }) {
   const body = { key: KEY, prompt, negative_prompt: negative_prompt || COMMON_NEG, width, height, samples: 1,
-    num_inference_steps: steps, guidance_scale: guidance, safety_checker: "no", enhance_prompt: "yes" };
+    num_inference_steps: steps, guidance_scale: guidance, safety_checker: "no", enhance_prompt: ENH(endpoint) };
   if (seed != null) body.seed = seed;
   if (model_id) body.model_id = model_id;
-  const { http, j } = await postJSON(`${BASE}/text2img`, body);
+  const { http, j } = await postJSON(`${EP[endpoint]}/text2img`, body);
   return { http, ...(await resolveResult(j)), rawStatus: j.status };
 }
 
-export async function img2img({ prompt, init_image, negative_prompt, prompt_strength=0.5, width=1024, height=1024, steps=30, guidance=7.5, seed=null, model_id=null }) {
+export async function img2img({ prompt, init_image, negative_prompt, prompt_strength=0.5, width=1024, height=1024, steps=30, guidance=7.5, seed=null, model_id=null, endpoint="images" }) {
   const body = { key: KEY, prompt, negative_prompt: negative_prompt || COMMON_NEG, init_image, prompt_strength,
-    width, height, samples: 1, num_inference_steps: steps, guidance_scale: guidance, safety_checker: "no", enhance_prompt: "yes" };
+    width, height, samples: 1, num_inference_steps: steps, guidance_scale: guidance, safety_checker: "no", enhance_prompt: ENH(endpoint) };
   if (seed != null) body.seed = seed;
   if (model_id) body.model_id = model_id;
-  const { http, j } = await postJSON(`${BASE}/img2img`, body);
-  return { http, ...(await resolveResult(j)), rawStatus: j.status };
-}
-
-export async function controlnet({ prompt, init_image, controlnet_model="canny", negative_prompt, width=1024, height=1024, steps=30, guidance=7.5, seed=null, model_id=null }) {
-  const body = { key: KEY, prompt, negative_prompt: negative_prompt || COMMON_NEG, init_image, control_image: init_image,
-    controlnet_model, width, height, samples: 1, num_inference_steps: steps, guidance_scale: guidance,
-    safety_checker: "no", enhance_prompt: "yes" };
-  if (seed != null) body.seed = seed;
-  if (model_id) body.model_id = model_id;
-  const { http, j } = await postJSON(`${BASE}/controlnet`, body);
+  const { http, j } = await postJSON(`${EP[endpoint]}/img2img`, body);
   return { http, ...(await resolveResult(j)), rawStatus: j.status };
 }
 
 export async function download(url, outPath) {
-  const r = await fetch(url);
-  if (!r.ok) return false;
-  const buf = Buffer.from(await r.arrayBuffer());
-  fs.writeFileSync(outPath, buf);
-  return fs.statSync(outPath).size > 3000;
+  // r2.dev は生成直後に一時404になりうる→リトライ
+  for (let i = 0; i < 5; i++) {
+    try {
+      const r = await fetch(url);
+      if (r.ok) {
+        const buf = Buffer.from(await r.arrayBuffer());
+        fs.writeFileSync(outPath, buf);
+        if (fs.statSync(outPath).size > 3000) return true;
+      }
+    } catch {}
+    await new Promise(res => setTimeout(res, 4000));
+  }
+  return false;
 }
 export { COMMON_NEG };

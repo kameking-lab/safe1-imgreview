@@ -7,3 +7,7 @@ gen_modelslab_v1/.deploy_token.txt
 gen_modelslab_v1/_smoke.png
 gen_modelslab_v1/_models_raw.json
 gen_modelslab_v1/_modeltest/
+gen_modelslab_v1/_qa_*.png
+gen_modelslab_v1/_ctest.mjs
+gen_modelslab_v1/gen_all.log
+gen_modelslab_v1/_deploy_staging/
